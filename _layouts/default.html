@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>{{ project_title }} by {{ owner_name }}</title>
+    {% include head-custom.html %}
+    <script>var whTooltips = {colorLinks: false, iconizeLinks: true, renameLinks: false};</script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+</head>
+<body>
+<div id="header">
+    <h1>Руководство по боссам Ульдуара (25)</h1>
+
+    <a href="/Ulduar">Про Ульдуар</a> |
+    <a href="/Ulduar/Map">Карта подземелья</a> |
+    <a href="/Ulduar/Leviathan">Огненный Левиафан</a> |
+    <a href="/Ulduar/Ignis">Повелитель Горнов Игнис</a> |
+    <a href="/Ulduar/Razorscale">Острокрылая</a> |
+    <a href="/Ulduar/XT-002_Deconstructor">Разрушитель XT-002</a> |
+    <a href="/Ulduar/Assembly_of_Iron">Железное Собрание</a> |
+    <a href="/Ulduar/Kologarn">Кологарн</a> |
+    <a href="/Ulduar/Auriaya">Ауриайя</a> |
+    <a href="/Ulduar/Mimiron">Мимирон</a> |
+    <a href="/Ulduar/Freya">Фрейя</a> |
+    <a href="/Ulduar/Thorim">Торим</a> |
+    <a href="/Ulduar/Hodir">Ходир</a> |
+    <a href="/Ulduar/General_Vezax">Генерал Везакс</a> |
+    <a href="/Ulduar/Yogg-Saron">Йогг-Сарон</a> |
+    <a href="/Ulduar/Algalon">Алгалон Наблюдатель</a> |
+</div><!-- end header -->
+
+<div class="wrapper">
+    <nav>
+        <ul></ul>
+    </nav>
+
+    <section>
+        {{ content }}
+    </section>
+
+    <section>
+        <div id="title">
+            <hr>
+            <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+            <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/mattgraham">mattgraham</a></span>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
