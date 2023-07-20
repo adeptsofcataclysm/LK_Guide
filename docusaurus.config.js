@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Gentlemanchik/ICC_guide',
+            'https://github.com/Gentlemanchik/ICC_guide/tree/source',
         },
         blog: false,
       }),
@@ -91,8 +91,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'ICC Guide,
-                to: '/docs/intro',
+                label: 'ICC Guide',
+                to: '/',
               },
             ],
           },
@@ -130,8 +130,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        lightTheme: lightCodeTheme,
       },
     }),
 };
