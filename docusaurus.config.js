@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ICC Guide',
   tagline: 'Moar wipes!!',
-  // favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://gentlemanchik.github.io/',
@@ -53,14 +53,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      // image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social.png',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'ICC Guide',
-        //logo: {
-        //  alt: 'My Site Logo',
-        //  src: 'img/logo.svg',
-        //},
+        title: 'ЦЛК',
+        logo: {
+          alt: 'Адепты Катаклизма',
+          src: 'img/logo.png',
+        },
         items: [
           {
             type: 'html',

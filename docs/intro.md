@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+title: Введение
 description: Introduction page.
 ---
 
