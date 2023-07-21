@@ -1,6 +1,6 @@
 {
-  "label": "Нижний ярус",
-  "position": "2",
+  "label": "Чумодельня",
+  "position": "3",
   "collapsible": true,
   "collapsed": true,
   "link": {"type": "doc", "id": "index"}

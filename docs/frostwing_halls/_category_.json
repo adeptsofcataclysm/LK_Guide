@@ -1,6 +1,6 @@
 {
-  "label": "Нижний ярус",
-  "position": "2",
+  "label": "Залы Ледокрылых",
+  "position": "5",
   "collapsible": true,
   "collapsed": true,
   "link": {"type": "doc", "id": "index"}

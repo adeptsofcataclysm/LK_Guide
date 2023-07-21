@@ -1,6 +1,6 @@
 {
-  "label": "Нижний ярус",
-  "position": "2",
+  "label": "Багровый Зал",
+  "position": "4",
   "collapsible": true,
   "collapsed": true,
   "link": {"type": "doc", "id": "index"}
