@@ -46,6 +46,7 @@ const config = {
             'https://github.com/Gentlemanchik/ICC_guide/tree/source',
         },
         blog: false,
+        theme: {customCss: require.resolve('./src/css/custom.css')},
       }),
     ],
   ],
@@ -59,6 +60,11 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: 'ЦЛК',
         logo: {
@@ -66,6 +72,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+            {
+              type: 'docSidebar',
+              position: 'left',
+              sidebarId: 'ulduar',
+              label: 'Ulduar',
+            },
           {
             type: 'html',
             position: 'left',

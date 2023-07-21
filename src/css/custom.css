@@ -28,3 +28,40 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.dmg-nature {
+  color: green;
+}
+.dmg-ice {
+  color: blue;
+}
+.dmg-fire {
+  color: red;
+}
+.dmg-arcane {
+  color: pink;
+}
+.dmg-shadow {
+  color: DarkOrchid;
+}
+.dmg-phis {
+  color: brown;
+}
+.dmg-light {
+  color:E6EFBB;
+}
+.elder_brightleaf {
+  color: #814CCC;
+}
+.elder_ironbranch {
+  color:#ff5a03;
+}
+.sunlight {
+  color:yellow;
+}
+.color-orange {
+  color: #ff5a03;
+}
+.color-lblue {
+  color: #9DC3FF;
+}
