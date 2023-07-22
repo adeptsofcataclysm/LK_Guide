@@ -50,6 +50,12 @@ const config = {
       }),
     ],
   ],
+  scripts: [
+    {
+      src: 'https://wow.zamimg.com/widgets/power.js',
+      async: false,
+    },
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
