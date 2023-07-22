@@ -1,4 +1,10 @@
-# Повелитель Горнов Игнис #
+---
+sidebar_position: 4
+title: Повелитель Горнов Игнис
+description: Второй босс Ульдуара
+---
+
+# Повелитель Горнов Игнис
 
 ![Огненныйчел](/img/ulduar/ignis/ignis-the-furnace-master.jpg)
 

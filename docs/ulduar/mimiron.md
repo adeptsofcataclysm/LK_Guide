@@ -1,4 +1,10 @@
-# Мимирон #
+---
+sidebar_position: 13
+title: Мимирон
+description: Безумный механогном
+---
+
+# Мимирон
 
 ![мимирон](/img/ulduar/mimiron/mimiron.jpg)
 

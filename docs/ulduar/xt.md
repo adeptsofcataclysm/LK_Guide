@@ -1,4 +1,10 @@
-# Разрушитель XT-002 #
+---
+sidebar_position: 6
+title: Разрушитель XT-002
+description: Дитя Мимирона
+---
+
+# Разрушитель XT-002
 
 ![Gigachad](/img/ulduar/xt/1_xt-002-deconstructor.jpg)
 

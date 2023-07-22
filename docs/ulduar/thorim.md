@@ -1,4 +1,10 @@
-# Торим #
+---
+sidebar_position: 11
+title: Торим
+description: Я вас помню. Это было в горах
+---
+
+# Торим
 
 ![1тhorim](/img/ulduar/thorim/Торим_нормальный.jpg)
 

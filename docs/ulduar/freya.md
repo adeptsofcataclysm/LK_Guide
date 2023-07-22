@@ -1,4 +1,10 @@
-# Фрейя #
+---
+sidebar_position: 12
+title: Фрейя
+description: Рай для травников
+---
+
+# Фрейя
 
 ![](/img/ulduar/freya/Фрейя.jpg)
 

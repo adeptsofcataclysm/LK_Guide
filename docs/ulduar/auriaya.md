@@ -1,4 +1,10 @@
-# Ауриайя #
+---
+sidebar_position: 9
+title: Ауриайя
+description: Кошатница
+---
+
+# Ауриайя
 
 ![кошатница](/img/ulduar/auriaya/ауриайя.jpg)
 

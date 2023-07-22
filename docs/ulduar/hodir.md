@@ -1,4 +1,10 @@
-# Ходир #
+---
+sidebar_position: 10
+title: Ходир
+description: Тактика на Отморозка
+---
+
+# Ходир
 
 ![Ходор](/img/ulduar/hodir/Ходир.jpg)
 
