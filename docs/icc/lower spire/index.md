@@ -7,7 +7,7 @@ description: Карта и боссы Нижнего Яруса.
 На Нижнем ярусе есть NPC и 4ре босса
 
 # Карта
-![Карта первого яруса](/img/map/Lower_Spire.png)
+![Карта первого яруса](/img/icc/map/Lower_Spire.png)
 
 # Боссы
 import DocCardList from '@theme/DocCardList';
