@@ -50,12 +50,6 @@ const config = {
       }),
     ],
   ],
-  scripts: [
-    {
-      src: 'https://wow.zamimg.com/widgets/power.js',
-      async: false,
-    },
-  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -136,6 +130,8 @@ const config = {
         lightTheme: lightCodeTheme,
       },
     }),
+
+    plugins: ['./plugins/plugin-wowhead'],
 };
 
 module.exports = config;
