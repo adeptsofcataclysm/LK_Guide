@@ -84,38 +84,22 @@ const config = {
               sidebarId: 'ulduar',
               label: 'Ulduar',
             },
-          {
-            type: 'html',
-            position: 'left',
-            value: '<button>Tank</button>',
-          },
-          {
-            type: 'html',
-            position: 'left',
-            value: '<button>DPS</button>',
-          },
-          {
-            type: 'html',
-            position: 'left',
-            value: '<button>Heal</button>',
-          },
-          {
-            href: 'https://github.com/Gentlemanchik/ICC_guide',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Руководства',
             items: [
               {
-                label: 'ICC Guide',
+                label: 'ЦЛК',
                 to: '/',
               },
+            {
+              label: 'Ульдуар',
+              to: '/ulduar/',
+            },
             ],
           },
           {
