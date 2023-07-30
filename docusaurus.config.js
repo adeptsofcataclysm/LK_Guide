@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ICC Guide',
+  title: 'Gentle Guide',
   tagline: 'Moar wipes!!',
   favicon: 'img/favicon.ico',
 
