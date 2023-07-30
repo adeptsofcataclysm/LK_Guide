@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://gentlemanchik.github.io/',
+  url: 'https://adeptsofcataclysm.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ICC_guide/',
+  baseUrl: '/LK_guide/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Gentlemanchik', // Usually your GitHub org/user name.
-  projectName: 'ICC_guide', // Usually your repo name.
+  organizationName: 'adeptsofcataclysm', // Usually your GitHub org/user name.
+  projectName: 'LK_guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Gentlemanchik/ICC_guide/tree/source',
+            'https://github.com/adeptsofcataclysm/LK_Guide/tree/source',
         },
         blog: false,
         theme: {customCss: require.resolve('./src/css/custom.css')},
