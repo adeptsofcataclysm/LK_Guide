@@ -14,12 +14,12 @@ const config = {
   url: 'https://adeptsofcataclysm.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/LK_guide/',
+  baseUrl: '/LK_Guide/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'adeptsofcataclysm', // Usually your GitHub org/user name.
-  projectName: 'LK_guide', // Usually your repo name.
+  projectName: 'LK_Guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
