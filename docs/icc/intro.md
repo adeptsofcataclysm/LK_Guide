@@ -29,7 +29,7 @@ description: Introduction page.
 
 Эта часть полностью линейная, боссы убиваются по порядку.
 
- - [**Лорд Ребрад**](lower_spire/lord_marrowgar.mdx)
+ - [**Лорд Ребрад**](lower_spire/lord_marrowgar.md)
  - [**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.md)
  - [**Бой на кораблях**](lower_spire/gunship_battle.md)
  - [**Саурфанг Смертоносный**](lower_spire/saurfang.md)
