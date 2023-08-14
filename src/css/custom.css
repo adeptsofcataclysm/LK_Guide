@@ -65,3 +65,8 @@
 .color-lblue {
   color: #9DC3FF;
 }
+
+.imgright {
+  float: right;
+  padding: 10px;
+}
