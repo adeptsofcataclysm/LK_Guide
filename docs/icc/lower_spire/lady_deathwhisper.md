@@ -418,7 +418,7 @@ import TabItem from '@theme/TabItem';
 3-х случайных игроков будет брать в контроль на 12 с. При этом урон от законтроленного игрока увеличивается на 200% а исходящее
 исцеление на 500%. Здоровье при этом не увеличивается, как например на Йогг-Сароне. 
  - [ЗаМКшенных](https://www.wowhead.com/wotlk/ru/spell=71289) игроков конечно нужно контролить (МДД особенно). [Полиморф](https://www.wowhead.com/wotlk/ru/spell=851),
-[фиры](https://www.wowhead.com/wotlk/ru/spell=6215), [ослепление](https://www.wowhead.com/wotlk/ru/spell=2094), [станы](https://www.wowhead.com/wotlk/ru/spell=10308/),
+[фиры](https://www.wowhead.com/wotlk/ru/spell=6215), [ослепление](https://www.wowhead.com/wotlk/ru/spell=2094), [станы](https://www.wowhead.com/wotlk/ru/spell=10308),
 [разоружение](https://www.wowhead.com/wotlk/ru/spell=676) (для МДД) и т.д.
    - Отдельно нужно отметить что друидовские [смерчи](https://www.wowhead.com/wotlk/ru/spell=33786) просто идеальный в этом
      плане контроль. Ни жертва ни жертве нельзя нанести урон. Если есть возможность то максимально нужно [зациклонить](https://www.wowhead.com/wotlk/ru/spell=33786)
@@ -428,7 +428,7 @@ import TabItem from '@theme/TabItem';
 Насчёт других скилов можно поспорить: [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022), [мастеруары](https://www.wowhead.com/wotlk/ru/spell=31821),
 [коши](https://www.wowhead.com/wotlk/ru/spell=31224) (чтоб контролить можно было), [зелёнки](https://www.wowhead.com/wotlk/ru/spell=48707) (по той же причине).
 
-::::caution
+:::caution
 МДД перед [господством](https://www.wowhead.com/wotlk/ru/spell=71289) могут снимать свои оружия, как это было
 на Леди Вайши до нерфа(хе, кто помнит что так было?). Тогда урон от МДД будет практически нулевой.
 :::
@@ -438,7 +438,7 @@ import TabItem from '@theme/TabItem';
 сдаётся +- на 18 с. после спавна аддов. Если использовать вторую страту, то у рейда есть данное окно в котором можно
 АОЕшить без ограничений.
 
-![Tank_phase1](/img/icc/DeathWhisper/deathwhisper_MK_and_ADDS_timings.png)
+![DD_phase1](/img/icc/DeathWhisper/deathwhisper_MK_and_ADDS_timings.png)
 :::
 
 <center><b><i>Что ещё следует знать про 1-ю фазу</i></b></center>
@@ -446,20 +446,24 @@ import TabItem from '@theme/TabItem';
 - Нужно всегда выходить из [зелёной лужи](https://www.wowhead.com/wotlk/ru/spell=71001)
   аддов <br/> ![Luza](/img/icc/DeathWhisper/deathwhisper_DaD.gif).
 - Если на вас [проклятие оцепенения](https://www.wowhead.com/wotlk/ru/spell=71237) то **ждите декурса!**. Иначе КД любой способности увеличиться на 15 с. (но если вы друид или маг, то снимите с себя сами и снимайте с других)
-
+-
 :::danger
 Фанатик(милик) может жёстко [кливнуть](https://www.wowhead.com/wotlk/ru/spell=70670), будте аккуратней МДД.
 :::
-
+-
 :::danger
 [ГОСПОДСТВО НАД РАЗУМОМ](https://www.wowhead.com/wotlk/ru/spell=71289) МОЖЕТ ТАКЖЕ ПРИЛЕТЕТЬ В ТАНКОВ!!!
 :::
-
+-
 :::caution
 НУЖНО КАК МОЖНО БЫСТРЕЕ ДЕКУРСИТЬ! (инфа для магов и для друидов) [проклятие оцепенения](https://www.wowhead.com/wotlk/ru/spell=71237).
 :::
 
-Вторая фаза начинается сразу же когда у Леди закончится мана.
+<center><b><i>Правильный переход на 2-ю фазу</i></b></center>
+
+Вторая фаза начинается сразу же когда у Леди закончится мана. При этом крайне важно выбрать момент перевода, а это **до спавна аддов**.
+Если нужно стопнуться пробивать щит Леди, то нужно стопнуться! Если Леди перейдёт на 2-ю фазу при этом адды ещё живы - это
+плохой перевод. 
 
 </TabItem>
 <TabItem value="Healers" label="Лекари">
