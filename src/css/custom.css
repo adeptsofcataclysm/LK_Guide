@@ -47,6 +47,9 @@
 .dmg-ice {
   color: blue;
 }
+.heat {
+  color: #ff7f27;
+}
 .dmg-fire {
   color: red;
 }
