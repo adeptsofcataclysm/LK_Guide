@@ -36,4 +36,4 @@ import TabItem from '@theme/TabItem';
 Основная особенность - саурфанг в течении боя накапливает <span className="be">энергию крови</span> (далее <span className="be">ЭК</span>). 
 
  - [Узы крови](https://www.wowhead.com/wotlk/ru/spell=72178) **(бафф)**: висит постоянно. Каждый урон любой способности и каждая атака аддов накапливает определённое кол-во <span className="be">ЭК</span>.
-   - [Сила крови](https://www.wowhead.com/wotlk/ru/spell=72371) **(бафф)**: висит постоянно. Саурфанг увеличивается в размере и наносит на 1% больше урона за каждую накопленную единицу <span className="be">ЭК</span>.<br/><br/>![Bloood](/img/icc/)
+   - [Сила крови](https://www.wowhead.com/wotlk/ru/spell=72371) **(бафф)**: висит постоянно. Саурфанг увеличивается в размере и наносит на 1% больше урона за каждую накопленную единицу <span className="be">ЭК</span>.<br/><br/>![Bloood](/img/icc/Saurfang/Saurfang_energy.gif)
