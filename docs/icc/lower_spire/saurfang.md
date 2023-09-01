@@ -129,7 +129,8 @@ import TabItem from '@theme/TabItem';
 - [Кольцо крови](https://www.wowhead.com/wotlk/ru/spell=72380): АОЕшка. Саурфанг набирает 2 <span className="be">
   ЭК</span> за каждого человека, получившего урон.
 - **Удар кровавого чудовища**: каждый раз когда адд кого-то ударяет, Саурфанг получает 3 <span className="be">ЭК</span>.
-  :::
+:::
+
 
 ## Тактика
 
