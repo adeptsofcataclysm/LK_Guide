@@ -4,11 +4,8 @@ title: Совет Принцев Крови
 description: Описание и тактика на Совет.
 ---
 
-```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import styles from './council-styles.module.css';
-```
 
 ## Совет Принцев Крови
 
@@ -93,7 +90,7 @@ import styles from './council-styles.module.css';
 </center>
 
 <Tabs>
-<TabItem value="Keleset" label="Келесет" attributes={{className: styles.keleset}}>
+<TabItem value="Keleset" label="Келесет" attributes={{className: styles.dmg-shadow2}} >
 
 Принц-кастер. Предпочитает кастовать нежели чем бежать и бить лицо своей цели. Все его способности
 наносят урон от <span className="dmg-shadow">тьмы</span>.
