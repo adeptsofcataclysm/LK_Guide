@@ -1,0 +1,6 @@
+.keleset {
+    color: #b83dba;
+}
+.keleset[aria-selected='true'] {
+    border-bottom-color: #b83dba;
+}
