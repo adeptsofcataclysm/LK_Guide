@@ -32,7 +32,7 @@ description: Introduction page.
  - [**Лорд Ребрад**](lower_spire/lord_marrowgar.mdx)
  - [**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.mdx)
  - [**Бой на кораблях**](lower_spire/gunship_battle.mdx)
- - [**Саурфанг Смертоносный**](lower_spire/saurfang.md)
+ - [**Саурфанг Смертоносный**](lower_spire/saurfang.mdx)
 
 
 ![Нижний Ярус](/img/icc/map/Нижний_ярус.png)
