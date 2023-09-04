@@ -50,7 +50,7 @@ description: Introduction page.
 Ужасная лаборатория, в которой создаются мерзкие создания из плоти.
 
  - [**Тухлопуз**](plagueworks/festergut.mdx) 
- - [**Гниломорд**](plagueworks/rotface.md)
+ - [**Гниломорд**](plagueworks/rotface.mdx)
  - [**Профессор Мерзоцид**](plagueworks/putricide.md).
 
 :::info
