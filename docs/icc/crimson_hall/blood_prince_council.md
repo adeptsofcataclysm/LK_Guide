@@ -120,7 +120,7 @@ import styles from './council-styles.module.css';
 </div>
 
 </TabItem>
-<TabItem value="Valanar" label="Валанар">
+<TabItem value="Valanar" label="Валанар" attributes={{className: styles.valanar}}>
 
 Танкуется обычным танком. Все способности, что он применяет, наносят урон от <span className="dmg-phis">физики</span>,
 по области
@@ -158,7 +158,7 @@ import styles from './council-styles.module.css';
 </div>
 
 </TabItem>
-<TabItem value="Taldaram" label="Талдаран">
+<TabItem value="Taldaram" label="Талдаран" attributes={{className: styles.taldaram}}>
 
 Этот принц тоже танкуется обычным танком. Все способности, что он применяет, наносят урон от <span className="dmg-fire">
 огня</span>, по области.
@@ -198,8 +198,11 @@ import styles from './council-styles.module.css';
 
 ## Тактика
 
-:::info
-По танкам есть варианты. <span className="dmg-shadow">Келесета</span> может танчить:
+### Подготовка к энкаунтеру
+
+#### Определяемся с танками:
+
+Есть несколько вариантов с танками. <span className="dmg-shadow">Келесета</span> может танчить:
 
 - Обычный танк, но лучше БДК. Он отхилиться может сам если что, имеет немало КДшек, а также меньше всего из всех танков
   страдает от магического урона. Также ему проще всего наагривать на себя летающие по комнате
@@ -208,22 +211,77 @@ import styles from './council-styles.module.css';
   будет лучше дамажить чем БДК.
 
 Остальных двух принцев либо танчат в 2 танка, либо 1. В 1-го будет сложнее конечно, но возможно.
-:::
 
-Три принца, три разные позиционки. Самые опасные моменты -
-когда [заклятие крови](https://www.wowhead.com/wotlk/ru/spell=70982) переходит от одного принца к другому. Потому что
-Принцы никакие свои КД откладывать не будут. Если все стояли около <span className="dmg-shadow">Келесета</span> и
-[заклятие крови](https://www.wowhead.com/wotlk/ru/spell=70982) переводится на <span className="dmg-phis">
-Валанара</span>, которому по таймеру нужно через пару секунд
-создать [отбрасывающуюся воронку](https://www.wowhead.com/wotlk/ru/spell=72037) в одном месте, то нет, он
-под [заклятием](https://www.wowhead.com/wotlk/ru/spell=70982)
-сдаст [могучие вихри](https://www.wowhead.com/wotlk/ru/spell=72039) под каждым игроком. Никто не будет ждать пока кто-то
-там возьмёт /range 12 чтобы заэвейдить абилку.
+#### Определяемся с теми, кто должен контролировать Кинетические бомбы
+
+Канетические бомбы - это щарики которые меееедленно спускаются с потолка на землю. Чтобы они не упали и не взорвались,
+нужно чтобы по ним нанёсся точечный урон. Обычно на них направляют питомцев Чернокнижников и Охотников. Эти зверята
+автоматически будут "тыкать" бомбу, когда она будет подлетать к земле.
+
+<div className="text--center">
+
+![Kus](/img/icc/Blood_Princes_Council/BPC_kinetic_Kus.gif)
+
+</div>
+
+Если таковых нет, то нужно это делать РДД.
+
+:::info
+[Героизм](https://www.wowhead.com/wotlk/ru/spell=32182)/[Жажду крови](https://www.wowhead.com/wotlk/ru/spell=2825) можно
+сдавать либо в начале (под проки и препоты), либо же когда [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982)
+будет на <span className="dmg-shadow">Келесете</span>, когда в рейд не будет лететь вайп-механики.
+:::
 
 :::info
 В данном бою нужны ауры защиты от [тёмной магии](https://www.wowhead.com/wotlk/ru/spell=48943) и
 от [огня](https://www.wowhead.com/wotlk/ru/spell=48947).
 :::
+
+
+### Начало боя
+
+#### Талдарам
+
+Танку нужно его взять и отвести направо. Нужно держать этого босса от рейда, иначе по людям
+полетят [ослепительные искры](https://www.wowhead.com/wotlk/ru/spell=71807).
+
+#### Келесет
+
+Келесет отводится налево, попутно танк Келесета должен по дороге забрать на себя
+тучки [теневого резонанса](https://www.wowhead.com/wotlk/ru/spell=71943), чтобы
+уменьшить получаемый урон от кастов Келесета по себе.
+
+<div className="text--center">
+
+![Tuchi](/img/icc/Blood_Princes_Council/BPC_tuchi.gif)
+
+</div>
+
+#### Валанар
+
+В начале боя под [заклятием](https://www.wowhead.com/wotlk/ru/spell=70982) крови всегда будет Валанар. Это значит, что
+по рейду под игроками будут спавнится [могучиие вихри](https://www.wowhead.com/wotlk/ru/spell=72039). РДД и Хилам **очень важно**
+держать /range 12 на запуле (и каждый раз, когда к Валанару
+переходит [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982)).
+
+:::danger
+***МДД и Танки:*** [могучиий вихрь](https://www.wowhead.com/wotlk/ru/spell=72039) кастуется 4.5 с. За это время нужно
+отбежать на лестницу расспредано, чтобы вы не поубивали кого-нибудь.
+
+<div className="text--center">
+
+![Valanar_MDDSpread](/img/icc/Blood_Princes_Council/BPC_Valanar-SpreadMDD.gif)
+
+</div>
+:::
+
+<div className="text--center">
+
+![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.png)
+
+</div>
+
+### Продолжение боя. Принцы.
 
 :::caution
 Отличительной особенностью является то, что принцы меняются не совсем рандомно. Пока они все не
@@ -236,37 +294,74 @@ import styles from './council-styles.module.css';
 полутают [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982) ровно по 1 разу. и так далее.
 :::
 
-:::info
-[Героизм](https://www.wowhead.com/wotlk/ru/spell=32182)/[Жажду крови](https://www.wowhead.com/wotlk/ru/spell=2825) можно
-сдавать либо в начале (под проки и препоты), либо же когда [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982)
-будет на <span className="dmg-shadow">Келесете</span>, когда в рейд не будет лететь вайп-механики.
+Три принца, три разные позиционки. Самые опасные моменты -
+когда [заклятие крови](https://www.wowhead.com/wotlk/ru/spell=70982) переходит от одного принца к другому. Потому что
+Принцы никакие свои КД откладывать не будут. Если все стояли около <span className="dmg-shadow">Келесета</span> и
+[заклятие крови](https://www.wowhead.com/wotlk/ru/spell=70982) переводится на <span className="dmg-phis">
+Валанара</span>, которому по таймеру нужно через пару секунд
+создать [отбрасывающуюся воронку](https://www.wowhead.com/wotlk/ru/spell=72037) в одном месте, то нет, он
+под [заклятием](https://www.wowhead.com/wotlk/ru/spell=70982)
+сдаст [могучие вихри](https://www.wowhead.com/wotlk/ru/spell=72039) под каждым игроком. Никто не будет ждать пока кто-то
+там возьмёт /range 12 чтобы заэвейдить абилку.
+
+<Tabs>
+<TabItem value="Keleset2" label="Келесет" attributes={{className: styles.keleset}}>
+
+Если <span className="dmg-shadow">Келесет</span> получает [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981), то это значит только одно:
+танк <span className="dmg-shadow">Келесета</span> будет получать ОООЧЕНЬ много урона. Если танк не застакал 3 дебаффа [теневого резонанса](https://www.wowhead.com/wotlk/ru/spell=71943),
+то почти гарантированная смерть. Под 3-мя стаками это тоже больно, но зато прохиливаемо.
+
+И, на самом деле, больше ничего не происходит. Это отличная фаза для ДД, чтобы всем подамажить.
+
+:::caution
+Под случайным игроком може заспавнится белая воронка [сотрясающего вихря](https://www.wowhead.com/wotlk/ru/spell=72037), от которой нужно отойти.
 :::
 
-### Начало боя
-
-#### Талдарам
-
-Танку нужно его взять и отвести направо. Нужно держать этого босса от рейда, иначе по людям полетят [ослепительные искры](https://www.wowhead.com/wotlk/ru/spell=71807).
-
-#### Келесет
-
-Келесет отводится налево, попутно танк Келесета должен по дороге забрать на себя тучки [еневого резонанса](https://www.wowhead.com/wotlk/ru/spell=71943), чтобы
-уменьшить получаемый урон от кастов Келесета по себе.
+:::danger
+НИ В КОЕМ СЛУЧАЕ НЕЛЬЗЯ КЛИВАТЬ ОБЛАЧКА С [ТЕНЕВЫМИ РЕЗОНАНСАМИ](https://www.wowhead.com/wotlk/ru/spell=71943)!!! Только под ними танк не умрёт с первого каста [копья зловещих теней](https://www.wowhead.com/wotlk/ru/spell=71815).
+:::
 
 <div className="text--center">
 
-![Tuchi](/img/icc/Blood_Princes_Council/BPC_tuchi.gif)
+![Keleset_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Keleset.png)
 
 </div>
 
-В начале боя под [заклятием](https://www.wowhead.com/wotlk/ru/spell=70982) крови всегда будет Валанар. Это значит, что
-по рейду под игроками будут спавнится [могучиие вихри](https://www.wowhead.com/wotlk/ru/spell=72039). РДД и Хилам *
-*очень важно**
-держать /range 12 на запуле (и каждый раз, когда к Валанару
-переходит [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982)).
-
 :::danger
-***МДД и Танки:*** [могучиий вихрь](https://www.wowhead.com/wotlk/ru/spell=72039) кастуется 4.5 с. За это время нужно
-отбежать на лестницу, там никакого вихря не будет.
+Если есть шанс, что следующий принц будет Валанар, то нужно заранее РДД и Хилам сделать /range 12! Внимательно смотрим за КД [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981).
 :::
 
+</TabItem>
+<TabItem value="Valanar2" label="Валанар" attributes={{className: styles.valanar}}>
+
+Для данного принца нужно РДД/Хилам держать спред /range 12! **Обязательно!** Перед смены [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981) если есть
+шанс того, что именно Валанар получит [заклятье](https://www.wowhead.com/wotlk/ru/spell=70981), нужно заранее разбежаться.
+
+<div className="text--center">
+
+![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.png)
+
+</div>
+
+</TabItem>
+<TabItem value="Taldaram2" label="Талдаран" attributes={{className: styles.taldaram}}>
+
+Под этого босса нужно наоборот сбежаться всем РДД с Хилами и встать поодаль от Талдарама. 
+
+Талдарам будет пускать ОГРОООМНЫЕ шары [жаркого колдовского пламени](https://www.wowhead.com/wotlk/ru/spell=72040). 
+Они будут лететь на конкретного человека. Чем дольше этот шар пролетит над головами других игроков, тем меньше урона
+получит жертва (по дороге шар плюётся [опаляющими вспышками](https://www.wowhead.com/wotlk/ru/spell=71708), растрачивая свою мощь).
+
+:::caution
+Ключевое слово **дольше прилетит**. Можно даже кому-то побежать вслед за шаром, чтобы больше [опаляющих вспышек](https://www.wowhead.com/wotlk/ru/spell=71708)
+было прокастовано.
+:::
+
+<div className="text--center">
+
+![Taldaram_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Taldaram.png)
+
+</div>
+
+</TabItem>
+</Tabs>

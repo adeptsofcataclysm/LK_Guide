@@ -4,3 +4,17 @@
 .keleset[aria-selected='true'] {
     border-bottom-color: #b83dba;
 }
+
+.valanar {
+    color: #8cfffb;
+}
+.valanar[aria-selected='true'] {
+    border-bottom-color: #8cfffb;
+}
+
+.taldaram {
+    color: #ff7f27;
+}
+.taldaram[aria-selected='true'] {
+    border-bottom-color: #ff7f27;
+}
