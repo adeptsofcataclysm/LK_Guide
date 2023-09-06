@@ -35,7 +35,7 @@ description: Introduction page.
  - [**Саурфанг Смертоносный**](lower_spire/saurfang.mdx)
 
 
-![Нижний Ярус](/img/icc/map/Нижний_ярус.png)
+![Нижний Ярус](/img/icc/map/Нижний_ярус.jpg)
 
 ### Второй ярус
 
@@ -43,7 +43,7 @@ description: Introduction page.
 важен, однако пока не будут зачищены все три части яруса, рейд не сможет попасть к Королю Личу через центральный
 телепорт.
 
-![второй ярус](/img/icc/map/Верхний_ярус_склеенный.png)
+![второй ярус](/img/icc/map/Верхний_ярус_склеенный.jpg)
 
 #### Чумодельня
 
@@ -79,6 +79,6 @@ description: Introduction page.
 
 [**Король Лич**](the_lich_king.md).
 
-![Ледяной толчок](/img/icc/map/Ледяной_трон.png)
+![Ледяной толчок](/img/icc/map/Ледяной_трон.jpg)
 
 (Prepare to die)
