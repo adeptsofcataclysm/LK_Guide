@@ -96,8 +96,9 @@ import styles from './Valithria-styles.modules.css';
 <div className="text--center">
 
 ***Вот график полученного урона по Валитрии в течении боя. Таким образом, это ещё одна причина залетать в портал и
-набирать стаки. Если изначально нужно отхилить 18 000 000, то вдобавок нужно ещё вылечить 6 000 000 урона (Минимум! Если
-не собирать тучки то ещё больше) от кошмаров.***
+набирать стаки. Если изначально нужно отхилить 18 000 000, то вдобавок нужно ещё вылечить 6 000 000 урона от кошмаров (
+Минимум 6 лямов! Если
+не собирать тучки то ещё больше).***
 
 ![Cloud_DMG](/img/icc/Valithria_Dreamwalker/VD_cloud_dmg.jpg)
 
@@ -136,6 +137,10 @@ import styles from './Valithria-styles.modules.css';
   область радиусом 3 ярдов. Через некоторое время из неё бьёт мощный поток ледяного ветра. Он наносит 17672-19828 урона
   от магии <span className="dmg-ice">льда</span> и сильно подбрасывает вверх.
 
+|[Колонна льда](https://www.wowhead.com/wotlk/ru/spell=70702)|      [Магическая воронка](https://www.wowhead.com/wotlk/ru/spell=71179)       |
+|:---:|:-----------------------------------------------------------------------------:|
+|![column_of_frost](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_column_of_frost.gif)| ![mana_void](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_mana_void.gif) |
+
 </TabItem>
 <TabItem value="Skeleton" label="Исторгающий пламя скелет" attributes={{className: styles.Skeleton}}>
 
@@ -151,8 +156,22 @@ import styles from './Valithria-styles.modules.css';
 - [Разгром](https://www.wowhead.com/wotlk/ru/spell=69325) **(потоковое | применение 12 с.)**: скелет встаёт на месте и
   начинает читать данное заклинание. Раз в 2 с. от него исходят огненные волны, что продамажит всех игроков на арене на
   5891-6609 <span className="dmg-fire">огненного</span> урона.
-- [Огненный шар](https://www.wowhead.com/wotlk/ru/spell=70754) **(0.5 с.)**: стреляет в танка огненный шар, наносящий
+- [Огненный шар](https://www.wowhead.com/wotlk/ru/spell=70754) **(0.5 с.)**: пускает в случайную цель огненный шар,
+  наносящий
   5891-6609 <span className="dmg-fire">огненного</span> урона.
+
+<br/>
+
+<div className="text--center">
+
+<b><i>
+
+[Разгром](https://www.wowhead.com/wotlk/ru/spell=69325)
+</i></b>
+
+![razgrom](/img/icc/Valithria_Dreamwalker/VD_blazink_skeleton_razgrom.gif)
+
+</div>
 
 </TabItem>
 <TabItem value="Supresser" label="Подавитель" attributes={{className: styles.Supresser}}>
@@ -172,6 +191,18 @@ import styles from './Valithria-styles.modules.css';
   исцеление на 10%. [Подавление](https://www.wowhead.com/wotlk/ru/spell=70588) нескольких подавителей стакается. Каст
   прерывается только при смерти моба.
 
+<div className="text--center">
+
+<b><i>
+
+Этим Подавителям вообще на всё плевать (кроме замедления и обездвиживания), они будут
+кастовать [подавление](https://www.wowhead.com/wotlk/ru/spell=70588) пока не умрут.
+</i></b>
+
+![suppresion](/img/icc/Valithria_Dreamwalker/VD_suppresser_suppresion.gif)
+
+</div>
+
 </TabItem>
 <TabItem value="Zombie" label="Волдырный зомби" attributes={{className: styles.Zombie}}>
 
@@ -188,9 +219,21 @@ import styles from './Valithria-styles.modules.css';
   ДоТку на 6 с. ДоТка дополнительно 3125 урона от сил <span className="dmg-nature">природы</span> и срезает броню на
   10%. Стакается.
 - [Кислотный взрыв](https://www.wowhead.com/wotlk/ru/spell=70744) **(0.75 с. | Всегда применяет при смерти)**: зомби
-  взрывается, разлетаясь на куски! Взрыв наносит 17672-19828 урона от сил <span className="dmg-nature">природы</span>.
+  взрывается, разлетаясь на куски! Взрыв радиусом 15 ярдов наносит 17672-19828 урона от
+  сил <span className="dmg-nature">природы</span>.
   Каждый, кто попал под взрыв, получает ДоТку, которая наносит 1250 <span className="dmg-nature">природного</span> урона
   раз в секунду в течении 20 с.
+
+<div className="text--center">
+
+<b><i>
+
+[Кислотный взрыв](https://www.wowhead.com/wotlk/ru/spell=70744)
+</i></b>
+
+![blistering_zombies](/img/icc/Valithria_Dreamwalker/VD_blistering_zombies_acid_burst.gif)
+
+</div>
 
 </TabItem>
 <TabItem value="Abomination" label="Прожорливое поганище" attributes={{className: styles.Abomination}}>
@@ -214,5 +257,41 @@ import styles from './Valithria-styles.modules.css';
       червя достигает цели, то накладывается ДоТка, которая дамажит 250 <span className="dmg-nature">природного</span>
       каждую секунду в течении 8 с. Стакается
 
+<div className="text--center">
+
+<b><i>
+
+Гнилостные черви
+</i></b>
+
+![sworms](/img/icc/Valithria_Dreamwalker/VB_gluttonous_abomination_sworms.gif)
+
+</div>
+
 </TabItem>
 </Tabs>
+<div className="text--center">
+
+#### Тайминги появления мобов
+
+</div>
+
+Все мобы появляются строго по таймингу, но со случайной стороны. Расклад такой:
+
+- <span className="debuf-magic">Воскрешённый верховный маг</span>: появляется каждые 20 сек.
+- <span className="dmg-fire">Исторгающий пламя скелет</span>: появляется каждые 60 с.
+- <span className="dmg-shadow">Подавитель</span>: появляются раз в 60 с. пачками. Суммарно 6 подавителей, идут с четырёх
+  сторон, количество мобов в пачке случайно (хоть 5 с одного направления и 1 с противоположного).
+- <span className="debuf-disease">Волдырный зомби</span>: появляется каждые 60 с.
+- <span className="dmg-arcane">Прожорливое поганище</span>: появляется каждые 60 с.
+
+## Тактика
+
+### Подготовка к энкаунтеру
+
+<div className="text--center">
+
+#### Хилы
+
+</div>
+
