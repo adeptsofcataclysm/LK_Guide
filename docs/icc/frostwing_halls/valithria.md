@@ -137,9 +137,9 @@ import styles from './Valithria-styles.modules.css';
   область радиусом 3 ярдов. Через некоторое время из неё бьёт мощный поток ледяного ветра. Он наносит 17672-19828 урона
   от магии <span className="dmg-ice">льда</span> и сильно подбрасывает вверх.
 
-|[Колонна льда](https://www.wowhead.com/wotlk/ru/spell=70702)|      [Магическая воронка](https://www.wowhead.com/wotlk/ru/spell=71179)       |
-|:---:|:-----------------------------------------------------------------------------:|
-|![column_of_frost](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_column_of_frost.gif)| ![mana_void](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_mana_void.gif) |
+|               [Колонна льда](https://www.wowhead.com/wotlk/ru/spell=70702)                |      [Магическая воронка](https://www.wowhead.com/wotlk/ru/spell=71179)       |
+|:-----------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
+| ![column_of_frost](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_column_of_frost.gif) | ![mana_void](/img/icc/Valithria_Dreamwalker/VD_risen_archimage_mana_void.gif) |
 
 </TabItem>
 <TabItem value="Skeleton" label="Исторгающий пламя скелет" attributes={{className: styles.Skeleton}}>
@@ -289,9 +289,16 @@ import styles from './Valithria-styles.modules.css';
 
 ### Подготовка к энкаунтеру
 
+Т.к. главная задача это отхилить босса, то тут нужно больше хелов чем нужно. Нужно 6-7 штук, при этом 2 из них
+оставлять "снаружи", а остальных нужно отправлять летать по порталам, стакать на
+себе [изощрённые кошмары](https://www.wowhead.com/wotlk/ru/spell=71941) и жёстко хилить Валитрию.
+
+Танков нужно 2, на каждую сторону по танку. По ДД никаких предпочтений вроде бы нет.
+
 <div className="text--center">
 
 #### Хилы
 
 </div>
 
+В порталлы 100% должны идти <span className="dmg-arcane">Холи паладины</span> и <span className="dmg-light">Холи присты</span>. 
