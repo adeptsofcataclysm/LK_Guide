@@ -40,21 +40,21 @@ description: Тактика на Килограмма
   применяет если жива только одна рука. Тот же [подзатыльник](https://www.wowhead.com/wotlk/ru/spell=64003), но с
   уменьшенным уроном, около 13 500.
 
-![bam](/img/ulduar/kologarn/smash.gif)
+![bam](https://www.wowhcb.ru/adepts/ulduar/kologarn/smash.gif)
 
 - [Сосредоточенный взгляд](https://www.wowhead.com/wotlk/ru/spell=63976) **(мгновенное)**: в случайного игрока (
   преимущественно в рендж зоне) направляются два лазера из глаз Кологарна. Каждый из них наносит от 3238 до 3762 ед.
   урона от тайной магии раз в секунду всем игрокам в радиусе 3 ярда от места "сверления" земли лазером. Лазеры
   существуют около 10 с., преследуют свою жертву. Босс применяет примерно каждые 20 с.
 
-![lazers](/img/ulduar/kologarn/Лазеры.gif)
+![lazers](https://www.wowhcb.ru/adepts/ulduar/kologarn/focused-eyebeam.gif)
 
 - [Крик камня](https://www.wowhead.com/wotlk/ru/spell=64005) **(1.1 с ---> потоковое 2 с.)**: если у босса отсутствуют
   две руки, то начинает спамить данную способность. Каждые 0,2 с. всем участникам рейда наносится от 707 до
   793 <span className="dmg-phis">физического</span> урона. Когда отрастёт хоть одна рука, перестаёт орать и начинает
   применять свои обычные способности.
 
-![scream](/img/ulduar/kologarn/stone_shout.gif)
+![scream](https://www.wowhcb.ru/adepts/ulduar/kologarn/stone-shout.gif)
 
 - [Каменеющее дыхание](https://www.wowhead.com/wotlk/ru/spell=63980) **(мгновенное ---> потоковое 4 с.)**: если цель
   босса находится не в мили, то начинает мощно дышать по рейду. Хз, что вырывается изо рта, но видимо что-то очень
@@ -64,7 +64,7 @@ description: Тактика на Килограмма
   дебафф [ломкая оболочка](https://www.wowhead.com/wotlk/ru/spell=62055), увеличивающий получаемый игроком урон на 20%
   за каждый стак. Дебафф существует 8 с.
 
-![puffff](/img/ulduar/kologarn/petrifying-breath.gif)
+![puffff](https://www.wowhcb.ru/adepts/ulduar/kologarn/petrifying-breath.gif)
 
 ## Способности рук
 
@@ -75,7 +75,7 @@ description: Тактика на Килограмма
 
 <div class="imgright">
 
-![захват](/img/ulduar/kologarn/stone-grip.gif)
+![захват](https://www.wowhcb.ru/adepts/ulduar/kologarn/stone-grip.gif)
 
 </div>
 
@@ -94,7 +94,7 @@ description: Тактика на Килограмма
 
 <div className="imgright">
 
-![удар по земле](/img/ulduar/kologarn/shockwave.gif)
+![удар по земле](https://www.wowhcb.ru/adepts/ulduar/kologarn/shockwave.gif)
 
 </div>
 
@@ -110,7 +110,7 @@ description: Тактика на Килограмма
 
 <div className="imgright">
 
-![eleme](/img/ulduar/kologarn/Уничтожение_руки.gif)
+![eleme](https://www.wowhcb.ru/adepts/ulduar/kologarn/arm-defeated.gif)
 
 </div>
 
@@ -132,12 +132,10 @@ description: Тактика на Килограмма
 великана. РДД и Хилы берут небольшой спред, чтобы получить как можно меньше урона при
 появлении [лазеров](https://www.wowhead.com/wotlk/ru/spell=63976).
 
-![plan](/img/ulduar/kologarn/plan.png)
+![plan](/img/ulduar/kologarn/plan.jpg)
 
 :::danger
-
 Можно упасть в пропасть, перед обрывом у торса Кологарна никакой невидимой стенки нет!
-
 :::
 
 Нужно поставить [тотем на натур резист](https://www.wowhead.com/wotlk/ru/spell=58749) шаман
@@ -150,13 +148,17 @@ description: Тактика на Килограмма
 никто не получал лишнего урона от [каменных волн](https://www.wowhead.com/wotlk/ru/spell=63978). Элемов быстро заливают
 РДД, а то танк нахватается стаков на получаемый урон и умрёт.
 
-> ***Замечание:** есть непроверенная инфа, что [подзатыльники](https://www.wowhead.com/wotlk/ru/spell=64003) могут уйти
-в уклонение/промах/парирование. Инфа сотка? Не, не инфа сотка. TODO.*
+:::tip
+Есть непроверенная инфа, что [подзатыльники](https://www.wowhead.com/wotlk/ru/spell=64003) могут уйти
+в уклонение/промах/парирование. Инфа сотка? Не, не инфа сотка. TODO.
+:::
 
-> ***Замечание:** когда танк будет забирать обломки, ни в коем случае нельзя
+:::caution
+Когда танк будет забирать обломки, ни в коем случае нельзя
 прожимать [масстаунт](https://www.wowhead.com/wotlk/ru/spell=1161)! Вы легко можете забрать босса на себя. Так как
 обломки танкуются поодаль от МДД зоны, то затаунченный босс начнёт
-дышать [каменеющим дыханием](https://www.wowhead.com/wotlk/ru/spell=63980).*
+дышать [каменеющим дыханием](https://www.wowhead.com/wotlk/ru/spell=63980).
+:::
 
 Хилам нужно следить за танками, особенно за активным. Удары
 от [подзатыльников](https://www.wowhead.com/wotlk/ru/spell=64003) будут сносить половину здоровья под минус армором (обычные тычки тоже будут наносить 
