@@ -322,7 +322,17 @@ import TabItem from '@theme/TabItem';
 - **5:20** (но это уже "берсерк" момент)
 
 Нужно распределить рейдовые сейвилки под
-каждый [вихрь](https://www.wowhead.com/wotlk/ru/spell=71772) ([сакра](https://www.wowhead.com/wotlk/ru/spell=64205), [владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943), [гимн](https://www.wowhead.com/wotlk/ru/spell=64843)).
+каждый [вихрь](https://www.wowhead.com/wotlk/ru/spell=71772). Я бы сделал так:
+
+- **2:00
+  ** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) +
+  личные сейвы.
+- **3:40
+  ** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) +
+  хилящие
+  КДшки ([гимны](https://www.wowhead.com/wotlk/ru/spell=64843), [спокойствия](https://www.wowhead.com/wotlk/ru/spell=740)).
+- **5:20** - бОльшая часть личных сейвов с **2:00** откатятся (не все, но бОльшая
+  часть). [Сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943))
 
 :::info
 [Героизм](https://www.wowhead.com/wotlk/ru/spell=32182) нужно оставить на 4:20, когда 16 игроков
@@ -484,11 +494,26 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-Каждому человеку нужно пережить [вихрь](https://www.wowhead.com/wotlk/ru/spell=71772). Для этого до рейда были расписаны
-кто когда сдаёт
- [сакры](https://www.wowhead.com/wotlk/ru/spell=64205), [владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821) под [аурой от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943), [гимны](https://www.wowhead.com/wotlk/ru/spell=64843).
+Для выживания до начала боя были расписаны рейдовые сейвы.
 
-Но каждому человеку крайне желатель 
+- **2:00
+  ** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) +
+  личные сейвы.
+- **3:40
+  ** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) +
+  хилящие
+  КДшки ([гимны](https://www.wowhead.com/wotlk/ru/spell=64843), [спокойствия](https://www.wowhead.com/wotlk/ru/spell=740)).
+- **5:20** - бОльшая часть личных сейвов с **2:00** откатятся (не все, но бОльшая
+  часть). [Сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943))
+
+:::caution
+Не забывайте про [огурцы](https://www.wowhead.com/wotlk/ru/item=36892).
+:::
+
+:::danger
+Важно прохилить рейд после [вихря](https://www.wowhead.com/wotlk/ru/spell=71772), потому что Ланатель после каждого
+свяжет трёх людей [пактом омрачённых](https://www.wowhead.com/wotlk/ru/spell=71340).
+:::
 
 </TabItem>
 </Tabs>
