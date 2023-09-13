@@ -12,14 +12,14 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![Tri_brata_acrobata](/img/icc/Blood_Princes_Council/Blood_Princes.png)
+![Tri_brata_acrobata](/img/icc/Blood_Princes_Council/Blood_Princes.jpg)
 
 </div>
 
 Совет Принцев Крови (оно же Кровавый совет) — первый босс в Багровых залах ЦЛК. Ну, "босс-совет" как в Чёрном храме
 совет Иллидари перед Иллиданом. Тут, конечно, поинтереснее.
 
-### Немного про бой
+## Немного про бой
 
 Тут интересное здоровье принцев: только один из всех троих имеет полноценное здоровье, остальные будут жить с 1 ХП. Во
 время боя это здоровье будет полностью переливаться к другому принцу. У "активного" босса улучшаются способности и его
@@ -33,42 +33,44 @@ import styles from './council-styles.module.css';
 
 Если рассматривать каждого принца по отдельности, то выходит такая картина:
 
-- <span className="dmg-shadow">Келесет</span> <b>(левый принц)</b>: этот принц с абилками
-  на <span className="dmg-shadow">урон от тьмы</span>
+### <span className="dmg-shadow">Келесет</span>
 
-    - Это кастер, который будет стоять и кастовать [теневые копья](https://www.wowhead.com/wotlk/ru/spell=71405) по КД.
-      Наносит 17к урона, нормально так, но терпимо. Но если принц
-      под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982), то это же заклинание наносит под 80к урона.
-      Как пережить? Вот так: Келесет будет по всей арене призывать летающие
-      тучки, [теневые резонансы](https://www.wowhead.com/wotlk/ru/spell=71943). Танку их нужно наагрить на себя, т.к.
-      они будут кастовать луч в первого по агро. Этот луч чуть-чуть дамажит, но даёт стакающийся -35% к получаемому
-      урону дебафф.
+Стоит слева. Этот принц с абилками на <span className="dmg-shadow">урон от тьмы</span>
 
-- <span className="dmg-phis">Валанар</span> <b>(центральный принц)</b>: этот принц с абилками
-  на <span className="dmg-phis">физический урон</span>
+Это кастер, который будет стоять и кастовать [теневые копья](https://www.wowhead.com/wotlk/ru/spell=71405) по КД.
+Наносит 17к урона, нормально так, но терпимо. Но если принц
+под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982), то это же заклинание наносит под 80к урона.
+Как пережить? Вот так: Келесет будет по всей арене призывать летающие
+тучки, [теневые резонансы](https://www.wowhead.com/wotlk/ru/spell=71943). Танку их нужно наагрить на себя, т.к.
+они будут кастовать луч в первого по агро. Этот луч чуть-чуть дамажит, но даёт стакающийся -35% к получаемому
+урону дебафф.
 
-    - Данный принц будет призывать в потолке арены [кинетические бомбы](https://www.wowhead.com/wotlk/ru/spell=72053).
-      Они будут меееедленно спускаться, и если коснутся земли то, взорвут рейд. Однако если по ним нанести точечный
-      урон,
-      то они чуть-чуть поднимутся. Т.е. нужно чтобы их кто-то время от времени дамажил, чтоб они не взорвали рейд. Ещё
-      Валанар будет в случайном месте создавать [сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037),
-      (белая воронка) которая будет пульсировать, наносить урон и отбрасывать всех кто в неё зашёл. Но если принц
-      под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982),
-      то [сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037) будет призываться на места ВСЕХ игроков. Если
-      не будет /range 12, то эти вихри положат часть рейда.
+### <span className="dmg-phis">Валанар</span>
 
-- <span className="dmg-fire">Талдаран</span> <b>(правый принц)</b>: этот принц с абилками на <span className="dmg-fire">
-  урон от огня</span>
+Центральный принц. Этот принц с абилками на <span className="dmg-phis">физический урон</span>
 
-    - Этот принц имеет [искры](https://www.wowhead.com/wotlk/ru/spell=71807), которые кидаются во фронт (нужно танчить
-      от рейда). Также время от времени Талдарам будет пускать
-      шар [колдовского пламени](https://www.wowhead.com/wotlk/ru/spell=71718) случайное место на арене, который
-      взорвётся и нанесёт АОЕ урон. Но если принц под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982),
-      то этот шар превращается в [жаркое колдовское пламя](https://www.wowhead.com/wotlk/ru/spell=72040). Теперь это
-      ОГРООООМный шар, который будет преследовать игрока. При касании просто шотнет всех своим взрывом. Однако если этот
-      шар по
-      дороге пролетает над головами других игроков, то он выстреливает в них кучу [опаляющих вспышек](https://www.wowhead.com/wotlk/ru/spell=71708). Чем больше выстрелов сделает шар,
-    - тем больше он потеряет свою изначальную мощь и тем меньше он нанесёт урона в АОЕ. Ну, т.е. нужно чтобы этот большой шар максимально долго летел над головами игроков (летит он быстрее чем бежит персонаж)
+Данный принц будет призывать в потолке арены [кинетические бомбы](https://www.wowhead.com/wotlk/ru/spell=72053).
+Они будут меееедленно спускаться, и если коснутся земли то, взорвут рейд. Однако если по ним нанести точечный
+урон, то они чуть-чуть поднимутся. Т.е. нужно чтобы их кто-то время от времени дамажил, чтоб они не взорвали рейд. Ещё
+Валанар будет в случайном месте создавать [сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037),
+(белая воронка) которая будет пульсировать, наносить урон и отбрасывать всех кто в неё зашёл. Но если принц
+под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982),
+то [сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037) будет призываться на места ВСЕХ игроков. Если
+не будет /range 12, то эти вихри положат часть рейда.
+
+### <span className="dmg-fire">Талдаран</span>
+Правый принц. Этот принц с абилками на <span className="dmg-fire">урон от огня</span>
+
+Этот принц имеет [искры](https://www.wowhead.com/wotlk/ru/spell=71807), которые кидаются во фронт (нужно танчить
+от рейда). Также время от времени Талдаран будет пускать
+шар [колдовского пламени](https://www.wowhead.com/wotlk/ru/spell=71718) случайное место на арене, который
+взорвётся и нанесёт АОЕ урон. Но если принц под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70982),
+то этот шар превращается в [жаркое колдовское пламя](https://www.wowhead.com/wotlk/ru/spell=72040). Теперь это
+ОГРООООМный шар, который будет преследовать игрока. При касании просто шотнет всех своим взрывом. Однако если этот
+шар по дороге пролетает над головами других игроков, то он выстреливает в них
+кучу [опаляющих вспышек](https://www.wowhead.com/wotlk/ru/spell=71708). Чем больше выстрелов сделает шар,
+тем больше он потеряет свою изначальную мощь и тем меньше он нанесёт урона в АОЕ. Ну, т.е. нужно чтобы этот
+большой шар максимально долго летел над головами игроков (летит он быстрее чем бежит персонаж)
 
 [Заклятие крови](https://www.wowhead.com/wotlk/ru/spell=70982) будет переходить от принца к принцу, и под каждого из них
 нужно определённая стратегия и расстановка, которые кардинально различаются друг от друга (ну,
@@ -86,7 +88,7 @@ import styles from './council-styles.module.css';
 
 ***Движение - смерть (но не сразу)***
 
-![kast](/img/icc/Blood_Princes_Council/BPC_stacks.gif)
+![kast](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_stacks.gif)
 
 </div>
 
@@ -114,7 +116,7 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![Tuchi](/img/icc/Blood_Princes_Council/BPC_tuchi.gif)
+![Tuchi](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_tuchi.gif)
 
 </div>
 
@@ -130,9 +132,9 @@ import styles from './council-styles.module.css';
   18000-22000 <span className="dmg-phis">физического</span> урона и ОЧЕНЬ сильно отбрасывает. Но сама бомба
   "кликабельна". Если в неё нанести точечный урон, то она немного поднимется.
 
-|                        Бомба (вверх-вниз)                        |                          Взрыв [кинетической бомбы](https://www.wowhead.com/wotlk/ru/spell=72053)                           |
-|:----------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| ![vverh-vniz](/img/icc/Blood_Princes_Council/BPC_orangebomb.gif) | ![Bam](/img/icc/Blood_Princes_Council/BPC_kinetic_Bam1.gif)     ![Bam](/img/icc/Blood_Princes_Council/BPC_kinetic_Bam2.gif) |
+|                                    Бомба (вверх-вниз)                                    |                                                  Взрыв [кинетической бомбы](https://www.wowhead.com/wotlk/ru/spell=72053)                                                   |
+|:----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| ![vverh-vniz](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_orangebomb.gif) | ![Bam](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_kinetic_Bam1.gif)     ![Bam](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_kinetic_Bam2.gif) |
 
 - [Сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037) **(1.5 с.)**: применяет в свою цель. Создаёт
   воронку под случайным игроком в рейде, которая через 4-5 с. активируется. Она каждую секунду взрывается на
@@ -141,18 +143,18 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![Vortex_one](/img/icc/Blood_Princes_Council/BPC_vortex_one.gif)
+![Vortex_one](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_vortex_one.gif)
 
 </div>
 
 - Под [заклятием крови](https://www.wowhead.com/wotlk/ru/spell=70952)
   способность [сотрясающий вихрь](https://www.wowhead.com/wotlk/ru/spell=72037) заменяется
   на [могучий вихрь](https://www.wowhead.com/wotlk/ru/spell=72039) **(4.5 c.)**: под каждым игроком
-  в на арене появляется белая воронка которая моментально активируется, но взорвётся только 1 раз.
+  на арене появляется белая воронка которая моментально активируется, но взорвётся только 1 раз.
 
 <div className="text--center">
 
-![Vortex_fail](/img/icc/Blood_Princes_Council/BPC_vortex_fail.gif)
+![Vortex_fail](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_vortex_fail.gif)
 
 </div>
 
@@ -173,7 +175,7 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![fireballsmall](/img/icc/Blood_Princes_Council/BPC_SMALLfireball.gif)
+![fireballsmall](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_SMALLfireball.gif)
 
 </div>
 
@@ -188,9 +190,9 @@ import styles from './council-styles.module.css';
   заденет [опаляющей вспышкой](https://www.wowhead.com/wotlk/ru/spell=71708) тем меньше будет урон от взрыва, вплоть до
   12 000.
 
-| Шар летит в мага, по дороге немного задевает игоков своими  [опаляющими вспышками](https://www.wowhead.com/wotlk/ru/spell=71708) | Шар прилетел. Почти не шотнул, но снижение урона недостаточно |
-|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------:|
-|                                   ![ball1](/img/icc/Blood_Princes_Council/BPC_BIGfireball.gif)                                   | ![ball2](/img/icc/Blood_Princes_Council/BPC_BIGfireball2.gif) |
+| Шар летит в мага, по дороге немного задевает игроков своими  [опаляющими вспышками](https://www.wowhead.com/wotlk/ru/spell=71708) |             Шар прилетел. Почти не шотнул, но снижение урона недостаточно             |
+|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
+|                       ![ball1](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_BIGfireball.gif)                        | ![ball2](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_BIGfireball2.gif) |
 
 </TabItem>
 </Tabs>
@@ -213,13 +215,13 @@ import styles from './council-styles.module.css';
 
 #### Определяемся с теми, кто должен контролировать Кинетические бомбы
 
-Канетические бомбы - это щарики которые меееедленно спускаются с потолка на землю. Чтобы они не упали и не взорвались,
+Кинетические бомбы - это шарики которые меееедленно спускаются с потолка на землю. Чтобы они не упали и не взорвались,
 нужно чтобы по ним нанёсся точечный урон. Обычно на них направляют питомцев Чернокнижников и Охотников. Эти зверята
 автоматически будут "тыкать" бомбу, когда она будет подлетать к земле.
 
 <div className="text--center">
 
-![Kus](/img/icc/Blood_Princes_Council/BPC_kinetic_Kus.gif)
+![Kus](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_kinetic_Kus.gif)
 
 </div>
 
@@ -236,7 +238,6 @@ import styles from './council-styles.module.css';
 от [огня](https://www.wowhead.com/wotlk/ru/spell=48947).
 :::
 
-
 ### Начало боя. Расстановка
 
 #### Талдарам
@@ -252,14 +253,15 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![Tuchi](/img/icc/Blood_Princes_Council/BPC_tuchi.gif)
+![Tuchi](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_tuchi.gif)
 
 </div>
 
 #### Валанар
 
 В начале боя под [заклятием](https://www.wowhead.com/wotlk/ru/spell=70982) крови всегда будет Валанар. Это значит, что
-по рейду под игроками будут спавнится [могучиие вихри](https://www.wowhead.com/wotlk/ru/spell=72039). РДД и Хилам **очень важно**
+по рейду под игроками будут спавнится [могучиие вихри](https://www.wowhead.com/wotlk/ru/spell=72039). РДД и Хилам *
+*очень важно**
 держать /range 12 на запуле (и каждый раз, когда к Валанару
 переходит [заклятие](https://www.wowhead.com/wotlk/ru/spell=70982)).
 
@@ -269,14 +271,14 @@ import styles from './council-styles.module.css';
 
 <div className="text--center">
 
-![Valanar_MDDSpread](/img/icc/Blood_Princes_Council/BPC_Valanar-SpreadMDD.gif)
+![Valanar_MDDSpread](https://www.wowhcb.ru/adepts/icc/Blood_Princes_Council/BPC_Valanar-SpreadMDD.gif)
 
 </div>
 :::
 
 <div className="text--center">
 
-![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.png)
+![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.jpg)
 
 </div>
 
@@ -306,59 +308,68 @@ import styles from './council-styles.module.css';
 <Tabs>
 <TabItem value="Keleset2" label="Келесет" attributes={{className: styles.keleset}}>
 
-Если <span className="dmg-shadow">Келесет</span> получает [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981), то это значит только одно:
-танк <span className="dmg-shadow">Келесета</span> будет получать ОООЧЕНЬ много урона. Если танк не застакал 3 дебаффа [теневого резонанса](https://www.wowhead.com/wotlk/ru/spell=71943),
+Если <span className="dmg-shadow">Келесет</span>
+получает [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981), то это значит только одно:
+танк <span className="dmg-shadow">Келесета</span> будет получать ОООЧЕНЬ много урона. Если танк не застакал 3
+дебаффа [теневого резонанса](https://www.wowhead.com/wotlk/ru/spell=71943),
 то почти гарантированная смерть. Под 3-мя стаками это тоже больно, но зато прохиливаемо.
 
 И, на самом деле, больше ничего не происходит. Это отличная фаза для ДД, чтобы всем подамажить.
 
 :::caution
-Под случайным игроком може заспавнится белая воронка [сотрясающего вихря](https://www.wowhead.com/wotlk/ru/spell=72037), от которой нужно отойти.
+Под случайным игроком може заспавнится белая воронка [сотрясающего вихря](https://www.wowhead.com/wotlk/ru/spell=72037),
+от которой нужно отойти.
 :::
 
 :::danger
-НИ В КОЕМ СЛУЧАЕ НЕЛЬЗЯ КЛИВАТЬ ОБЛАЧКА С [ТЕНЕВЫМИ РЕЗОНАНСАМИ](https://www.wowhead.com/wotlk/ru/spell=71943)!!! Только под ними танк не умрёт с первого каста [копья зловещих теней](https://www.wowhead.com/wotlk/ru/spell=71815).
+НИ В КОЕМ СЛУЧАЕ НЕЛЬЗЯ КЛИВАТЬ ОБЛАЧКА С [ТЕНЕВЫМИ РЕЗОНАНСАМИ](https://www.wowhead.com/wotlk/ru/spell=71943)!!! Только
+под ними танк не умрёт с первого каста [копья зловещих теней](https://www.wowhead.com/wotlk/ru/spell=71815).
 :::
 
 <div className="text--center">
 
-![Keleset_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Keleset.png)
+![Keleset_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Keleset.jpg)
 
 </div>
 
 :::danger
-Если есть шанс, что следующий принц будет Валанар, то нужно заранее РДД и Хилам сделать /range 12! Внимательно смотрим за КД [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981).
+Если есть шанс, что следующий принц будет Валанар, то нужно заранее РДД и Хилам сделать /range 12! Внимательно смотрим
+за КД [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981).
 :::
 
 </TabItem>
 <TabItem value="Valanar2" label="Валанар" attributes={{className: styles.valanar}}>
 
-Для данного принца нужно РДД/Хилам держать спред /range 12! **Обязательно!** Перед смены [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981) если есть
-шанс того, что именно Валанар получит [заклятье](https://www.wowhead.com/wotlk/ru/spell=70981), нужно заранее разбежаться.
+Для данного принца нужно РДД/Хилам держать спред /range 12! **Обязательно!** Перед
+смены [заклятье крови](https://www.wowhead.com/wotlk/ru/spell=70981) если есть
+шанс того, что именно Валанар получит [заклятье](https://www.wowhead.com/wotlk/ru/spell=70981), нужно заранее
+разбежаться.
 
 <div className="text--center">
 
-![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.png)
+![Valanar_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Valanar.jpg)
 
 </div>
 
 </TabItem>
 <TabItem value="Taldaram2" label="Талдаран" attributes={{className: styles.taldaram}}>
 
-Под этого босса нужно наоборот сбежаться всем РДД с Хилами и встать поодаль от Талдарама. 
+Под этого босса нужно наоборот сбежаться всем РДД с Хилами и встать поодаль от Талдарама.
 
-Талдарам будет пускать ОГРОООМНЫЕ шары [жаркого колдовского пламени](https://www.wowhead.com/wotlk/ru/spell=72040). 
+Талдарам будет пускать ОГРОООМНЫЕ шары [жаркого колдовского пламени](https://www.wowhead.com/wotlk/ru/spell=72040).
 Они будут лететь на конкретного человека. Чем дольше этот шар пролетит над головами других игроков, тем меньше урона
-получит жертва (по дороге шар плюётся [опаляющими вспышками](https://www.wowhead.com/wotlk/ru/spell=71708), растрачивая свою мощь).
+получит жертва (по дороге шар плюётся [опаляющими вспышками](https://www.wowhead.com/wotlk/ru/spell=71708), растрачивая
+свою мощь).
 
 :::caution
-Ключевое слово **дольше прилетит**. Можно даже кому-то побежать вслед за шаром, чтобы больше [опаляющих вспышек](https://www.wowhead.com/wotlk/ru/spell=71708)
+Ключевое слово **дольше прилетит**. Можно даже кому-то побежать вслед за шаром, чтобы
+больше [опаляющих вспышек](https://www.wowhead.com/wotlk/ru/spell=71708)
 было прокастовано.
 :::
 
 <div className="text--center">
 
-![Taldaram_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Taldaram.png)
+![Taldaram_plan](/img/icc/Blood_Princes_Council/BPC_Plan_Taldaram.jpg)
 
 </div>
 
