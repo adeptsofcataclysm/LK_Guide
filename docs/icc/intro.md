@@ -7,7 +7,11 @@ description: Introduction page.
 
 # Цитадель Ледяной Короны
 
-![Король лич и снежок](/img/icc/lich_king_snow_INTRO.gif)
+<div className="text--center">
+
+![Король лич и снежок](https://www.wowhcb.ru/adepts/icc/lich_king_snow_INTRO.gif)
+
+</div>
 
 Цитадель Ледяной Короны – это кульминация дополнения Wrath of the Lich King.
 
