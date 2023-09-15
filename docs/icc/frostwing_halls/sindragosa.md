@@ -281,16 +281,63 @@ survival-check".
 
 На первой фазе идёт такой порядок способностей.
 
- - **50-60 c. наземная фазы** 
-   - 10 с - первая [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762) на 6-х людей.
-   - 30 с - применяется [стяжка](https://www.wowhead.com/wotlk/ru/spell=70117) + [обжигающий холод](https://www.wowhead.com/wotlk/ru/spell=70123).
-   - 40 с - вторая [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762) на 6-х людей.
- - **50-60 с. воздушная фазы**
-   - 10 с - 6 людей получают [ледяные метки](https://www.wowhead.com/wotlk/ru/spell=70126).
-   - 18 с - люди становятся в [ледяные склепы](https://www.wowhead.com/wotlk/ru/spell=70157).
-   - 20-40 с - бомбёжка арены 4-я [ледяными бомбами](https://www.wowhead.com/wotlk/ru/spell=69845).
+- **50-60 c. наземная фаза**
+    - Спустя 10 с. после начала наземной фазы на 6-х людей
+      накладывается [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762).
+    - [Освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762) висит 30 с, после неё (или под её конец)
+      применяется [стяжка](https://www.wowhead.com/wotlk/ru/spell=70117) + [обжигающий холод](https://www.wowhead.com/wotlk/ru/spell=70123).
+    - После каста [обжигающего холода](https://www.wowhead.com/wotlk/ru/spell=70123) сразу же
+      накладывается [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762) на 6-х людей. До взлёта остаётся 5-10 с.
+- **50-60 с. воздушная фаза**
+    - Синдрагоса улетает долго, только спустя 10 с. после объявления о начале воздушной фазы люди получают [ледяные метки](https://www.wowhead.com/wotlk/ru/spell=70126).
+    - Спустя 8 с. люди с [метками](https://www.wowhead.com/wotlk/ru/spell=70126) становятся в [ледяные склепы](https://www.wowhead.com/wotlk/ru/spell=70157).
+    - Далее 20 с. будет происходить бомбёжка арены 4-я [ледяными бомбами](https://www.wowhead.com/wotlk/ru/spell=69845).
+    - После 4-й бомбы у рейда есть примерно 10 с. чтобы добить [ледяные склепы](https://www.wowhead.com/wotlk/ru/spell=70157), пока босс приетает и приземляется.
+- **50-60 c. наземная фаза**
+  - Спустя 10 с. после приземления на 6-х людей
+    накладывается [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762).
+  - ...
 
-Порядок строго такой, но тайминги немного плавающие. Вообще, самый опасный момент можно выделить один
- - [Стяжка](https://www.wowhead.com/wotlk/ru/spell=70117) + [обжигающий холод](https://www.wowhead.com/wotlk/ru/spell=70123) в середине наземной фазы.
+И так далее, на 1-й фазе всё достаточно циклично и просто. Порядок строго такой, но тайминги могут немного плавать. 
 
-Он происходит тогда, когда ещё действует первые дебаффы [освобождённой магии](https://www.wowhead.com/wotlk/ru/spell=69762).
+<div className="text--center">
+
+#### 2 Фаза: 35-0%
+
+Синдрагоса больше не взлетит, тайминги её [освобождённой магии](https://www.wowhead.com/wotlk/ru/spell=69762) и [стяжки](https://www.wowhead.com/wotlk/ru/spell=70117)
+меняются. Также теперь заковывает в [ледяной склеп](https://www.wowhead.com/wotlk/ru/spell=70157) случайного игрока. 
+ - Цель для [ледяного склепа](https://www.wowhead.com/wotlk/ru/spell=70157)
+
+</div>
+
+### Расстановка
+
+<Tabs>
+<TabItem value="Zemla" label="Наземная часть">
+
+Босса ставят боком, ДД и Хилы встают примерно в одну пачку. Если на РДД
+кинулась [освобождённая магия](https://www.wowhead.com/wotlk/ru/spell=69762), то они остаются в рейде и не кастуют.
+Если [дебафф](https://www.wowhead.com/wotlk/ru/spell=69762) прилетел на хилов,
+то они выбегают из рейда. Так они смогут хоть немного похилить рейд без особого вреда.
+
+<div className="text--center">
+
+![ground_phase1](/img/icc/Sindragosa/Sindra_ground_phase1.png)
+
+</div>
+
+</TabItem>
+<TabItem value="Vozduh" label="Воздушная часть">
+
+На воздушной фазе 6 человек с [ледяной меткой](https://www.wowhead.com/wotlk/ru/spell=70126) должны встать попарно на
+лестнице. Так рейду будет
+удобнее разбивать глыбы и прятаться от [ледяных бомб](https://www.wowhead.com/wotlk/ru/spell=69845)
+
+<div className="text--center">
+
+![air_phase](/img/icc/Sindragosa/Sindra_air_phase.png)
+
+</div>
+
+</TabItem>
+</Tabs>
