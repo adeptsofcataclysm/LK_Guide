@@ -163,6 +163,14 @@ import styles from './putricide-styles.modules.css';
 Да да да, хоть один и называется <span className="color-orange">облако газа</span> но с виду это просто красный слизнюк.
 Каждый из видов слизнюков появляется под соответствующей колбой.
 
+У обоих слизнюков отсутствует нормальный агролист. Они случайным образом выбирают себе цель в рейде и ползут к ней.
+
+:::caution
+На слизней работает только один контроль, это способность
+куклы [рвотный слизнюк](https://www.wowhead.com/wotlk/ru/spell=70539). Если адд замедлен, то его скорость становится
+ниже чем скорость бега персонажей.
+:::
+
 <div className="text--center">
 
 ![mobs_spawn](/img/icc/Professor_Putricide/PP_mobs_spawn.png)
@@ -171,9 +179,64 @@ import styles from './putricide-styles.modules.css';
 
 <Tabs>
 <TabItem value="red-ooze" label="Облако газа" attributes={{className: styles.gaz}}>
-123
+
+**1 976 450 здоровья**
+
+У <span className="color-orange">облака газа</span> две способности:
+
+- [Газовое вздутие](https://www.wowhead.com/wotlk/ru/spell=70672) **(3 с.)**:слизень 3 с. выбирает
+  случайную цель в рейде, к которой "привязывается". На жертву накладывается 10
+  стаков [газового вздутия](https://www.wowhead.com/wotlk/ru/spell=70672). Каждые 2 с. наносится (1950-2050) X _(кол-во
+  стаков)_ <span className="dmg-nature">
+  природно</span>-<span className="dmg-shadow">тёмного</span> урона. При каждом тике спадает 1
+  стак [вздутия](https://www.wowhead.com/wotlk/ru/spell=70672). Если газовое облако дойдёт до цели, то применится
+  следующая способность
+    - [Испускание газа](https://www.wowhead.com/wotlk/ru/spell=70701) **(мгновенное)**: наносит всем игрокам на арене
+      урон, пропорциональный кол-ву стаков [газового вздутия](https://www.wowhead.com/wotlk/ru/spell=70672) на цели, до
+      которой добралось облако (_урон взрыва = (кол-во стаков) Х 3500_). Урон взрыва <span className="dmg-nature">
+      природно</span>-<span className="dmg-shadow">тёмный</span>.
+
 </TabItem>
 <TabItem value="green-ooze" label="Неустойчивый слизнюк" attributes={{className: styles.ooze}}>
-456
+
+**1 976 450 здоровья**
+
+У <span className="ooze-color">неустойчивого слизнюка</span> две способности:
+
+- [Выделения неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447) **(3 с.)**: слизень 3 с. выбирает
+  случайную цель в рейде, к которой "привязывается". Жертва получает 7313-7687 <span className="dmg-nature">
+  природно</span>-<span className="dmg-shadow">тёмного</span> урона, становится в оцепенение, из которого нельзя выйти
+  обычным
+  способом. Слизень всегда ползёт на свою жертву. Если дошёл, то применится другая способность:
+    - [Взрыв слизнюка](https://www.wowhead.com/wotlk/ru/spell=70492) **(мгновенное)**: слизень взрывается, нанося всем
+      игрокам в радиусе 20 ярдов суммарно 256 250 <span className="dmg-nature">
+      природно</span>-<span className="dmg-shadow">тёмного</span> урона.
+
+<div className="text--center">
+
+![volatile_ooze_adhesive](/img/icc/Professor_Putricide/PP_volatile_ooze_adhesive.gif)
+
+</div>
+
+:::info
+Единственное что перемещает из этого оцепенения это [блинк](https://www.wowhead.com/wotlk/ru/spell=1953) мага
+или [телепорт](https://www.wowhead.com/wotlk/ru/spell=48020) чернокнижника.
+:::
+
+:::caution
+Особенности данного слизнюка:
+
+- После [взрыва](https://www.wowhead.com/wotlk/ru/spell=70492) он сразу же начнёт
+  применять [выделения неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447) для выбора новой цели.
+  Таким образом он будет каждый раз выбирать новую цель и ползти к ней, пока не умрёт.
+- [Божественный щит](https://www.wowhead.com/wotlk/ru/spell=642)
+  или [ледяная глыба](https://www.wowhead.com/wotlk/ru/spell=45438) сбросит
+  дебафф [выделения неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447). Тогда слизень начнёт
+  применять [выделения неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447) для выбора новой цели.
+- Если жертва умрёт, тогда слизнюк выберет следующую цель
+  через [выделение неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447).
+
+:::
+
 </TabItem>
 </Tabs>
