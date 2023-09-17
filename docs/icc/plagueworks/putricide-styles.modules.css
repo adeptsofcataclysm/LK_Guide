@@ -1,0 +1,13 @@
+.gaz {
+    color: #ff5a03;
+}
+.gaz[aria-selected='true'] {
+    border-bottom-color: #ff5a03;
+}
+
+.ooze {
+    color: #35a354;
+}
+.ooze[aria-selected='true'] {
+    border-bottom-color: #35a354;
+}
