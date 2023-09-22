@@ -152,8 +152,9 @@ import styles from './putricide-styles.modules.css';
   Можно применить как на Мерзоцида так и на аддов-слизней.
 
 :::caution
-Не стакается с [сандерами](https://www.wowhead.com/wotlk/ru/spell=7386)
-или [ослаблением доспеха](https://www.wowhead.com/wotlk/ru/spell=8647).
+Дебафф от [взмаха мутанта](https://www.wowhead.com/wotlk/ru/spell=70542) не стакается
+с [сандерами](https://www.wowhead.com/wotlk/ru/spell=7386)
+или [ослаблением доспеха](https://www.wowhead.com/wotlk/ru/spell=8647) (увы).
 :::
 
 ### Механика аддов-слизняки
@@ -186,7 +187,7 @@ import styles from './putricide-styles.modules.css';
 :::
 
 :::caution
-На слизней работает только один контроль, это способность
+На слизней работает только один контроль, это замедление на 50% от способности
 куклы [рвотный слизнюк](https://www.wowhead.com/wotlk/ru/spell=70539). Если адд замедлен, то его скорость становится
 ниже чем скорость бега персонажей.
 :::
@@ -219,8 +220,8 @@ import styles from './putricide-styles.modules.css';
 :::caution
 Особенности <span className="color-orange">облака газа</span>:
 
-- После [испускания газа](https://www.wowhead.com/wotlk/ru/spell=70701) он сразу же начнёт
-  применять [газовое вздутие](https://www.wowhead.com/wotlk/ru/spell=70672) для выбора новой цели.
+- После [испускания газа](https://www.wowhead.com/wotlk/ru/spell=70701) (взрыв) он сразу же начнёт 3 с.
+  привязываться к другому игроку через [газовое вздутие](https://www.wowhead.com/wotlk/ru/spell=70672)
   Таким образом <span className="color-orange">облака газа</span> будет каждый раз выбирать новую цель и ползти к ней,
   пока не умрёт.
 - Если по какой-либо причине на цели исчезли стаки [газового вздутия](https://www.wowhead.com/wotlk/ru/spell=70672)
@@ -240,12 +241,12 @@ import styles from './putricide-styles.modules.css';
 
 - [Выделения неустойчивого слизнюка](https://www.wowhead.com/wotlk/ru/spell=70447) **(3 с.)**: слизень 3 с. выбирает
   случайную цель в рейде, к которой "привязывается". Жертва получает 7313-7687 <span className="dmg-nature">
-  природно</span>-<span className="dmg-shadow">тёмного</span> урона, становится в оцепенение, из которого нельзя выйти
+  природно</span>-<span className="dmg-shadow">тёмного</span> урона раз в секунду и получает оцепенение, из которого нельзя выйти
   обычным
   способом. Слизень всегда ползёт на свою жертву. Если дошёл, то применится другая способность:
     - [Взрыв слизнюка](https://www.wowhead.com/wotlk/ru/spell=70492) **(мгновенное)**: слизень взрывается, нанося всем
       игрокам в радиусе 20 ярдов суммарно 256 250 <span className="dmg-nature">
-      природно</span>-<span className="dmg-shadow">тёмного</span> урона.
+      природно</span>-<span className="dmg-shadow">тёмного</span> урона (урон делится между игроками).
 
 <div className="text--center">
 
@@ -276,12 +277,11 @@ import styles from './putricide-styles.modules.css';
 </TabItem>
 </Tabs>
 
-### Механика переходки
+### Механика переходок
 
 На 80% и 35% Мерзоцида происходит переходка на следующую фазу. Происходит следующее:
 
-1. Босс читает [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), после которого появляюься *
-   *ОБА** слизнюка.
+1. Босс читает [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), после которого появляюься **ОБА** слизнюка.
 2. Босс бежит к столу и 30 с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время он ничего не
    делает рейду, абсолютно ничего.
 3. На одной части игроков накладывается [слюзнюкообразное состояние](https://www.wowhead.com/wotlk/ru/spell=70352), на
@@ -296,7 +296,7 @@ import styles from './putricide-styles.modules.css';
 :::caution
 Таким образом переходка заключается в том, чтобы рейд за 30 с. разобрался одновременно с <span className="color-orange">
 облаком газа</span> и <span className="ooze-color">неустойчивым слизнюком</span>. Босс ждать не будет, он сразу же
-перейдёт на след фазу
+перейдёт на след фазу после [создания варева](https://www.wowhead.com/wotlk/ru/spell=71704)
 :::
 
 :::danger
@@ -321,23 +321,117 @@ import styles from './putricide-styles.modules.css';
 - [Безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) **(мгновенное)**: накладывает на случайного человека
   чуму, которая каждую секунду наносит урон от <span className="dmg-shadow">тьмы</span>. Если рядом с заражённым в
   радиусе 3 ярдов будет находится другой персонаж, то [чума](https://www.wowhead.com/wotlk/ru/spell=70911) перекинется
-  на него. Мерзоцид накладывает [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) в начале и потом каждую 1 мин.
+  на него. [Чума](https://www.wowhead.com/wotlk/ru/spell=70911) висит 1 мин. и при перескакивании не обновляет таймер
+  действия.Мерзоцид накладывает [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) в начале и потом каждую 1 мин.
   При "выздоровлении" останется дебафф:
     - [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953): появляется на человеке, если с него
       спала [чума](https://www.wowhead.com/wotlk/ru/spell=70911). Увеличивает получаемый урон
       от [чумы](https://www.wowhead.com/wotlk/ru/spell=70911) на 250%, висит 1 мин. Стакается неограничено.
 
+:::info
+"Не обновляет таймер действия" значит, что если на игроке [чума](https://www.wowhead.com/wotlk/ru/spell=70911) дотикала
+до 45 с. то при перескакивании она не обновится до 1 мин. а останется на 45 с. и будет тикать дальше. Таким
+образом [чума](https://www.wowhead.com/wotlk/ru/spell=70911) в рейде существует ровно 1 мин. но Мерзоцид с другой
+стороны будет накладывать [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) тоже раз в 1 мин.
+:::
+
 <Tabs>
 <TabItem value="1phase" label="1 Фаза: 100-80%">
-123
+
+Никаких других способностей
+кроме [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911)
+и
+[непредсказуемого эксперимента](https://www.wowhead.com/wotlk/ru/spell=70351).
+
 </TabItem>
 <TabItem value="2phase" label="2 Фаза: 80-35%">
-123
+
+Помимо [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911)
+и [непредсказуемого эксперимента](https://www.wowhead.com/wotlk/ru/spell=70351) появляется другие:
+
+- [Вязкая гадость](https://www.wowhead.com/wotlk/ru/spell=70853) **(мгновенное)**: Мерзоцид кидает преимущественно в РДД
+  кемп под случайных игроков 3
+  прыгующих слизневых шарика (в народе "пельмени"). Взрываются в радиусе 5 ярдов на
+  23400-24600 <span className="dmg-nature">
+  природно</span>-<span className="dmg-shadow">тёмного</span> урона и замедляют скорость каста и скорость атаки на 250%
+  на 20 с. Данная способность применяется каждые 20 с.
+  :::caution
+  Если в рендж зоне будет менее 8 игроков, то [пельмени](https://www.wowhead.com/wotlk/ru/spell=70853) могут прилететь в
+  МДД кемп.
+  :::
+
+<div className="text--center">
+
+![malleable_goo](/img/icc/Professor_Putricide/PP_malleable_goo.gif)
+
+</div>
+
+- [Удушливый газ](https://www.wowhead.com/wotlk/ru/spell=71278) **(мгновенное)**: Мерзоцид оставляет под собой две
+  оранжевые колбы-газовые бомбы. Пока они находятся на земле, то испускают газ каждую секунду в небольшом радиусе. Если
+  игрок
+  заденет газ, но на него наложится [удушливый газ](https://www.wowhead.com/wotlk/ru/spell=71278). Это ДоТка, которая
+  наносит 6825-7175 <span className="dmg-shadow">тёмного</span> урона и снижает вероятность попадания на 100% на 15 с.
+  газовые бомбы ставятся каждые 35 с.
+    - Через 10 с. после установки произойдёт [взрыв газовых бомб](https://www.wowhead.com/wotlk/ru/spell=71279). Его
+      радиус составляет 10 ярдов, наносит 29250-30750 <span className="dmg-shadow">тёмного</span> урона и накладывают
+      дебафф, который снижает вероятность попасть на 100% на 20 с.
+
+<div className="text--center">
+
+![choking_gas](/img/icc/Professor_Putricide/PP_choking_gas.gif)
+
+</div>
+
 </TabItem>
 <TabItem value="3phase" label="3 Фаза: 35-0%">
-123
+
+:::caution
+На 3-й фазе ни <span className="color-orange">облака газа</span> ни <span className="ooze-color">
+неустойчивые
+слизнюки</span> не появляются, т.к. профессор перестаёт
+применять [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351).
+:::
+
+[Лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911),
+колбы с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278) и "
+пельмени" [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853) остаются. Появляются следующие способности:
+
+- [Сила мутанта](https://www.wowhead.com/wotlk/ru/spell=71603) **(бафф боса)**: на 3-й фазе Мерзоцид мутировал
+  настолько, что его <span className="dmg-phis">физический</span> урон и скорость атаки повышены на 50%. Каждые 10 с. накладывает на активного танка
+  дебафф:
+    - [Мутировавшая чума](https://www.wowhead.com/wotlk/ru/spell=72451) **(мгновенное)**: человек с данным дебаффом
+      наносит <span className="dmg-nature">
+      природно</span>-<span className="dmg-shadow">тёмный</span> урон всему рейду раз в 3 с. Каждый новый стак утраивает
+      наносимый рейду урон. Числа такие: <br/>
+      1 стак [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) - 360 всем раз в 3 с. <br/> 2
+      стака [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) - 1080 всем раз в 3 с. <br/> 3
+      стака [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) - 3240 всем раз в 3 с. <br/> 4
+      стака [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) - 9720 всем раз в 3 с. <br/> 5
+      стаков [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) - 29160 всем раз в 3 с.
+
+<div className="text--center">
+
+![mutated_plague](/img/icc/Professor_Putricide/PP_mutated_plague.gif)
+
+</div>
+
 </TabItem>
 </Tabs>
 
+## Подготовка к энкаунтеру
 
+### Что делать со скачущей Безудержной чумой
 
+### Расстановка
+
+## Тактика
+
+### 1 Фаза (100-80%)
+
+### Переходка
+
+### 2 Фаза (80-35%)
+
+### Переходка
+
+### 3 Фаза (35-0%)
