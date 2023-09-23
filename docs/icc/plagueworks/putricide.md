@@ -16,26 +16,23 @@ import styles from './putricide-styles.modules.css';
 
 </div>
 
-# Профессор Мерзоцид
-
 Профессор Мерзоцид — финальный босс Чумодельни Цитадели Ледяной Короны.
 
 ## Немного про бой
 
 Данный энкаунтер многофазный, на нём аж 3 фазы. Нужно немало ДПСа и много-много бегать, куча разнообразных способностей,
-необходимо
-следить за всем (особенно за слизнями).
+необходимо следить за всем (особенно за слизнями).
 
 - **Механика "куклы" (она же "абома","обама" от abomination):** если игрок использует стол с реагентами, то через
   некоторое время он превратится в мутировавшее
-  поганище ([мутация](https://www.wowhead.com/wotlk/ru/spell=70311)). Панелька скилов заменяется на панельку "
-  транспорта". У куклы следующие основные способности (есть третья но она просто урон наносит и броню срезает):
+  поганище ([мутация](https://www.wowhead.com/wotlk/ru/spell=70311)). Панелька способностей заменяется на панельку 
+  "транспорта". У куклы следующие основные способности (есть третья, но она просто урон наносит и броню срезает):
     - [съесть слизнюка](https://www.wowhead.com/wotlk/ru/spell=70360): профессор будет создавать лужи слизи, которые
       неограниченно растут. Кукле нужно всасывать эти лужи через данную способность.
     - [рвотный слизнюк](https://www.wowhead.com/wotlk/ru/spell=70539): с боков арены стоят огромные колбы, из которых
       будут вылезать красные и зелёные слизнюки. Они очень быстрые, и их нужно замедлять. Данная способность куклы
       их замедляет (это единственное замедление которое работает на аддов-слизней).
-- **Механика слизней:** кстати о слизнях. В течении 1 и 2 фазы из колб будут появлятся слизни.
+- **Механика слизней:** кстати о слизнях. В течении 1 и 2 фазы из колб будут появляться слизни.
     - **Слева - облако газа (на вид это красный слизнюк):** при появлении накладывает на случайного игрока 10
       стаков [газовых вздутий](https://www.wowhead.com/wotlk/ru/spell=70672), которые с течением времени спадают.
       облако газа идёт строго к данному игроку. Если оно коснётся персонажа,
@@ -57,29 +54,29 @@ import styles from './putricide-styles.modules.css';
       которые всегда
       растут (человек-кукла должен их [съедать](https://www.wowhead.com/wotlk/ru/spell=70360)). Периодически он будет
       кастовать [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), после которого вызывается
-      либо красный слизнюк либо зелёный
+      либо красный слизнюк, либо зелёный
     - **Переходка:** на 80% здоровья профессор
       сделает [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), при этом вызовется два
       слизнюка. На одной части рейда
       повесится [слюзнюкообразное состояние](https://www.wowhead.com/wotlk/ru/spell=70352) (вас может затаргетить
-      зелёныйслизень и вы можете наносить урон только ему) а на
+      зелёный слизень и вы можете наносить урон только ему) а на
       другой [газообразное](https://www.wowhead.com/wotlk/ru/spell=70353) (вас может затаргетить облако газа и вы можете
-      наносить урон только газовому слизню). Пока рейд разбирается с слизнюками, Мерзоцид идёт к столу и 30
+      наносить урон только газовому слизню). Пока рейд разбирается со слизнюками, Мерзоцид идёт к столу и 30
       с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). После этого он мутирует и начнётся вторая фаза.
 - **Вторая фаза: 80-35%**
     - **Основная часть:** все способности остаются, однако теперь Мерзоцид будет кидать в РДД кемп зелёные
       шарики [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=72295), от которых нужно уворачиваться (как на
       Тухлопузе). Помимо этого босс будет создавать под собой
-      две [химические бомбы](https://www.wowhead.com/wotlk/ru/spell=71255), которые через некоторое время взорвуться в
+      две [химические бомбы](https://www.wowhead.com/wotlk/ru/spell=71255), которые через некоторое время взорвутся в
       небольшом АоЕ.
     - **Переходка:** на 35% профессор сделает такую же переходку, как и после 1-й фазы.
 - **Третья фаза: 35-0%**
-    - Профессор болше не будет проводить [непредсказуемые эксперименты](https://www.wowhead.com/wotlk/ru/spell=70351),
-      так что никакие слизни болше не появятся. [Вязкая гадость](https://www.wowhead.com/wotlk/ru/spell=72295)
+    - Профессор больше не будет проводить [непредсказуемые эксперименты](https://www.wowhead.com/wotlk/ru/spell=70351),
+      так что никакие слизни больше не появятся. [Вязкая гадость](https://www.wowhead.com/wotlk/ru/spell=72295)
       и [химические бомбы](https://www.wowhead.com/wotlk/ru/spell=71255) остаются. Человек-кукла перейдёт в нормальное
-      состояние, больше никто не сможет
-      стать куклой. Тем самым [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346) будут расти неограничено (
-      софт-энрейдж). Помимо всего на активноо танка будет
+      состояние, больше никто не сможет стать куклой. Тем 
+      самым [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346) будут расти неограниченно (
+      софт-энрейдж). Помимо всего на активного танка будет
       накладываться [мутировавшая чума](https://www.wowhead.com/wotlk/ru/spell=72451) на 3 мин. Эта фигня будет наносить
       урон всему рейду (тем больше стаков - тем больше урона по рейду), так что танки должны меняться. С другой стороны
       если стаки спадут (или их чем-то сбросить, то профессор сильно отхилится (отхил тоже зависит от кол-ва стаков).
@@ -87,12 +84,11 @@ import styles from './putricide-styles.modules.css';
 Помимо всего прочего в героике Мерзоцид будет кидать
 в рейд [безудержную чуму](https://www.wowhead.com/wotlk/ru/spell=70911). Это ДоТка, которая висит 1 минуту. Её урон
 возрастает с течением времени, что в конце концов приводит к смерти игрока. У данной чумы есть особенность: она может
-перейти к другому
-игроку, однако при переходе она оставит на выздоровевшем персонаже
+перейти к другому игроку, однако при переходе она оставит на выздоровевшем персонаже
 дебафф [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953).
 Он увеличивает получаемый урон от [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911) на 250 %. Таким
 образом, эту [безудержную чуму](https://www.wowhead.com/wotlk/ru/spell=70911)
-нужно по очереде передавать от игрока к игроку, при этом каждый раз нужно заражать всё новые и новые цели. Когда со
+нужно по очереди передавать от игрока к игроку, при этом каждый раз нужно заражать всё новые и новые цели. Когда со
 старых игроков спадёт [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953),
 то на них можно опять вешать [безудержную чуму](https://www.wowhead.com/wotlk/ru/spell=70911).
 
@@ -107,10 +103,7 @@ import styles from './putricide-styles.modules.css';
 :::danger
 <div className="text--center">
 
-<b><i>
-
-НЕЛЬЗЯ! ДИСПЕЛИТЬ! [МУТАЦИЮ](https://www.wowhead.com/wotlk/ru/spell=70311)!
-</i></b>
+***НЕЛЬЗЯ! ДИСПЕЛИТЬ! [МУТАЦИЮ](https://www.wowhead.com/wotlk/ru/spell=70311)!***
 
 </div>
 :::
@@ -123,7 +116,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![drink_me](/img/icc/Professor_Putricide/PP_drink_me.gif)
+![drink_me](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_drink_me.gif)
 
 </div>
 
@@ -131,11 +124,11 @@ import styles from './putricide-styles.modules.css';
 
 - [Съесть слизнюка](https://www.wowhead.com/wotlk/ru/spell=70360) **(мгновенное)**: кукла съедает
   часть [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), которую создаёт Мерзоцид. Можно выпить лужу
-  полностью. Каждый глоток даёт куле 4 <span className="debuf-disease">энергии слизи</span>
+  полностью. Каждый глоток даёт кукле 4 <span className="debuf-disease">энергии слизи</span>
 
 <div className="text--center">
 
-![eat_ooze](/img/icc/Professor_Putricide/PP_eat_ooze.gif)
+![eat_ooze](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_eat_ooze.gif)
 
 </div>
 
@@ -149,7 +142,7 @@ import styles from './putricide-styles.modules.css';
   подходить к адду, чтобы его замедлить).
 - [Взмах мутанта](https://www.wowhead.com/wotlk/ru/spell=70542) **(мгновенный удар)**: наносит цели 100% урона от
   оружия (сколько я пока хз) и снижает сопротивляемость цели к физическому урону на 4% на 20 с. Может стакаться 5 раз.
-  Можно применить как на Мерзоцида так и на аддов-слизней.
+  Можно применить как на Мерзоцида, так и на аддов-слизней.
 
 :::caution
 Дебафф от [взмаха мутанта](https://www.wowhead.com/wotlk/ru/spell=70542) не стакается
@@ -171,16 +164,12 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-<b><i>
+***[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
+неустойчивый слизнюк</span> выливаться из огромной зелёной колбы. У оранжевой колбы появляется
+соответственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
+основном у зелёной колбы).***
 
-[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
-неустойчивый слизнюк</span> выливаться из огромной зелёной колбы. У оранжевой комбы появляется
-соответстветственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
-основном у зелёной колбы).
-
-</i></b>
-
-![experiment](/img/icc/Professor_Putricide/PP_experiment.gif)
+![experiment](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_experiment.gif)
 
 </div>
 
@@ -194,7 +183,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![mobs_spawn](/img/icc/Professor_Putricide/PP_mobs_spawn.png)
+![mobs_spawn](/img/icc/Professor_Putricide/PP_mobs_spawn.jpg)
 
 </div>
 
@@ -251,12 +240,12 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![volatile_ooze_adhesive](/img/icc/Professor_Putricide/PP_volatile_ooze_adhesive.gif)
+![volatile_ooze_adhesive](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_volatile_ooze_adhesive.gif)
 
 </div>
 
 :::info
-Единственное что перемещает из этого оцепенения это [блинк](https://www.wowhead.com/wotlk/ru/spell=1953) мага
+Единственное, что перемещает из этого оцепенения это [блинк](https://www.wowhead.com/wotlk/ru/spell=1953) мага
 или [телепорт](https://www.wowhead.com/wotlk/ru/spell=48020) чернокнижника.
 :::
 
@@ -282,7 +271,7 @@ import styles from './putricide-styles.modules.css';
 
 На 80% и 35% Мерзоцида происходит переходка на следующую фазу. Происходит следующее:
 
-1. Босс читает [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), после которого появляюься *
+1. Босс читает [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), после которого появляются *
    *ОБА** слизнюка.
 2. Босс бежит к столу и 30 с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время он ничего не
    делает рейду, абсолютно ничего.
@@ -318,17 +307,17 @@ import styles from './putricide-styles.modules.css';
 
 | Появление [луж слизи](https://www.wowhead.com/wotlk/ru/spell=70346) (на 1-й и 2-й фазе их можно [пить](https://www.wowhead.com/wotlk/ru/spell=70360)) | [Лужи](https://www.wowhead.com/wotlk/ru/spell=70346) на 3-й фазе (на 3-й фазе их нельзя [пить](https://www.wowhead.com/wotlk/ru/spell=70360)) |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                           ![slime_puddle](/img/icc/Professor_Putricide/PP_slime_puddle.gif)                                           |                                   ![slime_puddle_BIG](/img/icc/Professor_Putricide/PP_slime_puddle_BIG.gif)                                   |
+|                               ![slime_puddle](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_slime_puddle.gif)                               |                       ![slime_puddle_BIG](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_slime_puddle_BIG.gif)                       |
 
 - [Безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) **(мгновенное)**: накладывает на случайного человека
   чуму, которая каждую секунду наносит урон от <span className="dmg-shadow">тьмы</span>. Если рядом с заражённым в
-  радиусе 3 ярдов будет находится другой персонаж, то [чума](https://www.wowhead.com/wotlk/ru/spell=70911) перекинется
+  радиусе 3 ярдов будет находиться другой персонаж, то [чума](https://www.wowhead.com/wotlk/ru/spell=70911) перекинется
   на него. [Чума](https://www.wowhead.com/wotlk/ru/spell=70911) висит 1 мин. и при перескакивании не обновляет таймер
-  действия.Мерзоцид накладывает [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) в начале и потом каждую 1 мин.
+  действия. Мерзоцид накладывает [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) в начале и потом каждую 1 мин.
   При "выздоровлении" останется дебафф:
     - [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953): появляется на человеке, если с него
       спала [чума](https://www.wowhead.com/wotlk/ru/spell=70911). Увеличивает получаемый урон
-      от [чумы](https://www.wowhead.com/wotlk/ru/spell=70911) на 250%, висит 1 мин. Стакается неограничено.
+      от [чумы](https://www.wowhead.com/wotlk/ru/spell=70911) на 250%, висит 1 мин. Стакается неограниченно.
 
 :::info
 "Не обновляет таймер действия" значит, что если на игроке [чума](https://www.wowhead.com/wotlk/ru/spell=70911) дотикала
@@ -338,16 +327,12 @@ import styles from './putricide-styles.modules.css';
 :::
 
 :::caution
-При
-использовании [бабла](https://www.wowhead.com/wotlk/ru/spell=642), [глыбы](https://www.wowhead.com/wotlk/ru/spell=45438)
-или [плаща теней](https://www.wowhead.com/wotlk/ru/spell=31224) [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911)
-не исчезнет но перескочит на другую цель (однако, данные способности снимут
-стаки [острой чумы](https://www.wowhead.com/wotlk/ru/spell=70953))
+При использовании [бабла](https://www.wowhead.com/wotlk/ru/spell=642), 
+[глыбы](https://www.wowhead.com/wotlk/ru/spell=45438) или [плаща теней](https://www.wowhead.com/wotlk/ru/spell=31224) 
+[безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) не исчезнет, но перескочит на другую цель 
+(однако, данные способности снимут стаки [острой чумы](https://www.wowhead.com/wotlk/ru/spell=70953))
 
-<b>
-
-[Безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) пропадёт только если заразившийся игрок умер.
-</b>
+***[Безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) пропадёт только если заразившийся игрок умер.***
 :::
 
 :::danger
@@ -361,7 +346,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![unbound_plague](/img/icc/Professor_Putricide/PP_unbound_plague.gif)
+![unbound_plague](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_unbound_plague.gif)
 
 </div>
 :::
@@ -385,7 +370,7 @@ import styles from './putricide-styles.modules.css';
 
 - [Вязкая гадость](https://www.wowhead.com/wotlk/ru/spell=70853) **(мгновенное)**: Мерзоцид кидает преимущественно в РДД
   кемп под случайных игроков 3
-  прыгующих слизневых шарика (в народе "пельмени"). Взрываются в радиусе 5 ярдов на
+  прыгающих слизневых шарика (в народе "пельмени"). Взрываются в радиусе 5 ярдов на
   23400-24600 <span className="dmg-nature">
   природно</span>-<span className="dmg-shadow">тёмного</span> урона и замедляют скорость каста и скорость атаки на 250%
   на 20 с. Данная способность применяется каждые 20 с.
@@ -396,7 +381,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![malleable_goo](/img/icc/Professor_Putricide/PP_malleable_goo.gif)
+![malleable_goo](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_malleable_goo.gif)
 
 </div>
 
@@ -412,7 +397,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![choking_gas](/img/icc/Professor_Putricide/PP_choking_gas.gif)
+![choking_gas](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_choking_gas.gif)
 
 </div>
 
@@ -421,14 +406,14 @@ import styles from './putricide-styles.modules.css';
 
 :::caution
 На 3-й фазе ни <span className="color-orange">облака газа</span> ни <span className="ooze-color">
-неустойчивые
-слизнюки</span> не появляются, т.к. профессор перестаёт
+неустойчивые слизнюки</span> не появляются, т.к. профессор перестаёт
 применять [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351).
 :::
 
-[Лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911),
-колбы с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278) и "
-пельмени" [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853) остаются. Появляются следующие способности:
+[Лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346), 
+[безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911),
+колбы с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278) 
+и "пельмени" [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853) остаются. Появляются следующие способности:
 
 - [Сила мутанта](https://www.wowhead.com/wotlk/ru/spell=71603) **(бафф боса)**: на 3-й фазе Мерзоцид мутировал
   настолько, что его <span className="dmg-phis">физический</span> урон и скорость атаки повышены на 50%. Каждые 10 с.
@@ -446,14 +431,12 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![mutated_plague](/img/icc/Professor_Putricide/PP_mutated_plague.gif)
+![mutated_plague](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_mutated_plague.gif)
 
 </div>
 
 :::caution
-Если игрок с [мутировавшей чумой](https://www.wowhead.com/wotlk/ru/spell=72451) умрёт, то Мерзоцид отхилится на (
-внимание) 2 1000 000
-здоровья за каждый стак.
+Если игрок с [мутировавшей чумой](https://www.wowhead.com/wotlk/ru/spell=72451) умрёт, то Мерзоцид отхилится на (внимание) 2 1000 000 здоровья за каждый стак.
 :::
 
 </TabItem>
@@ -478,24 +461,20 @@ import styles from './putricide-styles.modules.css';
 ### Что делать со скачущей Безудержной чумой и Расстановка
 
 Напомню, что [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) это ДоТка, которая может перескакивать от
-одного игрока
-к другому, при этом оставляя на выздоровевшем персонаже
-дебафф [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953), которая
-увеличивает получаемый урон от [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911).
+одного игрока к другому, при этом оставляя на выздоровевшем персонаже
+дебафф [острая чума](https://www.wowhead.com/wotlk/ru/spell=70953). Дебафф увеличивает получаемый 
+урон от [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911).
 
 Суть в том, чтобы передавать эту [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) от одного игрока к другому (не
 получится вечно держать её на себе, её урон возрастает и уже на 15 с. она шотает заразившегося персонажа). **Крайне не
-рекомендуется**
-передавать [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) на игрока
+рекомендуется** передавать [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) на игрока
 с [острой чумой](https://www.wowhead.com/wotlk/ru/spell=70953).
 
-В идеале нужно
-заразить "чистого" персонажа, на которой [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) начнёт
-потихоньку тикать и после 8-14 с. (в зависимости от класса) нужно её передать
-другому "чистому" игроку.
+В идеале нужно заразить "чистого" персонажа, на котором [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) 
+начнёт потихоньку тикать и после 8-14 с. (в зависимости от класса) нужно её передать другому "чистому" игроку.
 
 :::caution
-Также напоминаю, что от [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) не пропадёт, если
+Также напоминаю, что [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) не пропадёт, если
 использовать [бабл](https://www.wowhead.com/wotlk/ru/spell=642), [глыбу](https://www.wowhead.com/wotlk/ru/spell=45438)
 или [плащ теней](https://www.wowhead.com/wotlk/ru/spell=31224), она просто перескочит на другого человека.
 :::
@@ -516,11 +495,12 @@ import styles from './putricide-styles.modules.css';
 <Tabs>
 <TabItem value="1variant" label="Импровизируем">
 
-РДД с Хилами должны встать расспреданно в верхней части арены, Профессора следует держать под зелёной колбой.
+РДД и Лекари должны встать распределённо в верхней части арены, Профессора следует держать под зелёной колбой.
 
 <div className="text--center">
 
-![unbound_plague_plan1](/img/icc/Professor_Putricide/PP_unbound_plague_plan1.png)
+![unbound_plague_plan1](/img/icc/Professor_Putricide/PP_unbound_plague_plan1.jpg)
+
 </div>
 
 Люди сами должны следить и передавать друг другу [чуму](https://www.wowhead.com/wotlk/ru/spell=70911). Нужно следовать
@@ -536,18 +516,17 @@ import styles from './putricide-styles.modules.css';
 получится сказать "вот ты, выйди в РДД кемп" т.к. данная болячка скачет с безумной скоростью. Поэтому нужно
 спреднуться, чтобы локализовать заражение.
 <div className="text--center">
-<b><i>
 
-Невозможно нормально вынести [чуму](https://www.wowhead.com/wotlk/ru/spell=70911) если она скачет в стакнувшемся
-кемпе (на гифке пример с РДД кемпом, который попробовал встать кучно)
-</i></b>
+***Невозможно нормально вынести [чуму](https://www.wowhead.com/wotlk/ru/spell=70911), если она скачет в стакнувшемся
+кемпе (на гифке пример с РДД кемпом, который попробовал встать кучно)***
 
-![unbound_plague](/img/icc/Professor_Putricide/PP_unbound_plague.gif)
+![unbound_plague](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_unbound_plague.gif)
+
 </div>
 :::
 
 - РДД/Хилу с [безудержной чумой](https://www.wowhead.com/wotlk/ru/spell=70911) нужно терпеть 8-12 с. после чего следует
-  заразить "читсого" РДД/хила.
+  заразить "чистого" РДД/хила.
 - Если [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911) оказалась на игроке с
   дебаффом [острой чумы](https://www.wowhead.com/wotlk/ru/spell=70953), то нужно **немедленно** передать её кому-то
   другому (иначе игрок просто подохнет через 3-4 с.)
@@ -566,7 +545,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![unbound_plague_plan2](/img/icc/Professor_Putricide/PP_unbound_plague_plan2.png)
+![unbound_plague_plan2](/img/icc/Professor_Putricide/PP_unbound_plague_plan2.jpg)
 </div>
 
 Среди игроков в карантинной зоне следует оставить классы с КДшками (ШП
@@ -576,23 +555,23 @@ import styles from './putricide-styles.modules.css';
 
 - РДД/Хилу в карантинной зоне нужно терпеть 10-12 с.
   терпеть [безудержную чуму](https://www.wowhead.com/wotlk/ru/spell=70911), после чего следует
-  заразить "читсого" РДД/хила. Так нужно делать по цепочке, пока [чума](https://www.wowhead.com/wotlk/ru/spell=70911)
-  полнстью не исчезнет.
+  заразить "чистого" РДД/хила. Так нужно делать по цепочке, пока [чума](https://www.wowhead.com/wotlk/ru/spell=70911)
+  полностью не исчезнет.
 
-| <span className="dmg-nature">Плюсы</span>                                                                  | <span className="dmg-fire">Минусы</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Урон от [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911) контролируем и сведён к минимуму. | Данный подход сильно уязвим к непредвиденным  перемещениям рейда. [Взрыв зелёного слизнюка](https://www.wowhead.com/wotlk/ru/spell=70492) может принести в карантинную зону лишних людей. Если <span className="color-orange">облако газа</span> или <span className="ooze-color">неустойчивый слизнюк</span> выберет в таргет кого-то из карантинной зоны, то этозаставит всех игроков в ней двигаться что оооочень плохо скажется на контроле над [безудержной чумой](https://www.wowhead.com/wotlk/ru/spell=70911) |
+| <span className="dmg-nature">Плюсы</span>                                                                  | <span className="dmg-fire">Минусы</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Урон от [безудержной чумы](https://www.wowhead.com/wotlk/ru/spell=70911) контролируем и сведён к минимуму. | Данный подход сильно уязвим к непредвиденным  перемещениям рейда. [Взрыв зелёного слизнюка](https://www.wowhead.com/wotlk/ru/spell=70492) может принести в карантинную зону лишних людей. Если <span className="color-orange">облако газа</span> или <span className="ooze-color">неустойчивый слизнюк</span> выберет в таргет кого-то из карантинной зоны, то это заставит всех игроков в ней двигаться, что оооочень плохо скажется на контроле над [безудержной чумой](https://www.wowhead.com/wotlk/ru/spell=70911) |
 
 </TabItem>
 </Tabs>
 
 ## Тактика
 
-Бой динамичный, нужно немло двигаться (особенно на 2 фазе и ОСОБЕННО на 3-й фазе). Основную опасность представляют не
+Бой динамичный, нужно немало двигаться (особенно на 2 фазе и ОСОБЕННО на 3-й фазе). Основную опасность представляют не
 всякие там [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346),
-или [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911), или колбы-бомбы
-с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278), или "
-пельмени" [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853).
+или [безудержная чума](https://www.wowhead.com/wotlk/ru/spell=70911), 
+или колбы-бомбы с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278), 
+или "пельмени" [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853).
 
 Адды <span className="color-orange">облака газа</span> и <span className="ooze-color">неустойчивые слизнюки</span> - вот
 основная головная боль
@@ -602,25 +581,23 @@ import styles from './putricide-styles.modules.css';
 
 Бой начинается с того, что МТ берёт Мерзоцида и отводит под зелёную колбу. РДД и Хилы встают расспредано в верхней части
 арены. ОТ подходит к столу, кликает на него и ждёт немного. Через некоторое время он
-станет [мутацировавшим](https://www.wowhead.com/wotlk/ru/spell=70311).
+станет [мутировавшим](https://www.wowhead.com/wotlk/ru/spell=70311).
 
 :::danger
 <div className="text--center">
 
-<b><i>
-
-НЕЛЬЗЯ! ДИСПЕЛИТЬ! [МУТАЦИЮ](https://www.wowhead.com/wotlk/ru/spell=70311)! НИ В КОЕМ СЛУЧАЕ!
-</i></b>
+***НЕЛЬЗЯ! ДИСПЕЛИТЬ! [МУТАЦИЮ](https://www.wowhead.com/wotlk/ru/spell=70311)! НИ В КОЕМ СЛУЧАЕ!***
 
 </div>
 :::
 
 <div className="text--center">
 
-![phase1_plan1](/img/icc/Professor_Putricide/PP_phase1_plan1.png)
+![phase1_plan1](/img/icc/Professor_Putricide/PP_phase1_plan1.jpg)
+
 </div>
 
-Я разджелю то, что должен делать игрок в Кукле и то, что должен делать рейд.
+Я разделю то, что должен делать игрок в Кукле и то, что должен делать рейд.
 
 <Tabs>
 <TabItem value="abom1" label="ОТ на Кукле">
@@ -629,7 +606,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![drink_me](/img/icc/Professor_Putricide/PP_drink_me.gif)
+![drink_me](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_drink_me.gif)
 
 </div>
 
@@ -648,11 +625,11 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![eat_ooze](/img/icc/Professor_Putricide/PP_eat_ooze.gif)
+![eat_ooze](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_eat_ooze.gif)
 
 </div>
 
-Вторая спопобность [рвотный слизнюк](https://www.wowhead.com/wotlk/ru/spell=70539) - это рендж способность. Она
+Вторая способность [рвотный слизнюк](https://www.wowhead.com/wotlk/ru/spell=70539) - это рендж способность. Она
 потребляет 50 <span className="debuf-disease">энергии слизи</span>.
 Нужно её применять на <span className="color-orange">облака газа</span> и <span className="ooze-color">неустойчивых
 слизнюков</span> чтобы их замедлять.
@@ -665,12 +642,12 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-#### Детали геймплея за куклу
+#### Детали игры за куклу
 
 </div>
 
 
-**НУЖНО ВСЕГДА ЗАМЕДЛЯТЬ СЛИЗНЕЙ!** для этого нужно чтобы всегда было в запасе минимум
+**НУЖНО ВСЕГДА ЗАМЕДЛЯТЬ СЛИЗНЕЙ!** Для этого нужно чтобы всегда было в запасе минимум
 50 <span className="debuf-disease">энергии слизи</span>.
 В этом и заключается деталь хорошего исполнения на кукле: нельзя полностью вылизывать всю арену
 от [луж](https://www.wowhead.com/wotlk/ru/spell=70346), ибо это
@@ -694,7 +671,7 @@ import styles from './putricide-styles.modules.css';
 
 Также нужно в приоритете всегда настакивать на слизнюков дебафф
 от [взмаха мутанта](https://www.wowhead.com/wotlk/ru/spell=70542).
-Лучше варам и рогам не тратить время и ресурсы на снижение армора, пусть кукла этим занимается.
+Лучше варам и рогам не тратить время и ресурсы на снижение брони, пусть кукла этим занимается.
 
 <div className="text--center">
 
@@ -715,16 +692,12 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-<b><i>
+***[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
+неустойчивый слизнюк</span> выливаться из огромной зелёной колбы (справа). У оранжевой колбы (слева) появляется
+соответственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
+основном у зелёной колбы).***
 
-[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
-неустойчивый слизнюк</span> выливаться из огромной зелёной колбы (справа). У оранжевой комбы (слева) появляется
-соответстветственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
-основном у зелёной колбы).
-
-</i></b>
-
-![experiment](/img/icc/Professor_Putricide/PP_experiment.gif)
+![experiment](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_experiment.gif)
 
 </div>
 
@@ -732,10 +705,9 @@ import styles from './putricide-styles.modules.css';
 
 :::caution
 На переходке спавнится оба слизня, обоих нужно замедлить через [рвоту](https://www.wowhead.com/wotlk/ru/spell=70539).
-Соответственно,
-нужно 100 <span className="debuf-disease">энергии слизи</span>
-т.е. **МАКСИМУМ**. Это нужно запомнить: <b><i>перед переходкой нужно набрать максимальное
-кол-во <span className="debuf-disease">энергии слизи</span>.</i></b>
+Соответственно, нужно 100 <span className="debuf-disease">энергии слизи</span>
+т.е. **МАКСИМУМ**. Это нужно запомнить: ***перед переходкой нужно набрать максимальное
+кол-во <span className="debuf-disease">энергии слизи</span>.***
 :::
 
 </TabItem>
@@ -743,17 +715,15 @@ import styles from './putricide-styles.modules.css';
 
 На первой фазе нужно нормально передавать [безудержную чуму](https://www.wowhead.com/wotlk/ru/spell=70911) так, как было
 условлено до пула
-(либо "импровизируем", либо создаём "карантинную зону", либо позволяем игроку умереть и потом ресать его) и выбегать
+(либо "импровизируем", либо создаём "карантинную зону", либо позволяем игроку умереть и потом воскрешаем его) и выбегать
 из [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346).
 
 <div className="text--center">
 
-<b><i>
+***[Лужа слизи](https://www.wowhead.com/wotlk/ru/spell=70346)***
 
-[Лужа слизи](https://www.wowhead.com/wotlk/ru/spell=70346)
-</i></b>
+![slime_puddle](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_slime_puddle.gif)
 
-![slime_puddle](/img/icc/Professor_Putricide/PP_slime_puddle.gif)
 </div>
 
 Основное что нужно делать - это справляться с <span className="color-orange">облаком газа</span>
@@ -768,38 +738,33 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-<b><i>
+***[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
+неустойчивый слизнюк</span> выливаться из огромной зелёной колбы. У оранжевой колбы появляется
+соответственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
+основном у зелёной колбы).***
 
-[Непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), очередь <span className="ooze-color">
-неустойчивый слизнюк</span> выливаться из огромной зелёной колбы. У оранжевой комбы появляется
-соответстветственно <span className="color-orange">облако газа</span> (но туда танк не идёт, профессора танчат в
-основном у зелёной колбы).
-
-</i></b>
-
-![experiment](/img/icc/Professor_Putricide/PP_experiment.gif)
+![experiment](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_experiment.gif)
 
 </div>
 
 :::
 
 <div className="text--center">
-<b><i>
 
-<span className="ooze-color">Неустойчивый слизнюк</span>
-</i></b>
+***<span className="ooze-color">Неустойчивый слизнюк</span>***
+
 </div>
 
 Он после появления [привяжется](https://www.wowhead.com/wotlk/ru/spell=70447)
 к случайному игроку и начнёт ползти на него. Жертва становится в оцепенение, из которого невозможно выйти обычным
 способом (только сильные штуки сбрасывают дебафф). Если
-слизнюк приползёт к цели, то [взрывётся](https://www.wowhead.com/wotlk/ru/spell=70492) и сильно откидывает всех. Т.к.
-жертва в оцепенении, то данный взрыв неизбежен, увы(
-Урон от [взрыва](https://www.wowhead.com/wotlk/ru/spell=70492) огромный но он делится.
+слизнюк приползёт к цели, то [взорвётся](https://www.wowhead.com/wotlk/ru/spell=70492) и сильно откидывает всех. Т.к.
+жертва в оцепенении, то данный взрыв неизбежен, увы. :(
+Урон от [взрыва](https://www.wowhead.com/wotlk/ru/spell=70492) огромный, но он делится.
 
 <div className="text--center">
 
-![volatile_ooze_adhesive](/img/icc/Professor_Putricide/PP_volatile_ooze_adhesive.gif)
+![volatile_ooze_adhesive](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_volatile_ooze_adhesive.gif)
 
 </div>
 
@@ -826,7 +791,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![phase1_plan2](/img/icc/Professor_Putricide/PP_phase1_plan2.png)
+![phase1_plan2](/img/icc/Professor_Putricide/PP_phase1_plan2.jpg)
 
 </div>
 
@@ -837,15 +802,14 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![phase1_plan3](/img/icc/Professor_Putricide/PP_phase1_plan3.png)
+![phase1_plan3](/img/icc/Professor_Putricide/PP_phase1_plan3.jpg)
 
 </div>
 
 <div className="text--center">
-<b><i>
 
-<span className="color-orange">Облако газа</span>
-</i></b>
+***<span className="color-orange">Облако газа</span>***
+
 </div>
 
 С одной стороны оно не такое опасное. У <span className="color-orange">облака газа</span> тоже есть
@@ -857,7 +821,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![gaseous_bloat](/img/icc/Professor_Putricide/PP_gaseous_bloat.gif)
+![gaseous_bloat](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_gaseous_bloat.gif)
 
 </div>
 
@@ -883,8 +847,7 @@ import styles from './putricide-styles.modules.css';
 ### Переходка (с 1 на 2 фазу)
 
 На 80% Мерзоцид применит [непредсказуемый эксперимент](https://www.wowhead.com/wotlk/ru/spell=70351), но особый. После
-него
-он спавнит и <span className="color-orange">облако газа</span> и <span className="ooze-color">неустойчивого
+него он спавнит и <span className="color-orange">облако газа</span> и <span className="ooze-color">неустойчивого
 слизнюка</span>.
 
 :::danger
@@ -892,16 +855,14 @@ import styles from './putricide-styles.modules.css';
 слизня, то это вайп.**
 :::
 
-После этого особого [непредсказуемого эксперимента](https://www.wowhead.com/wotlk/ru/spell=70351) профессор пойдёт к
-столу и будет
-30 с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время весь рейд случайным образом делится на
-2 части. На одних
-накладывается [слюзнюкообразным состоянием](https://www.wowhead.com/wotlk/ru/spell=70352) (можно бить
-только <span className="ooze-color">неустойчивого слизнюка</span> а он в свою очередь будет привязываться только к
-игрокам с [зелёной меткой](https://www.wowhead.com/wotlk/ru/spell=70352)) на
-других [газообразное состояние](https://www.wowhead.com/wotlk/ru/spell=70353)
-(можно бить
-только <span className="color-orange">облака газа</span> а оно в свою очередь будет привязываться только к
+После этого особого [непредсказуемого эксперимента](https://www.wowhead.com/wotlk/ru/spell=70351) Профессор пойдёт к
+столу и будет 30 с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время весь рейд случайным 
+образом делится на 2 части. 
+На одних накладывается [слюзнюкообразным состоянием](https://www.wowhead.com/wotlk/ru/spell=70352). Можно бить
+только <span className="ooze-color">неустойчивого слизнюка</span>, а он в свою очередь будет привязываться только к
+игрокам с [зелёной меткой](https://www.wowhead.com/wotlk/ru/spell=70352).
+На других [газообразное состояние](https://www.wowhead.com/wotlk/ru/spell=70353). Можно бить только 
+<span className="color-orange">облака газа</span>, а оно в свою очередь будет привязываться только к
 игрокам с [оранжевой](https://www.wowhead.com/wotlk/ru/spell=70353))
 
 :::caution
@@ -910,12 +871,11 @@ import styles from './putricide-styles.modules.css';
 :::
 
 Пока Мерзоцид идёт к столу рейд должен последовать за ним. По дороге можно даже подамажить босса, всё равно у аддов есть
-время на появление и
-они должны в начале привязаться.
+время на появление и они должны в начале привязаться.
 
 <div className="text--center">
 
-![perehodka_plan](/img/icc/Professor_Putricide/PP_perehodka_plan.png)
+![perehodka_plan](/img/icc/Professor_Putricide/PP_perehodka_plan.jpg)
 
 </div>
 
@@ -940,13 +900,12 @@ import styles from './putricide-styles.modules.css';
 Хоть ДД и будут поделены [слюзнюкообразным состоянием](https://www.wowhead.com/wotlk/ru/spell=70352)
 и [газообразным состоянием](https://www.wowhead.com/wotlk/ru/spell=70353) (одни не могут бить слизь противоположного
 цвета), но чтобы быстрее убить <span className="ooze-color">неустойчивого слизнюка</span> нужно именно на него в первую
-очередь
-настакивать [взмахи мутанта](https://www.wowhead.com/wotlk/ru/spell=70542)
+очередь настакивать [взмахи мутанта](https://www.wowhead.com/wotlk/ru/spell=70542)
 :::
 
 <div className="text--center">
 
-![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.png)
+![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.jpg)
 
 </div>
 
@@ -967,19 +926,19 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.png)
+![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.jpg)
 
 </div>
 
 :::caution
-Урон от [взрыва](https://www.wowhead.com/wotlk/ru/spell=70492) делится не только между всеми игроками но и всякими
+Урон от [взрыва](https://www.wowhead.com/wotlk/ru/spell=70492) делится не только между всеми игроками, но и всякими
 питомцами. Поэтому ДК нужно сдать [войско мёртвых](https://www.wowhead.com/wotlk/ru/spell=42650),
 Энхам [волков](https://www.wowhead.com/wotlk/ru/spell=51533).
 :::
 
 :::caution
 Старайтесь под [взрывы](https://www.wowhead.com/wotlk/ru/spell=70492) располагаться так, чтобы откидывало
-преимущественно в центра арены.
+преимущественно в центр арены.
 :::
 
 :::danger
@@ -995,7 +954,7 @@ import styles from './putricide-styles.modules.css';
 
 Для РДД/Хилов это [вязкая гадость](https://www.wowhead.com/wotlk/ru/spell=70853). Мерзоцид кидает преимущественно в РДД
 кемп под случайных игроков 3
-прыгующих слизневых шарика (в народе "пельмени"). От них обязательно нужно уворачиваться, ибо их взрыв наносит тонну
+прыгающих слизневых шарика (в народе "пельмени"). От них обязательно нужно уворачиваться, ибо их взрыв наносит тонну
 урона и замедляют скорость каста и скорость атаки на 250% на 20 с.
 :::caution
 Если в рендж зоне будет менее 8 игроков, то [пельмени](https://www.wowhead.com/wotlk/ru/spell=70853) могут прилететь в
@@ -1003,12 +962,10 @@ import styles from './putricide-styles.modules.css';
 :::
 
 <div className="text--center">
-<b><i>
 
-Прыгающие шарики [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853)
-</i></b>
+***Прыгающие шарики [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853)***
 
-![malleable_goo](/img/icc/Professor_Putricide/PP_malleable_goo.gif)
+![malleable_goo](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_malleable_goo.gif)
 
 </div>
 
@@ -1021,14 +978,14 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![choking_gas](/img/icc/Professor_Putricide/PP_choking_gas.gif)
+![choking_gas](https://www.wowhcb.ru/adepts/icc/Professor_Putricide/PP_choking_gas.gif)
 
 </div>
 
 <Tabs>
 <TabItem value="abom2" label="От на Кукле">
 
-Кукле плевать на новые способности Мерзоцида, они ему ничего не делают (ну наверно только урон наносят но это мелочи)
+Кукле плевать на новые способности Мерзоцида, они ему ничего не делают (ну наверно только урон наносят, но это мелочи)
 
 Собственно в основном нужно делать всё то же, что и на 1-й фазе: грамотно
 пить [лужи](https://www.wowhead.com/wotlk/ru/spell=70346) для
@@ -1046,13 +1003,14 @@ import styles from './putricide-styles.modules.css';
 
 Эти новые способности (шарики [вязкой гадости](https://www.wowhead.com/wotlk/ru/spell=70853) и колбы
 с [удушливым газом](https://www.wowhead.com/wotlk/ru/spell=71278))
-заставят ещё больше двигаться рейд. Однако Мерзоцида нежелательно уводить из под зелёной колбы, так что МТ нужно водить
+заставят ещё больше двигаться рейд. Однако Мерзоцида нежелательно уводить из-под зелёной колбы, так что МТ нужно водить
 босса
 около неё. А РДД с Хилами придётся уворачиваться от летящих зелёных шариков.
 
 <div className="text--center">
 
-![phase2_plan](/img/icc/Professor_Putricide/PP_phase2_plan.png)
+![phase2_plan](/img/icc/Professor_Putricide/PP_phase2_plan.jpg)
+
 </div>
 
 В общем новые способности просто будут мешать расправляться с главной проблемой: аддами-слизней. На них всё ещё нужно
@@ -1088,32 +1046,30 @@ import styles from './putricide-styles.modules.css';
 слизнюк</span>.
 
 :::danger
-**Поэтому нельзя переводить энкаунтер на след. фазу если на арене есть какой-то адд! Если на переходке окажется 3
+**Поэтому нельзя переводить энкаунтер на следующую фазу если на арене есть какой-то адд! Если на переходке окажется 3
 слизня, то это вайп.**
 :::
 
-Всё как на предыдущей переходке: профессор пойдёт к
-столу и будет
-30 с. [создаёт варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время весь рейд случайным образом делится на
+Всё как на предыдущей переходке: профессор пойдёт к столу и будет 30 секунд 
+[создавать варево](https://www.wowhead.com/wotlk/ru/spell=71704). В это время весь рейд случайным образом делится на
 2 части. На одних накладывается [слюзнюкообразным состоянием](https://www.wowhead.com/wotlk/ru/spell=70352) на
 других [газообразное состояние](https://www.wowhead.com/wotlk/ru/spell=70353).
 
 <div className="text--center">
 
-![perehodka_plan](/img/icc/Professor_Putricide/PP_perehodka_plan.png)
+![perehodka_plan](/img/icc/Professor_Putricide/PP_perehodka_plan.jpg)
 
 </div>
 
 :::info
-Имеет смысл сдавать [героизм](https://www.wowhead.com/wotlk/ru/spell=32182) не на 3-ю фазу а на переходку со 2-й на 3-ю.
-Чем больше
-люди расправятся с двумя слизнюками тем больше лишнего времени из 30 с. остаётся на подамажить босса.
+Имеет смысл сдавать [героизм](https://www.wowhead.com/wotlk/ru/spell=32182) не на 3-ю фазу, а на переходку со 2-й на 3-ю.
+Чем больше люди расправятся с двумя слизнюками, тем больше лишнего времени из 30 с. остаётся на подамажить босса.
 :::
 
 <Tabs>
 <TabItem value="abom1-2" label="ОТ на Кукле">
 
-Итак, у васс должно быть на переходке 100 <span className="debuf-disease">энергии слизи</span>. Замедлили
+Итак, у вас должно быть на переходке 100 <span className="debuf-disease">энергии слизи</span>. Замедлили
 сначала <span className="ooze-color">неустойчивого слизнюка</span> потом <span className="color-orange">облако
 газа</span>.
 
@@ -1122,7 +1078,7 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.png)
+![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.jpg)
 
 </div>
 
@@ -1145,13 +1101,13 @@ import styles from './putricide-styles.modules.css';
 
 <div className="text--center">
 
-![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.png)
+![phase1.5](/img/icc/Professor_Putricide/PP_phase1.5.jpg)
 
 </div>
 
 :::caution
 Старайтесь под [взрывы](https://www.wowhead.com/wotlk/ru/spell=70492) располагаться так, чтобы откидывало
-преимущественно в центра арены.
+преимущественно в центр арены.
 :::
 
 :::danger
@@ -1167,8 +1123,7 @@ import styles from './putricide-styles.modules.css';
 
 - **Хорошая:** [непредсказуемые эксперименты](https://www.wowhead.com/wotlk/ru/spell=70351) закончились. На 3-й фазе не
   будут спавнится ни <span className="ooze-color">неустойчивых слизнюков</span> потом <span className="color-orange">
-  облаков
-  газа</span>.
+  облаков газа</span>.
 - **Плохая:** ОТ превращается обратно в "здоровый вид". На 3-й фазе больше нельзя стать куклой. Поэтому
   все [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346) останутся до конца боя.
 
@@ -1181,26 +1136,26 @@ import styles from './putricide-styles.modules.css';
 На данную фазу желательно оставить [сакры](https://www.wowhead.com/wotlk/ru/spell=64205)
 и [владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
 под [ауры тьмы](https://www.wowhead.com/wotlk/ru/spell=48943), т.к. урон по рейду
-от [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451)
+от [мутировавшей чумы,](https://www.wowhead.com/wotlk/ru/spell=72451)
 в том числе <span className="dmg-shadow">тёмный</span>
 :::
 
 :::danger
 Танку с дебаффом **нельзя умирать** и **НЕЛЬЗЯ СНИМАТЬ**
-стаки [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) (
-например [баблом](https://www.wowhead.com/wotlk/ru/spell=642)). Если такое произойдёт, то
-Мерзоцид отхилится на **2 100 000 здоровья** за каждый стак.
+стаки [мутировавшей чумы](https://www.wowhead.com/wotlk/ru/spell=72451) 
+(например [баблом](https://www.wowhead.com/wotlk/ru/spell=642)). Если такое произойдёт, то
+Мерзоцид вылечится на **2 100 000 здоровья** за каждый стак.
 :::
 
 Т.к. ОТ на Кукле теперь просто ОТ, то он становится полноценным участником рейда.
 
 Т.к. [лужи слизи](https://www.wowhead.com/wotlk/ru/spell=70346) теперь не пропадают, то рейду придётся постоянно
-перемещаться но новые пустые места.
+перемещаться на новые пустые места.
 Лучше всего кайтить по стенке, РДД и Хилы будут смещаться в центр, а МДД следуют за боссом.
 
 <div className="text--center">
 
-![phase3_plan](/img/icc/Professor_Putricide/PP_phase3_plan.png)
+![phase3_plan](/img/icc/Professor_Putricide/PP_phase3_plan.jpg)
 
 </div>
 
