@@ -7,9 +7,10 @@ description: Описание и тактика на Саурфанга.
 ```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import SaurfangControlExample from './_saurfang_control_example.md'
 ```
 
-<div style={{textAlign: 'center'}}>
+<div className="text--center">
 
 ![Saurfang](/img/icc/Saurfang/Deathbinger_Saurfang.png)
 
@@ -24,7 +25,7 @@ import TabItem from '@theme/TabItem';
 повесит на случайного игрока [метку павшего воителя](https://www.wowhead.com/wotlk/ru/spell=72293) до конца боя.
 Теперь каждая мили-атака босса наносит человеку с [меткой](https://www.wowhead.com/wotlk/ru/spell=72293) +-6 500 урона.
 А если игрок с [меткой](https://www.wowhead.com/wotlk/ru/spell=72293) умрёт, то Саурфанг восстановит себе 20% здоровья.
-В какой-то момент [меток](https://www.wowhead.com/wotlk/ru/spell=72293) будет настолько много, то хилы в какой-то момент не справятся.
+В какой-то момент [меток](https://www.wowhead.com/wotlk/ru/spell=72293) будет настолько много, что хилы не справятся.
 И долго бить Босса не выйдет, таймер [берсы](https://www.wowhead.com/wotlk/ru/spell=61715) на данном боссе 6 мин.
 
 Помимо этого есть куча других нюансов на данном энкаунтере.
@@ -40,23 +41,27 @@ import TabItem from '@theme/TabItem';
   каждая атака аддов накапливает определённое кол-во <span className="be">ЭК</span>.
 - [Сила крови](https://www.wowhead.com/wotlk/ru/spell=72371) **(бафф)**: висит постоянно. Саурфанг увеличивается в
   размере и наносит на 1% больше урона (увеличивается **ВЕСЬ** исходящий урон, в том числе и от способностей) за
-  каждую накопленную единицу <span className="be">ЭК</span>.<br/><br/>![Bloood](/img/icc/Saurfang/Saurfang_energy.gif)
+  каждую накопленную единицу <span className="be">ЭК</span>.
+
+  ![Bloood](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_energy.gif)
 - [Метка павшего воителя](https://www.wowhead.com/wotlk/ru/spell=72293) **(1.5 с)**: применяется, когда у Саурфанга
   накапливается 100 <span className="be">ЭК</span>. Накладывает на случайного игрока метку до конца боя. Теперь каждый
   раз когда Саурфанг проводит мили-атаку (без разницы, попала ли тычка в танка или она ушла в укл/пар/мис/блок) человек
   с меткой получает 6157-6825 <span className="dmg-phis">физического</span> урона.
+
   :::danger
   Если игрок с [меткой](https://www.wowhead.com/wotlk/ru/spell=72293) умирает, то босс восстанавливает себе 20%
   здоровья. Данное лечение **НЕ** режется дебаффами на -
   отхил([мортал](https://www.wowhead.com/wotlk/ru/spell=12294), [прицельный выстрел](https://www.wowhead.com/wotlk/ru/spell=19434)
-  и т.д.)<br/><br/> Также [метку](https://www.wowhead.com/wotlk/ru/spell=72293) **НЕВОЗМОЖНО СНЯТЬ** ничем и она **НЕ
-  ПРОПАДАЕТ** если игрок встал по [ССу](https://www.wowhead.com/wotlk/ru/spell=20763) или был
-  воскрешён [БРом](https://www.wowhead.com/wotlk/ru/spell=48477)
+  и т.д.)
+  Также [метку](https://www.wowhead.com/wotlk/ru/spell=72293) **НЕВОЗМОЖНО СНЯТЬ** ничем и она **НЕ ПРОПАДАЕТ** если игрок встал
+  по [ССу](https://www.wowhead.com/wotlk/ru/spell=20763) или был
+  воскрешён [БРом](https://www.wowhead.com/wotlk/ru/spell=48477).
   :::
 
-|                       Каст метки                       | 5 игроков с метками постоянно получают урон от каждой атаки Саурфанга |
-|:------------------------------------------------------:|:---------------------------------------------------------------------:|
-| ![Mark_cast](/img/icc/Saurfang/Saurfang_Mark_cast.gif) |         ![Mark_DMG](/img/icc/Saurfang/Saurfang_Mark_DMG.gif)          |
+|                                   Каст метки                                   |    5 игроков с метками постоянно получают урон от каждой атаки Саурфанга     |
+|:------------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+| ![Mark_cast](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_Mark_cast.gif) | ![Mark_DMG](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_Mark_DMG.gif) |
 
 Чем же конкретно набирается <span className="be">ЭК</span>? Ну, в первую очередь способностями Саурфанга:
 
@@ -64,7 +69,7 @@ import TabItem from '@theme/TabItem';
   рейде данный дебафф. Это ДОТка, тикает раз в 3 с. по 5000 <span className="dmg-phis">физического</span> урона в
   течении 15 с.
 - [Кольцо крови](https://www.wowhead.com/wotlk/ru/spell=72380) **(1 с.)**: применяется преимущественно на игрока в рендж
-  зоне. Если нет N-го кол-ва игроков в рендже, то может применить и в МДД (крч это как эти шипы на Везкасе, которые
+  зоне. Если нет N-го кол-ва игроков в рендже, то может применить и в МДД (крч это как эти шипы на Везаксе, которые
   летят в РДД, но если РДД мало, то летят ещё и в МДД). Жертве и всем игрокам в радиусе 12 ярдов наносится
   9500-10500 <span className="dmg-phis">физического</span> урона.
 - [Руна крови](https://www.wowhead.com/wotlk/ru/spell=72408) **(мгновенное)**: применяется в активного танка. На 20 с.
@@ -75,8 +80,8 @@ import TabItem from '@theme/TabItem';
 Также у Саурфанга есть софт-энрейдж фаза:
 
 - [Бешенство](https://www.wowhead.com/wotlk/ru/spell=72737) **(мгновенное)**: накладывается, когда здоровье Саурфанга
-  достигает 30%.
-  Увеличивает скорость атаки на 30% на весь оставшийся бой.
+  достигает 30%. Увеличивает скорость атаки на 30% на весь оставшийся бой.
+
   :::caution
   Если вспомнить, что урон игроков под [меткой](https://www.wowhead.com/wotlk/ru/spell=72293) напрямую зависит от
   скорости атаки босса, то данная условная "мини-берса" страшна и для них тоже.
@@ -88,16 +93,16 @@ import TabItem from '@theme/TabItem';
 
 <div className="imgright">
 
-![Beast](/img/icc/Saurfang/Saurfang_Beast.png)
+![Beast](https://wow.zamimg.com/modelviewer/wrath/webthumbs/npc/131/31107.png)
 
 </div>
 
 - [Призыв кровавых чудовищ](https://www.wowhead.com/wotlk/ru/spell=72173) **(мгновенное)**: призывает 5 кровавых чудовищ
   по 127 000 здоровья каждую.
 
-<div style={{textAlign: 'center'}}>
+<div className="text--center">
 
-![Adds](/img/icc/Saurfang/Saurfang_summon_ads.gif)
+![Adds](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_summon_ads.gif)
 
 </div>
 
@@ -107,10 +112,10 @@ import TabItem from '@theme/TabItem';
 1. Каждый удар чудовища даёт Саурфангу 3 <span className="be">ЭК</span>. Поэтому их даже танчить не очень хорошо, в
    идеале станить и замедлять.
 2. [Устойчивая кожа](https://www.wowhead.com/wotlk/ru/spell=72723) **(бафф)**: всегда висит на чудовищах. Снижает урон
-   от АОЕ способностей на 95% а урон от болезней на 70% (привет ДК). В связи с чем их крайне неэффективно заливать,
+   от АОЕ способностей на 95%, а урон от болезней на 70% (привет ДК). В связи с чем их крайне неэффективно заливать,
    нужно убивать точечными способностями.
 3. [Запах крови](https://www.wowhead.com/wotlk/ru/spell=72769) **(мгновенно, дебаф)**: спустя 10-12 с. после появления на
-   всех игроков накладывается данный дебафф. С ним скорость передвижения игроков уменьшена на 80% а получаемый урон от
+   всех игроков накладывается данный дебафф. С ним скорость передвижения игроков уменьшена на 80%, а получаемый урон от
    кровавых чудищ увеличен на 300%.
 
 :::info
@@ -130,7 +135,7 @@ import TabItem from '@theme/TabItem';
 
 ## Тактика
 
-### Подготовка к энкаунетру
+### Подготовка к энкаунтеру
 
 :::caution
 Буквально весь урон в данном бою <span className="dmg-phis">физический</span>, а важность лечения в данном бою сложно
@@ -141,15 +146,12 @@ import TabItem from '@theme/TabItem';
 Чем больше <span className="be">ЭК</span> у Саурфанга, тем больше урона он наносит всеми
 своими способностями. И, если смотреть график "полученного урона", то он примерно будет выглядеть так:
 
-<div style={{textAlign: 'center'}}>
+Пока Саурфанг набирает <span className="be">ЭК</span> входящий урон по рейду возрастает. Хоть он и падает после
+кастов <span className="dmg-fire">метки</span>, но это временная передышка. После 30% ХП босса подрубается Бешенство, и
+урон по <span className="dmg-fire">меткам</span> возрастает ещё сильнее.
 
-<b><i>Пока Саурфанг набирает <span className="be">ЭК</span> входящий урон по рейду возрастает. Хоть он и падает после
-кастов <span className="dmg-fire">метки</span> но это временная передышка. После 30% ХП босса подрубается Бешенство, и
-урон по <span className="dmg-fire">меткам</span> возрастает ещё сильнее</i></b>
+![DTPS](/img/icc/Saurfang/Saurfang_DTPS.jpg)
 
-![DTPS](/img/icc/Saurfang/Saurfang_DTPS.png)
-
-</div>
 
 #### Скидываем Кипящую кровь
 
@@ -157,8 +159,14 @@ import TabItem from '@theme/TabItem';
 прилетает - тем быстрее накапливается <span className="be">ЭК</span>, тем быстрее по рейду будут
 накладываться [метки](https://www.wowhead.com/wotlk/ru/spell=72293). Нужно:
 
-- Скидывать [кипящую кровь](https://www.wowhead.com/wotlk/ru/spell=72385) [баблами](https://www.wowhead.com/wotlk/ru/spell=642), [глыбами](https://www.wowhead.com/wotlk/ru/spell=45438).
-- [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) тоже скидывают [кипящую кровь](https://www.wowhead.com/wotlk/ru/spell=72385). У Хпалов и Протпалов [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) имеют КД 3 мин. (у ретриков в зависимости от билда). Так что 3-х минутные [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) нужно сдать в начале боя на кастеров с [кипящей кровью](https://www.wowhead.com/wotlk/ru/spell=72385), чтобы потом их применить второй раз на фазе [ьешенства](https://www.wowhead.com/wotlk/ru/spell=72737).
+- Скидывать [кипящую кровь](https://www.wowhead.com/wotlk/ru/spell=72385) [баблами](https://www.wowhead.com/wotlk/ru/spell=642),
+  [глыбами](https://www.wowhead.com/wotlk/ru/spell=45438).
+- [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) тоже
+  скидывают [кипящую кровь](https://www.wowhead.com/wotlk/ru/spell=72385). У Хпалов и
+  Протпалов [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) имеют КД 3 мин. (у Ретриков в зависимости от билда).
+  Так что 3-х минутные [БоПы](https://www.wowhead.com/wotlk/ru/spell=1022) нужно сдать в начале боя на кастеров
+  с [кипящей кровью](https://www.wowhead.com/wotlk/ru/spell=72385), чтобы потом их применить второй раз на
+  фазе [бешенства](https://www.wowhead.com/wotlk/ru/spell=72737).
 - Достаточно быстро убивать аддов (кровавых чудищ) при этом максимально эффективно их контролировать.
 
 :::info
@@ -170,8 +178,11 @@ import TabItem from '@theme/TabItem';
 #### Распределение диванов
 
 Ни в коем случае не дать человеку с [меткой](https://www.wowhead.com/wotlk/ru/spell=72293)
-умереть! После 30 % Саурфанга подрубается [бешенство](https://www.wowhead.com/wotlk/ru/spell=72737). Люди с [метками](https://www.wowhead.com/wotlk/ru/spell=72293) начнёт получать ещё больше урона.
-Перед боем нужно развесить [ССы](https://www.wowhead.com/wotlk/ru/item=16893) на ретриков, чтобы они после 30% кинули [диваны](https://www.wowhead.com/wotlk/ru/spell=19752) на РДД с [метками](https://www.wowhead.com/wotlk/ru/spell=72293). ТОЛЬКО РДД, не Хилов.
+умереть! После 30 % Саурфанга подрубается [бешенство](https://www.wowhead.com/wotlk/ru/spell=72737).
+Люди с [метками](https://www.wowhead.com/wotlk/ru/spell=72293) начнут получать ещё больше урона.
+Перед боем нужно развесить [ССы](https://www.wowhead.com/wotlk/ru/item=16893) на ретриков, чтобы они после 30%
+кинули [диваны](https://www.wowhead.com/wotlk/ru/spell=19752) на РДД
+с [метками](https://www.wowhead.com/wotlk/ru/spell=72293). ТОЛЬКО РДД, не Хилов.
 
 ### Расстановка
 
@@ -186,7 +197,7 @@ import TabItem from '@theme/TabItem';
 аддов [тайфуном](https://www.wowhead.com/wotlk/ru/spell=50516) обратно к боссу (чтобы адды не дошли до РДД и не начали
 их грызть).
 
-<div style={{textAlign: 'center'}}>
+<div className="text--center">
 
 ![Plan](/img/icc/Saurfang/Saurfang_plan.jpg)
 
@@ -220,13 +231,7 @@ import TabItem from '@theme/TabItem';
 [ходж](https://www.wowhead.com/wotlk/ru/spell=10308),
 [ударная волна](https://www.wowhead.com/wotlk/ru/spell=46968) зайдёт очень хорошо).
 
-<div style={{textAlign: 'center'}}>
-
-***Довольно хороший пример контроля показан на гифке***
-
-![Beast_kill](/img/icc/Saurfang/Saurfang_Beast_kill.gif)
-
-</div>
+<SaurfangControlExample />
 
 :::caution
 Если адды живут более чем 12 с., то Саурфанг применяет [запах крови](https://www.wowhead.com/wotlk/ru/spell=72769). На
@@ -283,13 +288,7 @@ import TabItem from '@theme/TabItem';
 Массовое замедление чудовищ даст РДД гораздо больше времени на фокус аддов.
 :::
 
-<div style={{textAlign: 'center'}}>
-
-***Довольно хороший пример контроля показан на гифке***
-
-![Beast_kill](/img/icc/Saurfang/Saurfang_Beast_kill.gif)
-
-</div>
+<SaurfangControlExample />
 
 :::info
 Единственный ДД класс, который как-то способен неплохо АОЕшить мобов это Ретрик и то только
@@ -347,7 +346,7 @@ import TabItem from '@theme/TabItem';
 
 |                       Каст метки                       | 5 игроков с метками постоянно получают урон от каждой атаки Саурфанга |
 |:------------------------------------------------------:|:---------------------------------------------------------------------:|
-| ![Mark_cast](/img/icc/Saurfang/Saurfang_Mark_cast.gif) |         ![Mark_DMG](/img/icc/Saurfang/Saurfang_Mark_DMG.gif)          |
+| ![Mark_cast](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_Mark_cast.gif) |         ![Mark_DMG](https://www.wowhcb.ru/adepts/icc/Saurfang/Saurfang_Mark_DMG.gif)          |
 
 
 :::caution
@@ -375,13 +374,7 @@ import TabItem from '@theme/TabItem';
 Каждые 40 с. будут вызываться 5 кровавых чудовищ. В идеале они не должны нанести вообще никакого урона, т.к.
 их контролируют (даже танкам нежелательно их танковать).
 
-<div style={{textAlign: 'center'}}>
-
-***Довольно хороший пример контроля показан на гифке***
-
-![Beast_kill](/img/icc/Saurfang/Saurfang_Beast_kill.gif)
-
-</div>
+<SaurfangControlExample />
 
 #### Фаза [бешенства](https://www.wowhead.com/wotlk/ru/spell=72737) и сейвы
 
@@ -401,7 +394,7 @@ import TabItem from '@theme/TabItem';
 но [кипящую кровь](https://www.wowhead.com/wotlk/ru/spell=72385) да)
 :::
 
-<div style={{textAlign: 'center'}}>
+<div className="text--center">
 
 ***Почему больно даже до фазы с [бешенством](https://www.wowhead.com/wotlk/ru/spell=72737)?***
 
@@ -409,12 +402,12 @@ import TabItem from '@theme/TabItem';
 
 Если посмотреть на график получаемого урона то можно видеть что он "непостоянный":
 
-![graph1](/img/icc/Saurfang/Saurfang_Graph1.png)
+![graph1](/img/icc/Saurfang/Saurfang_Graph1.jpg)
 
 Если отметить моменты с [метками](https://www.wowhead.com/wotlk/ru/spell=72293) и переход на фазу [бешенства](https://www.wowhead.com/wotlk/ru/spell=72737),
 то станет более понятнее:
 
-![graph2](/img/icc/Saurfang/Saurfang_Graph2.png)
+![graph2](/img/icc/Saurfang/Saurfang_Graph2.jpg)
 
 А теперь обратите внимание, что после наложения [метки](https://www.wowhead.com/wotlk/ru/spell=72293) урон сначала
 спадает, а потом обратно увеличивается. Это происходит из-за
@@ -422,7 +415,7 @@ import TabItem from '@theme/TabItem';
 увеличивает **ВЕСЬ** наносимый урон по рейду на 1%. Вот и получается, что когда Саурфанг почти набрал 100
 <span className="be">ЭК</span>, то урон от всех способностей будет двойным.
 
-![graph3](/img/icc/Saurfang/Saurfang_Graph3.png)
+![graph3](/img/icc/Saurfang/Saurfang_Graph3.jpg)
 
 </TabItem>
 </Tabs>
