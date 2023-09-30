@@ -5,6 +5,11 @@ title: Введение
 description: Introduction page.
 ---
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 # Цитадель Ледяной Короны
 
 <div className="text--center">
@@ -21,7 +26,7 @@ description: Introduction page.
 например, Игнис или Острокрылая. Прохождение рейда можно разделить на 3 условных этапа:
 
 1. Штурм Цитадели
-2. Зачистка залов второго яруса:  
+2. Прохождение верхнего яруса ЦЛК:  
    2.1 Чумодельня   
    2.2 Багровый зал  
    2.3 Залы ледокрылых
@@ -33,11 +38,14 @@ description: Introduction page.
 
 Эта часть полностью линейная, боссы убиваются по порядку.
 
- - [**Лорд Ребрад**](lower_spire/lord_marrowgar.mdx)
- - [**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.mdx)
- - [**Бой на кораблях**](lower_spire/gunship_battle.mdx)
- - [**Саурфанг Смертоносный**](lower_spire/saurfang.mdx)
+<div className="text--center">
 
+[**Лорд Ребрад**](lower_spire/lord_marrowgar.mdx)<br/>
+[**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.mdx)<br/>
+[**Бой на кораблях**](lower_spire/gunship_battle.mdx)<br/>
+[**Саурфанг Смертоносный**](lower_spire/saurfang.mdx)<br/>
+
+</div>
 
 ![Нижний Ярус](/img/icc/map/Нижний_ярус.jpg)
 
@@ -49,31 +57,52 @@ description: Introduction page.
 
 ![второй ярус](/img/icc/map/Верхний_ярус_склеенный.jpg)
 
+<Tabs>
+<TabItem value="1111" label="Чумодельня">
+
 #### Чумодельня
 
 Ужасная лаборатория, в которой создаются мерзкие создания из плоти.
 
- - [**Тухлопуз**](plagueworks/festergut.mdx) 
- - [**Гниломорд**](plagueworks/rotface.mdx)
- - [**Профессор Мерзоцид**](plagueworks/putricide.md).
+<div className="text--center">
+
+[**Тухлопуз**](plagueworks/festergut.mdx) <br/>
+[**Гниломорд**](plagueworks/rotface.mdx) <br/>
+[**Профессор Мерзоцид**](plagueworks/putricide.md) <br/>
+
+</div>
 
 :::info
 К Профессору нельзя попасть пока не будут убиты первые два боковых босса.
 :::
+</TabItem>
+<TabItem value="2222" label="Багровые залы">
 
 #### Багровый зал
 
 Логово эльфов-кровопийц, центр разработок диверсий и совращения умов врагов плети.
 
- - [**Совет Прицев Крови**](crimson_hall/blood_prince_council.md) (Келесет, Талдарам, Валанар)
- - [**Кровавая Королева Лана'тель**](crimson_hall/lanathel.md).
+<div className="text--center">
+
+[**Совет Прицев Крови**](crimson_hall/blood_prince_council.md) (Келесет, Талдарам, Валанар) <br/>
+[**Кровавая Королева Лана'тель**](crimson_hall/lanathel.md).
+</div>
+
+</TabItem>
+<TabItem value="3333" label="Залы ледокрылых">
 
 #### Зал ледокрылых
 
 В этой части цитадели тренируются врайкулы и создаются ледяные змеи.
 
- - [**Валитрия Сноходица**](frostwing_halls/valithria.md) 
- - [**Синдрагоса**](frostwing_halls/sindragosa.md).
+<div className="text--center">
+
+[**Валитрия Сноходица**](frostwing_halls/valithria.md) <br/>
+[**Синдрагоса**](frostwing_halls/sindragosa.md).
+</div>
+
+</TabItem>
+</Tabs>
 
 ### Сражение с Королём Личём
 
