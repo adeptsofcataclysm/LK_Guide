@@ -184,7 +184,7 @@ import TabItem from '@theme/TabItem';
 - [Ударная волна](https://www.wowhead.com/wotlk/ru/spell=72149) **(1.25 с.)**: конусная АОЕшка, которая
   наносит <span className="dmg-phis">физический</span> урон, равный 150% урона от оружия (т.е. порядком 37k урона).
 - [Бешенство](https://www.wowhead.com/wotlk/ru/spell=28747) **(мгновенное)**: на 20% здоровья Шаркающий ужас увеличивает
-  скорость атаки на 50% а наносимый <span className="dmg-phis">физический</span> урон на 10%.
+  скорость атаки на 50% а наносимый <span className="dmg-phis">физический</span> урон на 100%.
 
 :::caution
 Если существует несколько Шаркающих ужасов, то они будут
@@ -587,7 +587,7 @@ import TabItem from '@theme/TabItem';
 ужаса, то 100% рейд что-то делает не так).
 :::
 
-- **Желательно** иметь суммарно 6+ <span className="paladin">паловских</span> рейдовых
+- **Крайне желательно** иметь суммарно 6+ <span className="paladin">паловских</span> рейдовых
   сейвилок ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
   и [сакры](https://www.wowhead.com/wotlk/ru/spell=64205)), т.к. массовая
   АОЕшка [заражения](https://www.wowhead.com/wotlk/ru/spell=70541)
@@ -730,7 +730,7 @@ import TabItem from '@theme/TabItem';
 </div>
 
 - На данной фазе Король Лич будет каждые 30 с. будет сдавать в
-  танка [;нец душ](https://www.wowhead.com/wotlk/ru/spell=69409),h который через 5 с. жахнет того на 70
+  танка [жнец душ](https://www.wowhead.com/wotlk/ru/spell=69409),h который через 5 с. жахнет того на 70
   000 <span className="dmg-shadow">тёмного</span> урона. Под каждый [жнец](https://www.wowhead.com/wotlk/ru/spell=69409)
   нужно чтобы активный танк что-то сдал. Т.к. босс таунтится, то двум танкам нужно придумать как ротировать друг друга,
   чтобы каждый впитывал [жнец](https://www.wowhead.com/wotlk/ru/spell=69409) и не умирал.
@@ -799,6 +799,34 @@ import TabItem from '@theme/TabItem';
 
 :::
 
+<div className="text--center">
+<b><i>
+
+Распределяем паловские рейдовые сейвы под [великая жатва душ](https://www.wowhead.com/wotlk/ru/spell=73654)
+</i></b>
+</div>
+
+На 3-й фазе пропадает массовая АОЕшка [заражение](https://www.wowhead.com/wotlk/ru/spell=70541). Это не значит что на
+данной фазе нужно
+игнорировать паловские сейвы. Всё из-за [великой жатвы душ](https://www.wowhead.com/wotlk/ru/spell=73654). Сам процес "
+засасывания"
+души в Фростморн нанесёт суммарно 20 000 урона от <span classname="dmg-shadow">тьмы</span>, так ещё и внутри меча
+постоянно тикает
+аура на 2000 <span className="dmg-shadow">тёмного</span> урона.
+
+Но самый опасный момент - это процесс засасывания [великой жатвы душ](https://www.wowhead.com/wotlk/ru/spell=73654) и
+последующие 3-5 с.
+внутри меча. Под это дело нужно сдать оба паловских сейва (и [сакру](https://www.wowhead.com/wotlk/ru/spell=64205)
+и [владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
+под [ауру от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943))
+
+Время между опасными моментами составляет 1:45 мин. Ну, строго говоря два Хпала полностью будут закрывать эти моменты.
+Остальные же [сакры](https://www.wowhead.com/wotlk/ru/spell=64205)
+и [владения аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
+можно подключить внутри Фростморна, чтобы уменьшить урон от постоянного урона по рейду. Во всяком случае "сверху" нету
+массового
+урона по рейду, там эти сейвилки строго говоря ни к чему.
+
 </TabItem>
 </Tabs>
 
@@ -812,10 +840,34 @@ import TabItem from '@theme/TabItem';
 РДД и Хилы идут вместе справа. Нужно идти по арене "вниз", т.к. будут
 появлятся [теневая ловушка](https://www.wowhead.com/wotlk/ru/spell=73529).
 
+:::caution
+Очень внимательно следите за [теневыми ловушками](https://www.wowhead.com/wotlk/ru/spell=73529)!
+:::
+
+[Мертвящая чума](https://www.wowhead.com/wotlk/ru/spell=70337) должна быть на вурдалаках и шаркающих ужасах. Чем дольше
+живёт [чума](https://www.wowhead.com/wotlk/ru/spell=70337),
+тем больше урона она наносит (она каждые 15 с. перескакивает на ближайшую случайную цель).
+
+:::danger
+Нельзя затягивать с этой фазой из-за двух моментов:
+
+- [чума](https://www.wowhead.com/wotlk/ru/spell=70337) апнется настолько, что не будет хватать аддов для того чтобы на
+  них сбрасывать [чума](https://www.wowhead.com/wotlk/ru/spell=70337).
+- каждый раз, когда [чума](https://www.wowhead.com/wotlk/ru/spell=70337) перескакивает, Король Лич получает 1 стак
+  баффа [конденсатора чумы](https://www.wowhead.com/wotlk/ru/spell=74074), который
+  увеличивает <span className="dmg-phis">физический</span> урон на 2%.
+    - [чума](https://www.wowhead.com/wotlk/ru/spell=70337) перескакивает в трёх случаях **(при условии что с заражённым
+      рядом есть моб или игрок)**: **(а)** её диспельнули, **(б)** она протикала 15 с. на цели ,**(в)** цель умерла
+      из-за [чумы](https://www.wowhead.com/wotlk/ru/spell=70337).
+
+:::
+
 <div className="text--center">
 
 ![prep_1phase](/img/icc/Lich_King/LK_prep_1phase.png)
 </div>
+
+:::caution
 
 На 1-й фазе нужно диспелить [мертвящую чуму](https://www.wowhead.com/wotlk/ru/spell=70337) под аддами ОТ, охотники
 должны [усмиряющим выстрелом](https://www.wowhead.com/wotlk/ru/spell=19801)
@@ -824,19 +876,572 @@ import TabItem from '@theme/TabItem';
 рейдовых
 сейвов.
 
-***(Всё это было расписано в "Распределение задач рейда на фазах")***
+***(Всё это расписано в "Распределение задач рейда на фазах" для 1-й фазы)***
+:::
 
-[Мертвящая чума](https://www.wowhead.com/wotlk/ru/spell=70337) должна быть на вурдалаках и шаркающих ужасах. Чем дольше
-живёт [чума](https://www.wowhead.com/wotlk/ru/spell=70337),
-тем больше урона она наносит (она каждые 15 с. перескакивает на ближайшую случайную цель).
+<Tabs>
+<TabItem value="OT_phase1" label="Танки">
 
-Успех 1-й фазы очень сильно зависит от действий ОТ, нужно постоянно контролировать число вурдалаков на себе. В начале боя,
-когда [чума](https://www.wowhead.com/wotlk/ru/spell=70337) ещё не прокачалась, то нужно держать на себе небольшое кол-во мелкой нежити
-(но Шаркающих ужасов нужно забирать всех), чтобы как можно больше продамажились Шаркающие ужасы. Однако чем дальше 1-я фаза,
-тем больше вурдалаков нужно держать ОТ, чтобы не потерять [чуму](https://www.wowhead.com/wotlk/ru/spell=70337).
+Задача МТ просто танчить босса, попутно уводя его от [теневых ловушек](https://www.wowhead.com/wotlk/ru/spell=73529).
+
+Но вот у ОТ всё горааааздо сложнее. Нужно постоянно брать на себя всех аддов и набирать на них агро. Одновременно
+с эти нужно:
+
+- Следить за [теневыми ловушками](https://www.wowhead.com/wotlk/ru/spell=73529) (она может заспавнится даже под ОТ).
+- Следить за тем, чтобы с шаркающих ужасов снимали [исступление](https://www.wowhead.com/wotlk/ru/spell=72143).
+- Следить за тем, чтобы было достаточно кол-во мобов, чтобы [чумы](https://www.wowhead.com/wotlk/ru/spell=70337) скакала
+  между ними.
+- Следить за тем, что [чума](https://www.wowhead.com/wotlk/ru/spell=70337) может повесится на ОТ.
 
 :::caution
-Эта часть боя очень кансерная своим рандомом из-за того, что
-скачки [мертвящей чумы](https://www.wowhead.com/wotlk/ru/spell=70337).
+<details closed>
+<summary>Почему хилые вурдалаки важны для ОТ</summary>
 
+Все адды нужны для разгона [чумы](https://www.wowhead.com/wotlk/ru/spell=70337). Вурдалаки очень хлипкие, поэтому на них
+данная <span classname="debuf-disease">болезнь</span> достаточно быстро апнется. Если на шаркающем
+ужасе [чума](https://www.wowhead.com/wotlk/ru/spell=70337)
+тикает 15 с. после чего перескакивает, то на вурдалаке она будет висеть только 5 с. т.к. она сразу же его убьёт и
+перескочит на новую цель.
+А [чума](https://www.wowhead.com/wotlk/ru/spell=70337) апается при каждом перескоке.
+</details>
+:::
+
+Но это ещё не всё. Эта часть боя очень кансерная своим рандомом из-за того, что
+скачки [мертвящей чумы](https://www.wowhead.com/wotlk/ru/spell=70337) практически неконтролируемы. Если здоровье
+Шаркающего ужаса станет ниже 20%, то он впадёт в [бешенство](https://www.wowhead.com/wotlk/ru/spell=28747) (+50% к
+скорости атаки и +100% к наносимому <span className="dmg-phis">физическому</span>
+урону). [бешенство](https://www.wowhead.com/wotlk/ru/spell=28747) ничем не
+снимается, нужно
+пережить её под сейвом или начать кайтить моба (все мобы станятся и замедляются).
+
+:::caution
+
+<details closed>
+<summary> 
+
+Тяжело жить, если [чума](https://www.wowhead.com/wotlk/ru/spell=70337) неудачно скачет.
+</summary>
+
+А теперь представьте, что [чума](https://www.wowhead.com/wotlk/ru/spell=70337) дотикала на Шаркающем ужасе и не добила
+его (оставив меньше 20% ХП).
+По механике [чума](https://www.wowhead.com/wotlk/ru/spell=70337) перескочет на соседнего моба, но этот здоровяк-нежить
+бафнется [бешенством](https://www.wowhead.com/wotlk/ru/spell=28747). Дальше начинается лотерея. Вот когда не него
+перескочет [чума](https://www.wowhead.com/wotlk/ru/spell=70337)
+и добьёт? Да хрен знает. Она может скакать по вурдалакам или перескочит на нового шаркающего ужаса, которого тоже не
+факт что добьёт.
+
+Весело, да? Ну ладно, можно этого здоровяка застанить, замедлить, покайтить. Вот только пока ОТ его будет как-то водить,
+то [ударная волна](https://www.wowhead.com/wotlk/ru/spell=72149) может пойти в рейд и снести игроков. Или ещё лучше:
+[чума](https://www.wowhead.com/wotlk/ru/spell=70337) перешла на вурдалака, она его тут же убила, но ОТ может быть далеко
+и мобов не оказаться рядом. Что сделает эта [чума](https://www.wowhead.com/wotlk/ru/spell=70337)? **Исчезнет!**
+Перескакивать не на кого.
+Всё, рейд потерял раскачанную [чуму](https://www.wowhead.com/wotlk/ru/spell=70337), а времени на раскачку
+новой [чумы](https://www.wowhead.com/wotlk/ru/spell=70337) никто не даст.
+</details>
+:::
+
+</TabItem>
+<TabItem value="DD_Heal_phase1" label="ДД и Хилы">
+
+<div className="text--center">
+<b><i>
+
+ДАУБИ, ДАУБИ, ДАУБИ БОССА!
+</i></b>
+</div>
+
+ДД должны бить босса, причём все. Аддов лучше не трогать вообще, не усложняйте ОТ жизнь бессмысленными переаграми. Нужно
+как можно быстрее снести босса до 70%, это гораздо более важная задача.
+
+:::caution
+<details closed>
+<summary>Почему хилые вурдалаки важны для ОТ</summary>
+
+Все адды нужны для разгона [чумы](https://www.wowhead.com/wotlk/ru/spell=70337). Вурдалаки очень хлипкие, поэтому на них
+данная <span classname="debuf-disease">болезнь</span> достаточно быстро апнется. Если на шаркающем
+ужасе [чума](https://www.wowhead.com/wotlk/ru/spell=70337)
+тикает 15 с. после чего перескакивает, то на вурдалаке она будет висеть только 5 с. т.к. она сразу же его убьёт и
+перескочит на новую цель.
+А [чума](https://www.wowhead.com/wotlk/ru/spell=70337) апается при каждом перескоке.
+</details>
+:::
+
+<div className="text--center">
+<b><i>
+
+Прохиливаем [заражение](https://www.wowhead.com/wotlk/ru/spell=70541)
+</i></b>
+</div>
+
+Самым важным хилом на 1-й фазе, пожалуй, является ДЦ прист, т.к.
+его [щиты](https://www.wowhead.com/wotlk/ru/spell=48066)
+позволяют пережить [заражение](https://www.wowhead.com/wotlk/ru/spell=70541). Но даже
+с [щитами](https://www.wowhead.com/wotlk/ru/spell=48066)
+и даже с паловским рейдовым сейвом останутся люди, которых нужно прохилить практически на фул. Если этого не сделать, то
+ДоТка от [заражения](https://www.wowhead.com/wotlk/ru/spell=70541) убьёт людей.
+
+| Урон от [заражения](https://www.wowhead.com/wotlk/ru/spell=70541) без [щитов](https://www.wowhead.com/wotlk/ru/spell=48066) | Урон от [заражения](https://www.wowhead.com/wotlk/ru/spell=70541) с [щитами](https://www.wowhead.com/wotlk/ru/spell=48066) и [владением аурами](https://www.wowhead.com/wotlk/ru/spell=31821) |
+|:---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                              ![infest_without_DC](/img/icc/Lich_King/LK_infest_without_DC.gif)                              |                                                                  ![infest_with_DC](/img/icc/Lich_King/LK_infest_with_DC.gif)                                                                  |
+
+</TabItem>
+</Tabs>
+
+:::caution
+***Когда здоровье босса уже будет достигать 70%, нужно всему рейду сместится к краю арены!***
+:::
+
+### Переходка на 70%
+
+На 70% Король Лич побежит к центру арены. Чем дальше его отвели, тем дольше он будет бежать. Следовательно, тем больше
+времени будет у рейда для занятия позиций на краю арены.
+
+<div className="text--center">
+<b><i>
+
+Бежим на край, пока босс бежит кастовать [беспощадность зимы](https://www.wowhead.com/wotlk/ru/spell=72259)
+</i></b>
+
+![remorseless_winter](/img/icc/Lich_King/LK_remorseless_winter.gif)
+</div>
+
+:::caution
+<details closed>
+<summary>Что делать ОТ с аддами-нежитью при переходке?</summary>
+
+Нормальная ситуация, когда в начале переходки у ОТ ещё остались адды. В таком случае нужно **аккуратно** увести на край,
+и отвернуть от рейда.
+[Чума](https://www.wowhead.com/wotlk/ru/spell=70337) добьёт данных мобов. **Важно!** потом попросить
+диспел [чумы](https://www.wowhead.com/wotlk/ru/spell=70337)
+с себя, чтобы не привести её в рейд.
+
+<div className="text--center">
+
+![perefazka70_OT1](/img/icc/Lich_King/LK_perefazka70_OT1.png)
+
+![perefazka70_OT2](/img/icc/Lich_King/LK_perefazka70_OT2.gif)
+
+</div>
+
+</details>
+:::
+
+<div className="text--center">
+
+![perefazka70](/img/icc/Lich_King/LK_perefazka70.png)
+</div>
+
+<div className="text--center">
+
+#### Что нужно делать на переходке?
+
+</div>
+
+На переходке почти весь урон нужно сконцентрировать на
+убийство [гневных духов](https://www.wowhead.com/wotlk/ru/spell=69200).
+Их нужно танковать от рейда, иначе они задуют игроков
+конусным [визгом души](https://www.wowhead.com/wotlk/ru/spell=69242).
+РДД нужно время от времени отвлекаться и убивать летящие ледяные сферы. Рейд стоит так расспредано, чтобы не все
+одновременно
+получали урон от [боли и страдания](https://www.wowhead.com/wotlk/ru/spell=72133) (это тёмные молнии, которые босс
+постоянно спамит).
+
+:::caution
+Если к вам присасалась ледяная сфера, то нужно отбежать от остальных, т.к. игрок
+начнёт [пульсировать](https://www.wowhead.com/wotlk/ru/spell=69099)
+и наносить урон всем вокруг.
+:::
+
+<div className="text--center">
+<b><i>
+
+На краю РДД и Хилы встают расспредано, МДД и Танки по центру
+с [гневными духами](https://www.wowhead.com/wotlk/ru/spell=69200)
+</i></b>
+
+![perefazka70_vse](/img/icc/Lich_King/LK_perefazka70_vse.gif)
+</div>
+
+Переходка длится ровно 1 минуту, после чего король лич
+применяет [сотрясение](https://www.wowhead.com/wotlk/ru/spell=72262). Край
+арены, осыпается. Всем игрокам следует **НЕМЕДЛЕННО** перебежать ближе к центру, чтоб не попадать.
+
+<div className="text--center">
+
+![quake](/img/icc/Lich_King/LK_quake.gif)
+</div>
+
+### 2 Фаза (70-40%)
+
+В ачале 2-й фазы ДД должны убить все ледяные сферки и убить
+последнего [гневного духа](https://www.wowhead.com/wotlk/ru/spell=69200) **как можно быстрее**. Это нормально, что
+последний дух
+не добит под конец переходки. Однако ненормально, если он всё ещё будет жив под
+первый [вызов валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844).
+
+:::caution
+С 1-й фазы остаётся [заражение](https://www.wowhead.com/wotlk/ru/spell=70541), против которого ДЦ должен
+[прощитовывать](https://www.wowhead.com/wotlk/ru/spell=48066) весь рейд а палы по очереди сдавать рейдовые сейвы. Также
+на данной фазе каждые 30 с. Король Лич будет применять в активного
+танка [жнец душ](https://www.wowhead.com/wotlk/ru/spell=69409) (абилка на 75 000 <span className="dmg-shadow">
+тёмного</span> урона), танкам нужно по очереди танковать Лича и использовать сейвы (свои или рейдовые).
+
+***(Всё это расписано в "Распределение задач рейда на фазах" для 2-й фазы)***
+:::
+
+<div className="text--center">
+<b><i>
+
+Проблема [валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844)
+и [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762)
+</i></b>
+</div>
+
+На 2-й фазе появляется две способности, который сильно мешают рейду своей комбой.
+
+|                                                        [Вызов валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844)                                                        |                                   [Осквернения](https://www.wowhead.com/wotlk/ru/spell=72762)                                   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
+|     Прилеают 3 валь'киры, которые хватают трёх случайных игроков, несут к ближайшему краю и скидывают за арену. Нужно снести валь'киру до 50%, тогда она отпустит игрока     |  Под случайным игроком кладётся лужа, которая разрастается если в ней будут стоять люди. Перед кастом лужи нужно расспредаться  |
+| **Все стакнуты и прилетают валь'киры. Отличная расстановка, все вальки летят удобно, можно кливать** <br/> ![phase3_valk_ideal](/img/icc/Lich_King/LK_phase3_valk_ideal.gif) | **Все стакнуты и прилетает лужа. Плохая расстановка, лужа всех поглощает** <br/> ![LK_defile](/img/icc/Lich_King/LK_defile.gif) |
+
+А может быть тогда нужно стоять расспредано? Ну, в таком
+случае [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762) безопаснее, один-два человека её не вырастят до
+громадных размеров.
+Но в таком случае [валь'киры](https://www.wowhead.com/wotlk/ru/spell=71844) будут нести людей в разные стороны и их
+будут медленней сливать, т.к.
+они полетят в разных направлениях.
+
+:::info
+<details closed>
+<summary>Чернокнижники и их телепорты
+</summary>
+
+Чернокнижники могут упростить 2-ю фазу. Для этого они должны
+поставить [телепорты](https://www.wowhead.com/wotlk/ru/spell=48018) к краям арены и самим находится у края. Таким
+образом они:
+
+- могут забайтить лужу [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762) на себя, в таком случае лужа будет на
+  краю арены и никому мешать не будет.
+- если чернокнижника схватит валь'кира, то её можно не бить. Чернокнижник в падении просто
+  нажмёт [телепортацию](https://www.wowhead.com/wotlk/ru/spell=48020) и окажется обратно на арене.
+
+**ВАЖНО!** поставить [телепорты](https://www.wowhead.com/wotlk/ru/spell=48018) в одном месте, а самим находится в
+другом (если кто-то положит [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762)
+в эти круги, то [телепортироваться](https://www.wowhead.com/wotlk/ru/spell=48020) туда будет крайне малоприятно)
+
+![phase2_warlok_portal](/img/icc/Lich_King/LK_phase2_warlok_portal.png)
+</details>
+
+:::
+
+В общем, получается конфликт. Под [вызов валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844) нужно стакнуться в
+центре арены так,
+чтобы эти летающие твари двигались ради мощного клива (при этом МДД на кливе считайте тоже стакнуты).
+Под [осквернение](https://www.wowhead.com/wotlk/ru/spell=72762) нужно наоборот расспредаться, при этом нужно из центра
+уйти.
+
+Также есть рассинхрон способностей: [вызов валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844) применяется каждые 45
+с. а [осквернение](https://www.wowhead.com/wotlk/ru/spell=72762)
+каждые 35 с. Так что какие-то [вызовы валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844) будут довольно опасными.
+
+:::caution
+Самые опасные [вызовы валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844) под номерами 2,4,6, ... (в общем чётные).
+Для них
+нужно распределить долгие точечные [станы](https://www.wowhead.com/wotlk/ru/spell=66940). Для нечётных вызовов (
+1,3,5,...)
+достаточно поздавать [гневы небес](https://www.wowhead.com/wotlk/ru/spell=48817).
+
+***(Всё это расписано в "Распределение задач рейда на фазах" для 2-й фазы)***
+:::
+
+<div className="text--center">
+<b><i>
+
+Вот как должен вести себя рейд на 2-й фазе
+</i></b>
+</div>
+
+<Tabs>
+<TabItem value="phase21" label="1">
+
+![phase2_plan1l](/img/icc/Lich_King/LK_phase2_plan1.png)
+</TabItem>
+<TabItem value="phase22" label="2">
+
+![phase2_plan2](/img/icc/Lich_King/LK_phase2_plan2.png)
+</TabItem>
+<TabItem value="phase23" label="3">
+
+![phase2_plan3](/img/icc/Lich_King/LK_phase2_plan3.png)
+</TabItem>
+<TabItem value="phase24" label="4">
+
+![phase2_plan4](/img/icc/Lich_King/LK_phase2_plan4.png)
+</TabItem>
+<TabItem value="phase25" label="5">
+
+![phase2_plan5](/img/icc/Lich_King/LK_phase2_plan5.png)
+</TabItem>
+<TabItem value="phase26" label="6">
+
+![phase2_plan6](/img/icc/Lich_King/LK_phase2_plan6.png)
+</TabItem>
+<TabItem value="phase27" label="7">
+
+![phase2_plan7](/img/icc/Lich_King/LK_phase2_plan7.png)
+</TabItem>
+<TabItem value="phase28" label="8">
+
+![phase2_plan8](/img/icc/Lich_King/LK_phase2_plan8.png)
+</TabItem>
+<TabItem value="phase29" label="9">
+
+![phase2_plan9](/img/icc/Lich_King/LK_phase2_plan9.png)
+</TabItem>
+<TabItem value="phase210" label="10">
+
+![phase2_plan10](/img/icc/Lich_King/LK_phase2_plan10.png)
+</TabItem>
+</Tabs>
+
+:::danger
+"Использованные" валь'киры никуда не пропадают. Они начинают парить над Королём Личём и спамить по
+рейду [вытягивание жизни](https://www.wowhead.com/wotlk/ru/spell=73488).
+Чем больше рейд затягивает бой, тем больше валькирий, тем больше урона по рейду
+от [вытягивания жизни](https://www.wowhead.com/wotlk/ru/spell=73488). Нельзя затягивать 2-ю фазу!
+:::
+
+:::caution
+***Когда здоровье босса уже будет достигать 40%, нужно всему рейду сместится к краю арены!***
+:::
+
+### Переходка на 40%
+
+На 40% Король Лич побежит к центру арены. Чем дальше его отвели, тем дольше он будет бежать. Следовательно, тем больше
+времени будет у рейда для занятия позиций на краю арены.
+
+:::danger
+После переходки на 70% края арены уничтожены [сотрясением](https://www.wowhead.com/wotlk/ru/spell=72262). В начале
+переходки на 40% края арены восстановятся но **не моментально!** Пару секунд рейд получит урон
+от [беспощадности зимы](https://www.wowhead.com/wotlk/ru/spell=72259).
+В этот момент нужно сдать [сакру](https://www.wowhead.com/wotlk/ru/spell=64205)
+и [владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
+под [ауру защиты от льда](https://www.wowhead.com/wotlk/ru/spell=48945).
+:::
+
+<div className="text--center">
+<b><i>
+
+Бежим на край, пока босс бежит кастовать [беспощадность зимы](https://www.wowhead.com/wotlk/ru/spell=72259). Ждём пока
+край восстановится и только потом перебегаем.
+</i></b>
+
+![remorseless_winter2](/img/icc/Lich_King/LK_remorseless_winter_(2).gif)
+</div>
+
+Данная переходка не отличается от первой. Рейд должен расположиться также расспредано, гневные духи танковаться от
+рейда.
+
+<div className="text--center">
+
+![perefazka70](/img/icc/Lich_King/LK_perefazka70.png)
+</div>
+
+Переходка длится ровно 1 минуту, после чего король лич
+применяет [сотрясение](https://www.wowhead.com/wotlk/ru/spell=72262). Край
+арены, осыпается. Всем игрокам следует **НЕМЕДЛЕННО** перебежать ближе к центру, чтоб не попадать.
+
+<div className="text--center">
+
+![quake](/img/icc/Lich_King/LK_quake.gif)
+</div>
+
+### 3 Фаза (40-10%)
+
+В ачале 2-й фазы ДД должны убить все ледяные сферки и убить
+последнего [гневного духа](https://www.wowhead.com/wotlk/ru/spell=69200) **как можно быстрее**. Опять же это нормальная
+ситуация, когда
+последний дух
+не добит под конец переходки. Нармально даже то, что этого моба можно не успеть убить до первой
+[великой жатвы душ](https://www.wowhead.com/wotlk/ru/spell=73654), новой способности на 3-й фазе.
+
+:::caution
+
+<details closed>
+<summary>Когда должен умереть зловещий дух?</summary>
+
+Гневный дух **не пропадёт** после [великой жатвы душ](https://www.wowhead.com/wotlk/ru/spell=73654) и после того, как рейд выйдет из
+Фростморна. Его нужно добить. После выхода из меча босс [призывёт зловещих духов](https://www.wowhead.com/wotlk/ru/spell=70498).
+Т.к. этих духов через 30 должен ловить свободный танк (который в данный момент занят зловещим духом), то вот вам и строгий тайминг на убийство: 30
+с. после выхода из Фростморна.
+</details>
+:::
+
+На 3-й фазе пропадают следующие способности:
+
+- [Вызов валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844), на 3-й фазе будут другие адды.
+- [Заражение](https://www.wowhead.com/wotlk/ru/spell=70541), с одной стороны хорошо. Хилам (и особенно ДЦ присту) не
+  нужно каждые 20 с. напрягаться, прохиливать рейд, следить за [щитами](https://www.wowhead.com/wotlk/ru/spell=48066).
+  Но на данной фазе ещё будет что массово похилить (внутри Фростморна по рейду постоянно будет тикать дамажащая
+  аура [жатва душ](https://www.wowhead.com/wotlk/ru/spell=73655))
+
+Но появляются следующие:
+
+- [Великая жатва душ](https://www.wowhead.com/wotlk/ru/spell=73654): всех игроков засасывает внутрь Фростморна.
+- [Призыв зловещих духов](https://www.wowhead.com/wotlk/ru/spell=70498): Король Лич будет вызыввать 10 зловещих духов,
+  которые в начале будут просто летать над рейдом, а через 10 с. спускаться и взрываться [импульсом духа](https://www.wowhead.com/wotlk/ru/spell=70503).
+
+:::caution
+Со второй фазы остаётся лужа [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762) (для которого нужно
+расспредаться) и
+мощная танковская способность [жнец душ](https://www.wowhead.com/wotlk/ru/spell=69409). Тамнкам нужно продумать,
+как сейвить себя от него (на 3-й фазе тайминги [жнеца душ](https://www.wowhead.com/wotlk/ru/spell=69409) другие). Также
+на данной фазе под каждую [великую жатву душ](https://www.wowhead.com/wotlk/ru/spell=73654) нужно сдать паловские
+рейдовые
+сейвы.
+
+***(Всё это расписано в "Распределение задач рейда на фазах" для 3-й фазы)***
+:::
+
+Через 10 с. после конца переходки применяется первая [великая жатва душ](https://www.wowhead.com/wotlk/ru/spell=73654).
+Всех игроков за 5 с. засасывает внутрь меча.
+
+:::danger
+Перед каждой [великая жатвы](https://www.wowhead.com/wotlk/ru/spell=73654) нужно вылечить рейд на фул! Т.к. засасывание
+дамажит
+игроков. При этом все персонажи находятся в стане, ничего скастовать нельзя.
+:::
+
+<div className="text--center">
+
+![harvest_soul](/img/icc/Lich_King/LK_harvest_soul.gif)
+</div>
+
+<div className="text--center">
+<b><i>
+
+Вот как должен вести себя рейд на 3-й фазе
+</i></b>
+</div>
+
+:::caution
+3 фаза ещё более циклична на способности. Если вы сравните 1 и 10 слайды, то увидите что они почти идентичны. 
+:::
+
+<Tabs>
+<TabItem value="phase31" label="1">
+
+![phase2_plan1l](/img/icc/Lich_King/LK_phase3_plan1.png)
+
+<div className="text--center">
+<b><i>
+
+Сободный танк должен встречать летящих духов и тригерить [импульс духа](https://www.wowhead.com/wotlk/ru/spell=70503)
+</i></b>
+
+![spirit_burst](/img/icc/Lich_King/LK_spirit_burst.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase32" label="2">
+
+![phase2_plan2](/img/icc/Lich_King/LK_phase3_plan2.png)
+
+<div className="text--center">
+<b><i>Убегаем, убегаем</i></b>
+
+![vile_spirits](/img/icc/Lich_King/LK_vile_spirits.gif)
+</div>
+</TabItem>
+<TabItem value="phase33" label="3">
+
+![phase2_plan3](/img/icc/Lich_King/LK_phase3_plan3.png)
+
+<div className="text--center">
+<b><i>
+
+Сободный танк должен встречать летящих духов и тригерить [импульс духа](https://www.wowhead.com/wotlk/ru/spell=70503)
+</i></b>
+
+![spirit_burst](/img/icc/Lich_King/LK_spirit_burst.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase34" label="4">
+
+![phase2_plan4](/img/icc/Lich_King/LK_phase3_plan4.png)
+</TabItem>
+<TabItem value="phase35" label="5">
+
+![phase2_plan5](/img/icc/Lich_King/LK_phase3_plan5.png)
+
+<div className="text--center">
+<b><i>
+
+Сободный танк должен встречать летящих духов и тригерить [импульс духа](https://www.wowhead.com/wotlk/ru/spell=70503)
+</i></b>
+
+![spirit_burst](/img/icc/Lich_King/LK_spirit_burst.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase36" label="6">
+
+![phase2_plan6](/img/icc/Lich_King/LK_phase3_plan6.png)
+</TabItem>
+<TabItem value="phase37" label="7">
+
+![phase2_plan7](/img/icc/Lich_King/LK_phase3_plan7.png)
+
+<div className="text--center">
+
+![frostmorn](/img/icc/Lich_King/LK_frostmorn.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase38" label="8">
+
+![phase2_plan8](/img/icc/Lich_King/LK_phase3_plan8.png)
+
+<div className="text--center">
+
+![frostmorn](/img/icc/Lich_King/LK_frostmorn.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase39" label="9">
+
+![phase2_plan9](/img/icc/Lich_King/LK_phase3_plan9.png)
+
+<div className="text--center">
+
+![frostmorn](/img/icc/Lich_King/LK_frostmorn.gif)
+</div>
+
+</TabItem>
+<TabItem value="phase310" label="10">
+
+![phase2_plan10](/img/icc/Lich_King/LK_phase3_plan101.png)
+
+<div className="text--center">
+<b><i>
+
+После выхода из меча сразу же нужно разбегаться, т.к. босс моментально применит [заражение](https://www.wowhead.com/wotlk/ru/spell=70541).
+</i></b>
+
+![phase3_defile](/img/icc/Lich_King/LK_phase3_defile.gif)
+</div>
+
+</TabItem>
+</Tabs>
+
+:::danger
+После выхода из Фростморна Король лич **сразу же** будет стелить лужу [заражения](https://www.wowhead.com/wotlk/ru/spell=70541). Так 
+что после выхода нужно не щёлкать носом и сразу же немного разбежаться
+:::
+
+:::caution
+Третья фаза самая затяжная из всех из-за [великая жатва душ](https://www.wowhead.com/wotlk/ru/spell=73654). Пока люди находятся
+в Фростморне, то таймер [берсерка](https://www.wowhead.com/wotlk/ru/spell=47008) тикает. По факту, на 3-й фазе 40% времени рейд 
+не бьёт босса а бегает в другом измерении. 
 :::
