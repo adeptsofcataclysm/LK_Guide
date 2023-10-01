@@ -6,10 +6,10 @@
 }
 
 .valanar {
-    color: #8cfffb;
+    color: brown;
 }
 .valanar[aria-selected='true'] {
-    border-bottom-color: #8cfffb;
+    border-bottom-color: brown;
 }
 
 .taldaram {

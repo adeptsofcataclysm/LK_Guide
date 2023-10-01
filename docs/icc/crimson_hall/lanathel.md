@@ -20,7 +20,11 @@ import TabItem from '@theme/TabItem';
 <div className="text--center">
 <span className="lore_text">
 
+<details closed>
+<summary>
+
 **Немного лора**
+</summary>
 
 Лана'тель была сильным воином среди эльфов. После нашествия Артаса на Кель'Талас выжившие эльфы постепенно
 объединились и начали восстанавливать свою столицу. Тогда Лана'тель нашла на поле боя легендарный
@@ -40,6 +44,8 @@ import TabItem from '@theme/TabItem';
 Лана'тель разбила [Кель'Делар](https://www.wowhead.com/wotlk/ru/item=50048) о стены Цитадели,
 а [осколки](https://www.wowhead.com/wotlk/ru/item=50379) вышвырнула в ледяные пустоши.
 
+</details>
+
 </span>
 </div>
 
@@ -48,9 +54,15 @@ import TabItem from '@theme/TabItem';
 Бой происходит в одну фазу, но как и на Ребраде, тут будут перефазки
 с [кровавым вихрем](https://www.wowhead.com/wotlk/ru/spell=71772), который нужно переживать.
 
-### Основные механики
+<Tabs>
+<TabItem value="baza" label="Основные механики">
 
-***Механика вихря:*** раз в 100 с. Ланатель идёт в центр комнаты, сдаёт по всем массовый
+<div className="text--center">
+
+***Механика вихря***
+</div>
+
+Раз в 100 с. Ланатель идёт в центр комнаты, сдаёт по всем массовый
 фир [внушение страха](https://www.wowhead.com/wotlk/ru/spell=73070) и начинает взлетать. После этого она начнёт
 применять [кровавый вихрь](https://www.wowhead.com/wotlk/ru/spell=71772). Она три раза по ВСЕМ игрокам
 кинет [cумеречные кровавые стрелы](https://www.wowhead.com/wotlk/ru/spell=71446). Они
@@ -58,8 +70,11 @@ import TabItem from '@theme/TabItem';
 снять [фир](https://www.wowhead.com/wotlk/ru/spell=73070), встать распределённо, сдать массовый сейв, и пережить этот
 кровавый дождь.
 
-***Механика вампирской крови:*** у королевы **71 300 000** здоровья. Вау! И как же такое сносить? Ну, сама
-Ланатель в этом поможет.
+<div className="text--center">
+
+***Механика вампирской крови*** 
+</div>
+
 Один раз в начале боя она сдаст [укус вампира](https://www.wowhead.com/wotlk/ru/spell=71726) в случайного игрока.
 Поздравляю, теперь вы вампир! На вас на 60 с. накладывается
 дебафф [сущностью кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867). Вы наносите на 100% больше урона.
@@ -77,20 +92,39 @@ import TabItem from '@theme/TabItem';
 свою [жажду](https://www.wowhead.com/wotlk/ru/spell=70877) и под [МК](https://www.wowhead.com/wotlk/ru/spell=70923)
 разорвут рейд.
 
-### Дополнительные механики
+</TabItem>
+<TabItem value="additional" label="Остальные механики">
 
-***Механика для танков:*** нужно 2 танка из-за [кровавого зеркала](https://www.wowhead.com/wotlk/ru/spell=70821).
+<div className="text--center">
+
+***Механика для танков*** 
+</div>
+
+Нужно 2 танка из-за [кровавого зеркала](https://www.wowhead.com/wotlk/ru/spell=70821).
 Лана'тель пометит ближайшего к МТ человека (это должен быть ОТ) данной меткой. Теперь весь урон, который наносится МТ,
 дублируется в ОТ в виде <span className="dmg-shadow">тёмного</span> урона.
 
-***Механика связанных людей:*** если Матушка Шахраз в БТ заставляла трёх связанных людей разбегаться друг от друга, то
+<div className="text--center">
+
+***Механика связанных людей*** 
+</div>
+
+Если Матушка Шахраз в БТ заставляла трёх связанных людей разбегаться друг от друга, то
 тут наоборот нужно трём людям сбегаться. Короче, иногда три случайных игрока становятся
 связанными [пактом омрачённых](https://www.wowhead.com/wotlk/ru/spell=71340). Пока эти люди не сбегутся, то они будут
 АОЕшить всех игроков вокруг себя.
 
-***Механика луж:*** тут как на Джараксусе. Накладывается [роящиеся тени](https://www.wowhead.com/wotlk/ru/spell=71265),
+<div className="text--center">
+
+***Механика луж***
+</div>
+
+Тут как на Джараксусе. Накладывается [роящиеся тени](https://www.wowhead.com/wotlk/ru/spell=71265),
 и человек через некоторое время будет спавнить под собой тёмную лужу. Нужно человеку с дебаффом выйти из рейда на край 
 арены и постелить полоску пламени вдоль стены.
+
+</TabItem>
+</Tabs>
 
 ## Механики энкаунтера
 
@@ -102,13 +136,19 @@ import TabItem from '@theme/TabItem';
 
 - [Укус вампира](https://www.wowhead.com/wotlk/ru/spell=71726) **(мгновенное)**: применяется спустя 15 с. после начало
   боя. Наносит игроку
-  10175-11825 <span className="dmg-phis">физического</span> урона и накладывает на
+  10 175 - 11 825 <span className="dmg-phis">физического</span> урона и накладывает на
   него [сущность кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867) на 60 с.
 - [Cущность кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867) **(дебафф)**: увеличивает исходящий
   урон на 100%, восстанавливает здоровье в количестве 10% от всего наносимого урона, его атаки **не генерируют**
   угрозу. Действует 60 с.
 
 :::caution
+<details closed>
+<summary>
+
+Дополнительно про [укус вампира](https://www.wowhead.com/wotlk/ru/spell=71726)
+</summary>
+
 **Второму по количеству угрозы** не значит **второй по КТМу**! И (по идее) на ОТ
 с [кровавым зеркалом](https://www.wowhead.com/wotlk/ru/spell=70821) тоже не должно сдаваться. Вот несколько примеров как
 сдаётся [укус вампира](https://www.wowhead.com/wotlk/ru/spell=71726) Лана'тель.
@@ -125,6 +165,7 @@ import TabItem from '@theme/TabItem';
 
 ![Threat2](/img/icc/Blood_Queen_Lanathel/BQL_vampiric_bite_threat2.jpg)
 </div> 
+</details>
 :::
 
 Лана'тель чуть-чуть бафается по ходу боя. Чем больше игроков с [сущностью](https://www.wowhead.com/wotlk/ru/spell=70867),
@@ -143,7 +184,7 @@ import TabItem from '@theme/TabItem';
   скилов сбрасывается и в первый слот способности добавляется способность.
     - [Укус вампира](https://www.wowhead.com/wotlk/ru/spell=70946) **(мгновенный удар)**: Применяется на другого игрока.
       Наносит
-      10175-11825 <span className="dmg-phis">физического</span> урона и накладывает на
+      10 175 - 11 825 <span className="dmg-phis">физического</span> урона и накладывает на
       него [сущность кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867) на 60 с.
       После [укуса](https://www.wowhead.com/wotlk/ru/spell=70946)
       дебафф [сущность кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867) снова возвращается (также на 60
@@ -201,7 +242,7 @@ import TabItem from '@theme/TabItem';
   под [неконтролируемое бешенство](https://www.wowhead.com/wotlk/ru/spell=70923) и быстро снесут рейд.
 
 Как-то так. Нужно убить Королеву вампиров до 5:15 (если учесть перебежки пока
-действует [бешенная кровожадность](https://www.wowhead.com/wotlk/ru/spell=70877), то у рейда есть ну секунд 10-20).
+действует [бешенная кровожадность](https://www.wowhead.com/wotlk/ru/spell=70877), то у рейда есть дополнительно 10-20 с.).
 
 ### Механика вихря
 
@@ -222,8 +263,7 @@ import TabItem from '@theme/TabItem';
    сгустков [сумеречных кровяных стрел](https://www.wowhead.com/wotlk/ru/spell=71446).
     - [Сумеречная кровавая стрела](https://www.wowhead.com/wotlk/ru/spell=71446): сгусток тёмной крови поражает игрока и
       всех его
-      союзников в радиусе 6 ярдов на 16150-17850 <span className="dmg-arcane">тайно</span>-<span className="dmg-shadow">
-      тёмного</span> урона.
+      союзников в радиусе 6 ярдов на 16 150 - 17 850 <span className="dmg-arcane">тайно</span>-<span className="dmg-shadow">тёмного</span> урона.
 
 <div className="text--center">
 
@@ -280,11 +320,30 @@ import TabItem from '@theme/TabItem';
 Данные [кровяные стрелы](https://www.wowhead.com/wotlk/ru/spell=71818) не летят в МДД кемп.
 :::
 
-## Тактика
-
-### Подготовка к энкаунтеру
+## Подготовка к энкаунтеру
 
 В данном бою нужно 2 танка и нормальное кол-во хилов (5 штук). Предпочтений по ДД нет.
+
+:::info
+[Героизм](https://www.wowhead.com/wotlk/ru/spell=32182) нужно оставить на 4:20, когда 16 игроков
+забафаются [сущностью](https://www.wowhead.com/wotlk/ru/spell=70867). Это момент максимального урона рейда.
+:::
+
+:::info
+В данном бою нужна [аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943).
+:::
+
+### Подготавливаемся к выживанию на Вихре
+
+[Кровавый вихрь](https://www.wowhead.com/wotlk/ru/spell=71772) будет сдаваться (примерно) на
+- **2:00**
+- **3:40**
+- **5:20** (но это уже "берсерк" момент)
+
+<div className="text--center">
+
+***Момент№1: нужно выйти из фира***
+</div>
 
 Лучше в пати с шаманом поставить жрецов (лучше ДЦ), чтобы первый
 ставил [тремор тотем](https://www.wowhead.com/wotlk/ru/spell=8143), а
@@ -295,11 +354,10 @@ import TabItem from '@theme/TabItem';
 
 В пати к шаманам также хорошо запихнуть лекарей.
 
-[Кровавый вихрь](https://www.wowhead.com/wotlk/ru/spell=71772) будет сдаваться (примерно) на
+<div className="text--center">
 
-- **2:00**
-- **3:40**
-- **5:20** (но это уже "берсерк" момент)
+***Момент№2: нужны сейвы на кровавый дождь***
+</div>
 
 Нужно распределить рейдовые сейвилки под
 каждый [вихрь](https://www.wowhead.com/wotlk/ru/spell=71772). Я бы сделал так:
@@ -311,17 +369,7 @@ import TabItem from '@theme/TabItem';
   ** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) +
   хилящие
   КДшки ([гимны](https://www.wowhead.com/wotlk/ru/spell=64843), [спокойствия](https://www.wowhead.com/wotlk/ru/spell=740)).
-- **5:20** - бОльшая часть личных сейвов с **2:00** откатятся (не все, но бОльшая
-  часть). [Сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943))
-
-:::info
-[Героизм](https://www.wowhead.com/wotlk/ru/spell=32182) нужно оставить на 4:20, когда 16 игроков
-забафаются [сущностью](https://www.wowhead.com/wotlk/ru/spell=70867). Это момент максимального урона рейда.
-:::
-
-:::info
-В данном бою нужна [аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943).
-:::
+- **5:20** - [сакра](https://www.wowhead.com/wotlk/ru/spell=64205) + ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)+[аура от тьмы](https://www.wowhead.com/wotlk/ru/spell=48943)) + [огурцы](https://www.wowhead.com/wotlk/ru/item=36892).
 
 ### Расстановка
 
@@ -344,7 +392,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-### Энкаунтер
+## Тактика на энкаунтер
 
 Начинается всё с того, что Мт и ОТ вместе запуливают Лана'тель и отводят под лестницу. МДД становятся за боссом, РДД и
 Хилы
@@ -369,9 +417,6 @@ import TabItem from '@theme/TabItem';
 из-за [кровавого зеркала](https://www.wowhead.com/wotlk/ru/spell=70821),
 рейд будет потихоньку гнить от дамажащей ауры [покрова скорби](https://www.wowhead.com/wotlk/ru/spell=70985), в
 рендж-кемпы иногда будут залетать несколько [сумеречных кровяных стрел](https://www.wowhead.com/wotlk/ru/spell=71818).
-
-Для ДД самый опасный момент в начале, устроить гонку ДПСа за право первым
-получить [сущность кровавой королевы](https://www.wowhead.com/wotlk/ru/spell=70867), то можно легко сорвать агро с МТ.
 
 :::info
 Под [сущностью](https://www.wowhead.com/wotlk/ru/spell=70867) ДД не генерируют угрозу ещё и лечатся на 10% от нанесённого урона.
