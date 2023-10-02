@@ -29,6 +29,13 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+html[data-theme='dark'] #__docusaurus {
+  background-image: url("../../static/img/background.jpg") !important;
+  background-attachment: fixed;
+  background-color: transparent;
+  background-size: cover;
+}
+
 .debuf-disease {
   color: #a5c769;
 }
@@ -47,36 +54,47 @@
 .dmg-ice {
   color: blue;
 }
+
 .heat {
   color: #ff7f27;
 }
+
 .dmg-fire {
   color: #fe5631;
 }
+
 .dmg-arcane {
   color: pink;
 }
+
 .dmg-shadow {
   color: DarkOrchid;
 }
+
 .dmg-phis {
   color: brown;
 }
+
 .dmg-light {
   color:#E6EFBB;
 }
+
 .elder_brightleaf {
   color: #814CCC;
 }
+
 .elder_ironbranch {
   color:#ff5a03;
 }
+
 .sunlight {
   color:yellow;
 }
+
 .color-orange {
   color: #ff5a03;
 }
+
 .color-lblue {
   color: #9DC3FF;
 }
@@ -85,6 +103,7 @@
   float: right;
   padding: 10px;
 }
+
 .be {
   color: #b83dba;
 }
