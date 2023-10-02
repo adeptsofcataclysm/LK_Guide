@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -35,6 +37,13 @@ html[data-theme='dark'] #__docusaurus {
   background-attachment: fixed;
   background-color: transparent;
   background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-break {
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: 'Gabriela', serif;
+
 }
 
 .debuf-disease {
