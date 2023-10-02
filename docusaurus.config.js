@@ -76,8 +76,9 @@ const config = {
               type: 'docSidebar',
               position: 'left',
               sidebarId: 'ulduar',
-              label: 'Ulduar',
+              label: 'Ульдуар',
             },
+            {to: 'adepts', label: 'О нас', position: 'left'},
         ],
       },
       footer: {
