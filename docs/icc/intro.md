@@ -62,7 +62,7 @@ import TabItem from '@theme/TabItem';
 Ужасная лаборатория, в которой создаются мерзкие создания из плоти.
 
 Боссы Чумодельни:<br />
-[**Тухлопуз**](plagueworks/festergut.mdx) <br />
+[**Тухлопуз**](plagueworks/festergut.md) <br />
 [**Гниломорд**](plagueworks/rotface.mdx) <br />
 [**Профессор Мерзоцид**](plagueworks/putricide.md)
 
