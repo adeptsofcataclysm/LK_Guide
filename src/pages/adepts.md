@@ -4,6 +4,5 @@ description: Немного о нас
 hide_table_of_contents: true
 ---
 
-# Адепты Катаклизма
+![Adept_logo](/img/WoW_Adept_Logo.png)
 
-By Fire Be Purged!
