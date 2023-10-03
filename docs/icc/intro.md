@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 Эта часть полностью линейная, боссы убиваются по порядку.
 
 [**Лорд Ребрад**](lower_spire/lord_marrowgar.md) <br />
-[**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.mdx) <br />
+[**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.md) <br />
 [**Бой на кораблях**](lower_spire/gunship_battle.mdx) <br />
 [**Саурфанг Смертоносный**](lower_spire/saurfang.mdx) <br />
 
