@@ -5,6 +5,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -140,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .text-break {
 }
 
 .about_text {
-    font-family: Comic Sans MS;
-    font-size: 25px;
-    color: #ffca18;
+  font-family: 'Jura', system-ui, sans-serif;
+  font-size: 25px;
+  color: #ffca18;
 }
