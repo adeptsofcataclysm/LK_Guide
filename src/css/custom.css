@@ -139,3 +139,8 @@ h1, h2, h3, h4, h5, h6, .text-break {
     color: #f48cba
 }
 
+.about_text {
+    font-family: Comic Sans MS;
+    font-size: 25px;
+    color: #ffca18;
+}
