@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
 Боссы Чумодельни:<br />
 [**Тухлопуз**](plagueworks/festergut.md) <br />
-[**Гниломорд**](plagueworks/rotface.mdx) <br />
+[**Гниломорд**](plagueworks/rotface.md) <br />
 [**Профессор Мерзоцид**](plagueworks/putricide.md)
 
 :::info
