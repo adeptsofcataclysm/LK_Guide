@@ -44,8 +44,8 @@ import TabItem from '@theme/TabItem';
 
 [**Лорд Ребрад**](lower_spire/lord_marrowgar.md) <br />
 [**Леди Смертный Шёпот**](lower_spire/lady_deathwhisper.md) <br />
-[**Бой на кораблях**](lower_spire/gunship_battle.mdx) <br />
-[**Саурфанг Смертоносный**](lower_spire/saurfang.mdx) <br />
+[**Бой на кораблях**](lower_spire/gunship_battle.md) <br />
+[**Саурфанг Смертоносный**](lower_spire/saurfang.md) <br />
 
 ![Нижний Ярус](/img/icc/map/Нижний_ярус.jpg)
 
