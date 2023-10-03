@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 <span className="m10_img">
 
-<img src="img/WoW_Adept_Logo.png" width="60%" height="auto"></img>
+<img src="img/WoW_Adept_Logo2.png" width="60%" height="auto"></img>
 
 </span>
 </div>
