@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2.1
 title: Лорд Ребрад
-description: Описание и тактика на первого босса.
+description: Описание и тактика на Лорда Ребрада.
+image: "/img/icc/Lord_Marrowgar/Lord_Marrowgar.jpg"
 ---
 
 ```mdx-code-block

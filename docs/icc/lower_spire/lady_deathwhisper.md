@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2.2
 title: Леди Смертный Шепот
-description: Описание и тактика на второго босса.
+description: Описание и тактика на Шептунью.
 toc_max_heading_level: 4
+image: /img/icc/DeathWhisper/lady_deathwhisper.jpg
 ---
 
 ```mdx-code-block
