@@ -2,6 +2,7 @@
 sidebar_position: 2.3
 title: Бой на кораблях
 description: Описание и тактика на третьего босса.
+image: "/img/icc/Gunship_battle/GB_intro.png"
 ---
 
 import Tabs from '@theme/Tabs';
