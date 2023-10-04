@@ -48,9 +48,8 @@ import TabItem from '@theme/TabItem';
 до цели, то [взорвуться](https://www.wowhead.com/wotlk/ru/spell=69108) с сильным отбрасыванием, из-за которого можно
 легко вылететь с арены.
 
-Основная проблема смены фаз - [гневные духи](https://www.wowhead.com/wotlk/ru/spell=69200), которые невероятно жирные 
-и имеют фронтальное сало [визг души](https://www.wowhead.com/wotlk/ru/spell=69242). Не то чтобы эти духи много наносят 
-урона, но они просто часто появляются и имеют слишком много здоровья.
+Основная проблема смены фаз - [гневные духи](https://www.wowhead.com/wotlk/ru/spell=69200), которые невероятно жирные, 
+имеют фронтальное сало [визг души](https://www.wowhead.com/wotlk/ru/spell=69242), наносят много урона и появляются довольно часто.
 
 </TabItem>
 <TabItem value="2phase" label="2 Фаза: 70-40%">
@@ -59,26 +58,26 @@ import TabItem from '@theme/TabItem';
 и [теневые ловушки](https://www.wowhead.com/wotlk/ru/spell=73529) не будут появляться. Но массовая жёсткая
 АОЕшка [заражение](https://www.wowhead.com/wotlk/ru/spell=70541) остаётся.
 
-Начиная с этой фазы Король Лич начинает жёстко бить танка [жнецом душ](https://www.wowhead.com/wotlk/ru/spell=69409),
-что наносит 70к <span className="dmg-shadow">тёмного</span> урона МТ (это нужно переживать КДшками всех танков, нужно
-забирать босса по очереди).
+Начиная с этой фазы Король Лич начинает жёстко бить танка [жнецом душ](https://www.wowhead.com/wotlk/ru/spell=69409).
+Данная способность наносит 70к <span className="dmg-shadow">тёмного</span> урона (это нужно переживать КДшками, танкам нужно
+танковать по очереди).
 
 Начиная с этой фазы Король Лич под случайным игроком будет стелить
 лужу [осквернения](https://www.wowhead.com/wotlk/ru/spell=72754). Её особенность в том, что
-чем больше в ней стоит народа, тем больше она разрастается в размерах и тем больше дамажит. Может быть такое, что при
-появлении в [осквернение](https://www.wowhead.com/wotlk/ru/spell=72754) находятся 10+ игроков, которые тут же 
-увеличивают её размер и урон, таким образом, из неё уже никак не выйти.
+чем больше в ней стоит народа, тем больше она разрастается в размерах и тем больше дамажит. Если случится так, что при
+появлении в [осквернении](https://www.wowhead.com/wotlk/ru/spell=72754) будут находится 10+ игроков, то это смерть рейда. Лужа
+сразу же начнёт быстро расти и вскоре поглотит всю арену целиком.
 
 Основная проблема 2-й фазы это [валь'киры](https://www.wowhead.com/wotlk/ru/spell=71843). При призыве они хватают трёх
 случайных игроков и несут к краю арены и скидывают. Чтобы этого не произошло надо снести вальку до 50%, после чего 
-она отпускает игрока и взлетает над ареной. Прикол в том, что они не пропадают и убивать их бессмысленно, т.к. сверху 
+она отпускает игрока и взлетает над ареной. Прикол в том, что **они не пропадают** а возвратятся к боссу. И убивать их бессмысленно, т.к. сверху 
 они начинают спамить в рейд [вытягивание жизни](https://www.wowhead.com/wotlk/ru/spell=73488) с помощью которого 
 жёстко отхиливаются. Второй прикол в том что Король Лич каждый раз призывает **новых** валь'кир, которые сначала 
 попытаются выбросить игроков с арены, а потом взлетят и начнут 
 спамить [вытягивание жизни](https://www.wowhead.com/wotlk/ru/spell=73488).
 
-Таким образом нужно так сильно бить Лича, пока не собралась
-куча [валь'кир](https://www.wowhead.com/wotlk/ru/spell=71843).
+Таким собралось
+куча [валь'кир](https://www.wowhead.com/wotlk/ru/spell=71843), то люди потихоньку начнут дохнуть (скорее не из-за них а вообще от всего).
 
 </TabItem>
 <TabItem value="2.5phase" label="Переход на 40%">
@@ -195,7 +194,7 @@ import TabItem from '@theme/TabItem';
       Если эта "прокачанная" [чума](https://www.wowhead.com/wotlk/ru/spell=70337) перейдёт на игрока и потом её
       вылечить, то в таком случае [чума](https://www.wowhead.com/wotlk/ru/spell=70337) теряет 1 стак силы.
       :::
-    - Каждый раз когда [чума](https://www.wowhead.com/wotlk/ru/spell=70337) прыгает на другую цель (либо лечение, либо
+    - Каждый раз когда [чума](https://www.wowhead.com/wotlk/ru/spell=70337) прыгает на другую цель (либо через диспел, либо
       сама), Король Лич получает 1 стак баффа [конденсатора чумы](https://www.wowhead.com/wotlk/ru/spell=74074). Данный
       бафф увеличивает наносимый <span className="dmg-phis">физический</span> урон на 2%.
 
@@ -248,10 +247,10 @@ import TabItem from '@theme/TabItem';
 
 ### Переход с первой фазы на вторую
 
-Переход длится ровно 1 мин. Сначала, на 70% здоровья Король Лич пойдёт в центр арены и применяет способность:
+Переход длится ровно 1 мин. Сначала Король Лич пойдёт в центр арены и применит способность:
 
 - [Беспощадность зимы](https://www.wowhead.com/wotlk/ru/spell=72259) **(2.5 с.)**: в течении 1 мин. всем игрокам в
- радиусе 45 ярдов от босса наносится 14138-15862 <span className="dmg-ice">ледяного</span> урона
+ радиусе 45 ярдов от босса наносится 14 138 - 15 862 <span className="dmg-ice">ледяного</span> урона раз в 1 с.
   
 <div className="text--center">
 
@@ -286,7 +285,7 @@ import TabItem from '@theme/TabItem';
    применит [Гневный дух](https://www.wowhead.com/wotlk/ru/spell=69200) на случайного игрока. Создаётся злобная копия
    персонажа, у которой **4 150 000** здоровья. У неё есть единственная способность:
 - [Визг души](https://www.wowhead.com/wotlk/ru/spell=69242) **(0.5 с.)**: небольшое конусное АОЕ. Наносит
-  42413-47587 урона от <span className="dmg-shadow">тьмы</span> и накладывает <span className="debuf-magic">
+  42 413 - 47 587 урона от <span className="dmg-shadow">тьмы</span> и накладывает <span className="debuf-magic">
   магическую</span> немоту на 5 с.
 
 <br/><br/><br/><br/><br/><br/>
@@ -296,7 +295,7 @@ import TabItem from '@theme/TabItem';
    Игрок [пульсацией](https://www.wowhead.com/wotlk/ru/spell=69099) наносит другим игрокам в радиусе 5 ярдов от себя
    7540-8460 <span className="dmg-ice">ледяного</span> урона раз в 3 с. Если сферка дойдёт до персонажа, то
    произойдёт [ледяная вспышка](https://www.wowhead.com/wotlk/ru/spell=69108). Это взрыв радиусом 10 ярдов на
-   28275-31725 урона
+   28 275 - 31 725 урона
    от <span className="dmg-ice">льда</span> который сильно отбрасывает.
 
 :::caution
@@ -368,7 +367,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-***Обрушение края платформы [сотрясением](https://www.wowhead.com/wotlk/ru/spell=72262) в конце переходки.***
+***Обрушение края платформы [сотрясением](https://www.wowhead.com/wotlk/ru/spell=72262) в конце переходки на 70%***
 
 ![quake](https://www.wowhcb.ru/adepts/icc/Lich_King/LK_quake.gif)
 
@@ -378,12 +377,14 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
+***Появление края платформы в начале переходки на 40%***
+
 ![remorseless_winter2](https://www.wowhcb.ru/adepts/icc/Lich_King/LK_remorseless_winter_(2).gif)
 
 </div>
 
 :::danger
-Это единственное отличие второй переходной фазы, но оно **очень опасное**,
+Это **очень опасный** момент,
 т.к. [беспощадность зимы](https://www.wowhead.com/wotlk/ru/spell=72259)
 начнёт тикать по рейду **ДО** восстановления платформы. 1-2 секунды рейду придётся пострадать, в этот момент очень легко
 потерять бдительность и потерять недопрохиленных игроков.
@@ -417,7 +418,7 @@ import TabItem from '@theme/TabItem';
   вызывает 10 зловещих духов, которые взлетают в воздух. Через 30 с. у духов "включается" агролист и они начинают лететь
   в рейд. Король Лич применяет данную способность каждые 30 с.
     - [Импульс духа](https://www.wowhead.com/wotlk/ru/spell=70503) **(мгновенное)**: если модельки духа коснётся любой
-      игрок, то дух взорвётся. Взрыв радиусом 5 ярдов наносит 35100-36900 <span className="dmg-shadow">тёмного</span>
+      игрок, то дух взорвётся. Взрыв радиусом 5 ярдов наносит 35 100 - 36 900 <span className="dmg-shadow">тёмного</span>
       урона.
 
 |      [Призыв зловещих духов](https://www.wowhead.com/wotlk/ru/spell=70498)      | Спойлер: свободный танк должен встречать летящих духов и тригерить [импульс духа](https://www.wowhead.com/wotlk/ru/spell=70503) |
@@ -538,8 +539,8 @@ import TabItem from '@theme/TabItem';
 
 - **Крайне желательно** иметь суммарно 6+ <span className="paladin">паладинских</span> рейдовых
   сейвилок ([владение аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
-  и [сакры](https://www.wowhead.com/wotlk/ru/spell=64205)), т.к. массовая
-  АОЕшка [заражения](https://www.wowhead.com/wotlk/ru/spell=70541)
+  и [сакры](https://www.wowhead.com/wotlk/ru/spell=64205)). Массовая
+  АОЕшка [заражение](https://www.wowhead.com/wotlk/ru/spell=70541)
   применяется каждые 20 с. Т.о. за 2 минуты применится 6 [заражений](https://www.wowhead.com/wotlk/ru/spell=70541). Если
   рейд имеет достаточно паладинов, то каждое [заражение](https://www.wowhead.com/wotlk/ru/spell=70541) нужно закрывать 
   паладинской способностью.
@@ -586,10 +587,11 @@ import TabItem from '@theme/TabItem';
   снимать [усмиряющим выстрелом](https://www.wowhead.com/wotlk/ru/spell=19801) моментально.
 
 <div className="text--center">
+<b><i>
 
-***Ротация [владений аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
-и [сакр](https://www.wowhead.com/wotlk/ru/spell=64205)***
+Ротация [владений аурами](https://www.wowhead.com/wotlk/ru/spell=31821) и [сакр](https://www.wowhead.com/wotlk/ru/spell=64205)
 
+</i></b>
 </div>
 
 - Нужно распределить <span className="paladin">паловские</span> рейдовые
@@ -604,7 +606,7 @@ import TabItem from '@theme/TabItem';
 <div className="text--center">
 
 ***Ротация [владений аурами](https://www.wowhead.com/wotlk/ru/spell=31821)
-и [сакр](https://www.wowhead.com/wotlk/ru/spell=64205)
+и [сакр](https://www.wowhead.com/wotlk/ru/spell=64205)***
 
 </div>
 
@@ -636,6 +638,9 @@ import TabItem from '@theme/TabItem';
       (после [молотков](https://www.wowhead.com/wotlk/ru/spell=66940) нужны [гневы небес](https://www.wowhead.com/wotlk/ru/spell=48817))
 
 :::caution
+<details>
+<summary>В чём отличия "чётных" вызовов валь'кир от "нечётных"?</summary>
+
 Объясняю, почему так. На 2-й фазе Король Лич будет спавнить
 лужу [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762)
 под случайным членом рейда. За 5 с. до каста [лужи](https://www.wowhead.com/wotlk/ru/spell=72762) нужно всем 
@@ -654,6 +659,7 @@ import TabItem from '@theme/TabItem';
 Штука в том, что именно на
 2,4,6,8,...  [вызовах валь'кир](https://www.wowhead.com/wotlk/ru/spell=71844) Король Лич
 почти одновременно с ним положит лужу [осквернения](https://www.wowhead.com/wotlk/ru/spell=72762).
+</details>
 :::
 
 <div className="text--center">
@@ -671,11 +677,21 @@ import TabItem from '@theme/TabItem';
       рейда ([зубы](https://www.wowhead.com/wotlk/ru/spell=33206), [дух](https://www.wowhead.com/wotlk/ru/spell=47788), [капли](https://www.wowhead.com/wotlk/ru/spell=6940)).
 
 :::info
+<details>
+<summary>
+
+Как же хорошо протвар контрит [жнец](https://www.wowhead.com/wotlk/ru/spell=69409)
+</summary>
+
 Не могу не сказать про протваров и их [вмешательства](https://www.wowhead.com/wotlk/ru/spell=3411) с КД в 30 с. Если
 протвар возьмёт талант [охрана](https://www.wowhead.com/wotlk/ru/spell=46949), то под **каждый** 
 [жнец](https://www.wowhead.com/wotlk/ru/spell=69409) у МТ будет -30% к получаемому урону на 6 с. от ОТ.
 
-Это не делает протвара необходимым классом для лича, вообще. Просто личное замечание от себя, хе)
+**Это не делает протвара необходимым классом для лича, вообще!** Всех протваров нужно посадить на хпалов, а старых хпалов (с [Валанирами](https://www.wowhead.com/wotlk/ru/item=46017) отпустить нафиг.
+Ах да и этим новым хпалам [Валанир](https://www.wowhead.com/wotlk/ru/item=46017) собирать не надо, а то че это они на говноклассе раньше гоняли а теперь им ещё осколки фармить.
+
+просто личное замечание от себя, без негатива&#128521
+</details>
 :::
 
 </TabItem>
