@@ -66,13 +66,19 @@ const config = {
         },
       },
       navbar: {
-        title: 'ЦЛК',
         logo: {
           alt: 'Адепты Катаклизма',
           src: 'img/logo.png',
+          href: '/adepts'
         },
         items: [
-            {
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'icc',
+            label: 'ЦЛК',
+          },
+          {
               type: 'docSidebar',
               position: 'left',
               sidebarId: 'ulduar',
