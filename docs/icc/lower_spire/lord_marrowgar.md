@@ -139,7 +139,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-***На данной картинке можно увидеть распределение урона по игрокам от [вихря костей](https://www.wowhead.com/wotlk/ru/spell=69075) в зависимости от расстояния до Ребрада.***
+***На данной картинке можно увидеть распределение урона по игрокам от [вихря костей](https://www.wowhead.com/wotlk/ru/spell=69075) в зависимости от расстояния до Ребрада. Жёлтый круг показывает его хитбокс (да, он такой огромный)***
 
 ![bone_storm_DMG](/img//icc/Lord_Marrowgar/LM_bone_storm_DMG.jpg)
 </div>
