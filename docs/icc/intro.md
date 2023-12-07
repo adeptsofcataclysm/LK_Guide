@@ -64,7 +64,7 @@ import TabItem from '@theme/TabItem';
 Боссы Чумодельни:<br />
 [**Тухлопуз**](plagueworks/festergut.md) <br />
 [**Гниломорд**](plagueworks/rotface.md) <br />
-[**Профессор Мерзоцид**](plagueworks/putricide.md)
+[**Профессор Мерзоцид**](plagueworks/putricide.mdx)
 
 :::info
 К Профессору нельзя попасть пока не будут убиты первые два боковых босса.
@@ -76,7 +76,7 @@ import TabItem from '@theme/TabItem';
 Логово эльфов-кровопийц, центр разработок диверсий и совращения умов врагов плети.
 
 Тут всего два сражения с боссами: <br />
-[**Совет Прицев Крови**](crimson_hall/blood_prince_council.md) (Келесет, Талдарам, Валанар) <br />
+[**Совет Прицев Крови**](crimson_hall/blood_prince_council.mdx) (Келесет, Талдарам, Валанар) <br />
 [**Кровавая Королева Лана'тель**](crimson_hall/lanathel.md) <br />
 
 </TabItem>
@@ -85,7 +85,7 @@ import TabItem from '@theme/TabItem';
 В этой части цитадели тренируются врайкулы и создаются ледяные змеи.
 
 В этом крыле тоже всего два сражения с боссами: <br />
-[**Валитрия Сноходица**](frostwing_halls/valithria.md) <br />
+[**Валитрия Сноходица**](frostwing_halls/valithria.mdx) <br />
 [**Синдрагоса**](frostwing_halls/sindragosa.md) <br />
 
 </TabItem>
