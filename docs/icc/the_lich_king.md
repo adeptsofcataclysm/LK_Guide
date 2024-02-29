@@ -4,10 +4,9 @@ description: Описание и тактика на главгада.
 image: /img/icc/Lich_King/Lich_King.jpg
 ---
 
-```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-```
+
 
 <div className="text--center">
 
